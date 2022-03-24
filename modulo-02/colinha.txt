@@ -1,0 +1,310 @@
+colinha:
+
+========================================= IMAGENS =====================================================================
+Capítulo 6 (também capítulo 11 - imagens, audios, videos)
+
+Deixe o arquivo na pasta da página principal ou no da pasta que você queira
+JPEG - Alta Compactação.
+PNG  - Compactação, não tão boa quanto JPEG, mas permite transparência, maior qualidade.
+Qual o tamanho certo pra um site? Cara, 1500 de largura no máximo.
+e no body escreva apenas img e tecle enter que a linha de código irá aparecer assim: 
+<img src="link ou caminho da imagem" alt="se ela n carregar por algum motivo, resumo breve da imagem=">
+FavIcon: <link:favicon> acima do <title>
+
+
+=============================== SEMÂNTICA, NEGRITO, CITAÇOES ==========================================================
+Capítulo 8
+
+<strong>abracadabra</strong> 	NEGRITO
+<em>abracadabra</em>		ÊNFASE/ITÁLICO
+<mark>marca texto</mark>	é... um marca texto. Dá pra alterar a cor com style utilizando de background-color: ;
+<del>texto riscado</del>	TEXTO RISCADO. Deve ser lido, mas não considerado.
+<ins>texto inserido</ins>	Não lembro. Mas indica que foi inserido depois.
+<sup>20</sup>			Sabe o "elevado a tal número?" É isso.
+<sub>2</sub>			O contrário, como em química.
+<code>				Se precisar escrever códigos, escreva aí dentro. Fica pré formatado.
+	xyz
+</code>				
+<q>				Citação simples. Pode usar de aspas? Pode. Mas existe tag para isso. Use-a.
+<blockquote cite="Link de algum lugar que será citado">
+	Aqui escreva a citação, como uma frase de livro por ex.
+</blockquote>
+<abbr title="Filho da Patrícia">fdp</abbr>     Abreviação. Deixando o mouse em cima, mostrará o significado de FDP.
+========================================== LISTAS =====================================================================
+Capítulo 9
+
+<ol type="1 ~ 4" start="4"> ~lista ordernada
+	<li>item 1</li>
+	<li>item 2</li>
+</ol>
+
+<ul type="round circle square none"> ~ lista não ordenada
+	<li>fazer x coisa</li>
+	<li>fazer y coisa</li>
+</ul>
+
+Se quiser que seja representado em colunas, por ex:
+x	1
+y	2
+z	3
+E não
+x
+y
+z
+1
+2
+3
+basta ir na css e adicionar ul/ol {columns: 2;}
+
+
+========================================== ANCORAS LINKS! =============================================================
+Capítulo 10
+exemplo:
+link externo:
+	<a href="#" target="_blank" rel="external" class="offpage">Dan Morrill</a>
+	_blank abre uma nova página sem fechar o site. rel="external" diz que é uma página externa a sua.
+
+link interno(a página tem que estar na mesma pasta que a pagina principal):
+	<a href="pagina002.html" rel="next">Próxima página</a>	
+	rel="next" indica que a página faz parte do mesmo site, e é a próxima. rel="prev" indica que a página anterior.
+
+Link de download:
+
+ 	<a href="livro/cap10 teste de download.pdf" download="pdftest.pdf" type="application/pdf">Baixar o livro em PDF</a>
+        <a href="livro/cap10 teste de download.zip" download="ziptest.zip" type="application/zip">Livro compactado em ZIP</a>
+Como para cada arquivo há um parâmetro, há um site que mostra quais parâmetros para quais arquivos. Segue o link: https://www.iana.org/assignments/media-types/media-types.xhtml
+
+Agora, pode vir a ter empresas que paguem para estar lá, famoso patrocínio.
+"Um oferecimento <a href="hostnet.com.br">Hostnet</a>
+
+Mas você não quer que o conteúdo dela esteja indexado ao seu. Você pode utilizar o " rel="nofollow" ", assim o mecanismo de busca não o relacionará à esse site.
+ISSO NÃO É PRO USUÁRIO! É PRO MECANISMO DE BUSCA! Você está dizendo pro Google, ou Bing, ou qualquer que seja o outro, que você NÃO dá aval a esse conteúdo.
+MAS tem cliente que pede que tenha isso, que seu conteúdo seja indexado juntamente.
+=======================================IMAGENS AUDIOS VIDEOS===========================================================
+Capítulo 11
+
+Se for trabalhar com multiplas imagens pra um site (no caso de adaptação de tela), é interessante os tamanhos 300x300, 700x700 e 1000x1000, respectivamente pequeno, médio e grande
+Imagem dinâmica: <picture>
+			<img>
+		</picture>
+Essa tag <picture> "parece" uma imagem, tanto que ela tem uma tag <img> dentro
+mas ela permite que você crie vários sources, várias fontes. Exemplo:
+
+	<picture>
+        	<source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+		<!--
+		Esse max-width: 750px é o MÁXIMO de resolução que terá até alterar a imagem pra uma resolução maior/menor. 
+		Ou seja, até 750px é a imagem pequena. Acima disso, vamos para a próxima source. Acima dela, a imagem padrão.
+		Deixe sempre com uma folguinha de 50px pra não aparecer a barra lateral na página.
+		-->
+        	<source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        	<img src="imagens/foto-g.png" alt="imagem flexível">	<!--Menor imagem. A que vai ser carregada.-->
+    	</picture>
+
+
+Mas se liga, o código vai carregar de cima pra baixo. Ou seja: Primeiro ele vai tentar carregar a imagem de 300x300. Se não conseguir, vai tentar a de 700x700. Se não conseguir, a de 1000x1000
+
+Para centralizar uma imagem na página utilize o seguinte código:
+display: block;
+margin-left: auto;
+margin-right: auto;
+
+========================================= TIPOS DE ESTILO =============================================================
+Capítulo 12
+<title>
+<style> ESTILO INTERNO
+...
+</style>
+
+<link rel="stylesheet" href="style.css"> ESTILO EXTERNO
+
+<body style: background-color: black;>   ESTILO INLINE
+
+============================================= CORES ==================================================================
+Capítulo 13
+
+
+================================================== FONTES =================================================
+Capítulo 14
+Como importar uma fonte?
+BOM, no google fonts você escolhe ela depois de verificar e tudo mais, escolhe @import, e é basicamente colar.
+Como usar uma fonte baixada?
+
+@font-face {
+    font-family: 'Android';	/* font-family DAQUELA FONTE
+    src: url('../pacote-projeto-d010/fontes/idroid.otf'); /* caminho da SUA FONTE BAIXADA
+    font-weight: normal;
+}
+
+
+text-indent: 30px; Sabe quando iniciamos um parágrafo e temos que dar aquele espacinho no início de parágrafo numa prova escrita? É basicamente isso. O número de pixels dita o quão grande será esse espaço de início de parágrafo.
+
+========================================= SELETORES E ETC ============================================================
+
+Capítulo 15
+classes, ids... SELETORES PERSONALIZADOS!
+
+# 	= id
+. 	= class
+: 	= pseudo-class
+:: 	= pseudo-element
+> 	= children
+==============================================CAIXAS===================================================================
+Capítulo 16
+box-level: 
+	<div>
+	<h1> ~ <h6>
+	<p>
+	<main>
+	<header>
+	<nav>
+	<article>
+	<aside>
+	<footer>
+	<form>
+	<video>
+
+inline-level:
+	<span>
+	<a>
+	<code>
+	<small>
+	<strong>
+	<em>
+	<sup> ~ <sub>
+	<label>
+	<button>
+	<input>
+	<select>
+	
+
+========================================== RESPONSIVIDADE =============================================================
+
+margin: auto; 	para centralizar um bloco.
+img {		para a imagem utilizar 100% da largura, se adequando com o aumento ou diminuição da mesma.
+	width: 100%;
+}
+<source media="(max-width: )" srcset="imagempequena"> para alterar a imagem conforme largura da tela atual.
+
+
+
+========================================= COISAS PERDIDAS =============================================================
+
+Centralizar vídeo de forma responsiva: Altere de acordo.
+
+div.video {
+    background-color: var(--destaque);
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 56.5%;
+    position: relative;
+}
+
+
+
+div.video > iframe {
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+    position: absolute;
+}
+
+
+
+ANIMAÇÃO:
+
+transition-duration .2s; ~ duraçao da animação
+	exemplo: 
+		nav > a:hover {
+	    		background-color: var(--cor3);
+    			color: var(--cor1);
+				sempre que eu passar o mouse em cima, o fundo do menu mudará de cor durante .2s, e manterá ela contanto que o mouse permaneça em cima.
+
+
+
+
+Para centralizar um bloco (um main, um article...) use margin: auto;
+	para centralizar uma img, precisamos fazer com que ela se torne um bloco antes. Nesse caso, usamos do comando:
+	display: block;
+
+
+Uma dica de emmet (shift + *) para envelopar de forma rápida todas as li's' já com a tag abbr:
+Comando - CTRL + SHIFT + P , Enter , li*>abbr
+
+Uma dica para vocês colocarem o <li> mais rápido:
+
+1 - Envelope Tudo
+2 - Digite li* (Coloque o asterisco no final do li).
+3 - Der Enter!
+
+
+Pra quem não quiser sofrer com erro de margins e paddings excessivos na página, só criar em todo projeto um:
+* {
+     margin: 0;
+     padding: 0;
+     border: 0;
+}
+
+Um exemplo de uma belíssima sombra é:
+box-shadow:
+	inset 0 -3em 3em rgba(0,0,0,0.1),
+	0 0 0 2px rgb(255,255,255),
+
+
+
+
+sites úteis:
+www.dafont.com
+fonts.google.com
+adobe colors é pica, paletton dá exemplo de site, coolors é pra quem ta perdido.
+https://www.whatfontis.com/
+https://www.fontsquirrel.com/
+https://www.myfonts.com/
+
+
+representação por cores:
+background-color: rgb(0, 0, 0)              <!-- Red, Green, Blue -->
+background-color: #0000ff; color: #ffffff	<!-- Hexadecimal -->
+background-color: hsl (0, 0%, 0%)			<!-- Hue, Saturation, Luminosity -->
+
+ferramentas com rodas cromáticas:
+adobe colors é pica, paletton dá exemplo de site, coolors é pra quem ta perdido.
+
+pegar cor: 
+colorzilla, tirar print da tela (mas pode mudar tonalidade). codigo hexadecimal.
+
+texto:
+text-indent: 30px; Sabe quando iniciamos um parágrafo e temos que dar aquele espacinho no início de parágrafo numa prova escrita? É basicamente isso. O número de pixels dita o quão grande será esse espaço de início de parágrafo.
+
+border-radius: 10px; - arredonda ponta de caixas
+
+box-shadow: 5px 5px 15px cory; - sombra e cor de sombra da caixa: latera, horizonta, espaçamento
+
+width: 600px; - largura
+
+text-align: center, right, left, justify; - alinhar texto
+
+text-shadow: 1px 1px 2px cory - msm cois de cima
+
+font-weight: ctrl + space pra ver os pesos
+
+font-height
+
+font-style
+
+font-family
+
+font-size
+
+CONFIGURAÇÃO GLOBAL:
+imagina que você quer alterar TODAS AS CONFIGURAÇÕES DE UMA VEZ SÓ NO CSS
+basta usar 
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+
+====================================== PROJETO ==================================================
+

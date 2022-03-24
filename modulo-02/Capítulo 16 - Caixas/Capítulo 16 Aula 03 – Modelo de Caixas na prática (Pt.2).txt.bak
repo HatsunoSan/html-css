@@ -1,0 +1,38 @@
+CARA ASSISTE O VÍDEO CARA É IMPORTANTE ASSISTE DIVERSAS VEZES N DEIXA DE ASSISTIR 
+https://www.cursoemvideo.com/curso/curso-html5-e-css3-modulo-2-de-5-40-horas/aulas/modulo-2-2/modulos/capitulo-16-aula-03-modelo-de-caixas-na-pratica-pt-2/
+
+Aqui também vamos falar sobre simplificação:
+Nós vamos simplificar borda, padding, margem e outline com shorthand!
+shorthand são propriedades, mas de múltiplos valores.
+
+MAS uma coisa: margin e padding nós SEMPRE CONFIGURAMOS NO SENTIDO HORÁRIO!
+Ou seja, padding-top; padding-right; padding-bottom; padding-left;
+		 margin-top; margin-right; margin-bottom; margin-left;
+		 
+Em vez de escrevermos sempre uma linha pro padding-top, outra pro right, bottom e left, fazemos tudo em uma linha só. Como?
+Assim:
+	padding: 10px 10px 10px 10px;
+	Com apenas uma linha, configuramos cada lado do padding. MAS, colocar 4 valores iguais, ou apenas 1, da no mesmo resultado. Então apenas padding: 10px; era o suficiente.
+	Outra coisa:
+	padding: 20px 50px;
+	Você pensa, Ah, vai configurar o de cima e o da direta né? Não. Vai espelhar o de cima e o debaixo na primeira configuração, e depois direita e esquerda.
+
+O mesmo vale pro margin, border... Enfim.
+
+As vezes há uma caixa colada na outra. A margem existe pra resolver isso (e entre outras coisas). 
+
+
+E mais: Você pode até pensar: "porra, vou usar pra centralizar então"
+Cara, não. Existe uma maneira de centralizar um elemento que você queira no meio da tela, e confesso que é contra-intuitivo, mas utilizando da seguinte linha:
+
+margin: auto;
+
+Sim, é contra-intuitivo, mas contra-intuitivo ou não, é assim que centraliza uma caixa se necessário. Se você simplesmente ficar alterando os pixels da margem, quando o cliente alterar o tamanho da tela, vai descentralizar. IMPORTANTE: SE FOR UMA CAIXA! Se for um texto tu põe um text-align: center; e é isto.
+
+Não esqueça: SENTIDO HORÁRIO! cima direita baixo esquerda. top right bottom left.
+
+Você pode também centralizar uma margem e as outras não. Só mudar a numeração de pixel por auto
+
+Outra coisa, dá pra transformar box-level em inline. Só colocar display: inline; Mas claro, fazendo isso você não pode alterar altura nem largura.
+
+Pode fazer o mesmo com inline: transformar inline em bloco. Aí o link que seria um texto na mesma linha do parágrafo que leva a uma página, vai quebrar a linha, vai ter o texto, quebrar de novo, e seguir o parágrafo.

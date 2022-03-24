@@ -1,0 +1,92 @@
+Anatomia dos Tipos!
+
+O tipo é cada uma das letras. É o formato do "desenho" das letras.
+Vamos analisar a anatomia de algumas letras, alguns 'glifos.
+
+Vamos analisar a fonte Times New Roman que está na pasta desse capítulo. Ela é a fonte padrão da grande maioria dos navegadores, e serifada da subclasse romana.
+Toda fonte quando é desenvovlvida, temos que nos basear nos tamanhos. A letra maiúscula tem um espaço, a minúscula tem um espaço, horizontalmente há um espaço, verticalmente também. Quanto vai ocupar a letra i ou l? ou a I ou a L?
+Quem constrói as fontes, tem que saber. Pra você que vai usar num site, tem que saber as medidas pra ver se encaixa simetricamente na parte em que você quer encaixar essa fonte.
+
+A letra "X" é o ponto de partida para a construção de todas as fontes. QUando alguém vai construir uma fonte nova, em primeiro lugar ele constrói a letra 'x' minúsculo. Ela vai definir a altura básica de todas as letras minúsculas, Sem seus ascendentes e descendentes. Veja a imagem "Letra x".
+
+Há duas linhas paralelas do tamanho exato da letra x. Ela é a base de todas as letras minúsculas, mas perceba também que há algumas letras que ultrapassam esse 'limite'. Essa distância entre essas duas linhas paralelas, é chamado de "altura x".
+
+Assim como existe a altura das letras minúsculas baseadas na letra x, há a altura das letras maiúsculas também. Esse tamanho, chamamos de "altura das maiúsculas". Pois é.
+
+As letras minúsculas que "vazam", é chamado de ascendente ou descendente.
+"Somando" todas as alturas, há o nome "corpo". O tamanho total, com ascendencia ou descendencia, independente de maiúscula ou minúscula, é chamado de corpo.
+
+Quando vamos definir uma fonte, temos que saber a altura do corpo dela. pois é a altura do corpo que definimos na CSS. Veja a imagem "corpo fonte".
+
+Vamos falar sobre outro item anatômico.
+Todos os itens que falamos agora, são os itens métricos. Todos os outros são os itens anatômicos
+Vamos falar agora sobre os anatômicos geométricos.
+
+Sabe o "pezinho" da fonte? O prolongamento que há em algumas letras ou fontes? É chamado de serifa. Essa curvinha que há no final de algumas fontes.
+Qual a importância de uma serifa? Ela cria uma linha imaginária que o nosso cérebro percebe sem contudo olhar. É como se o nosso cérebro criasse uma linha pontilhada imaginária em todo o comprimento da palavra. Isso facilita a leitura, fazendo com que leiamos perfeitamente da esquerda pra direita.
+
+Veja a imagem "bagunça".
+
+A serifa é crucial para que você entenda o que está escrito na imagem.
+
+A serifa vai guiar sua leitura. Não significa que você não vai conseguir fazer isso sem ela. As serifas surgiram para o conteúdo impresso no papel. Há estudos que dizem que fontes sem a serifa, ou com características diferentes da serifa, facilitam a leitura em telas.
+
+
+Anatomia Geométrica:
+
+Veja a imagem "Geometria."
+
+A letra "k". A parte marcada é chamada de haste. Algumas letras tem essa hastezinha. A letra "A" parece haver 3, mas na verdade, é um filete, a "haste" deitada. Um filete une duas hastes ou um ou mais hastes ou arcos.
+
+A letra "n" tem um arco. o N tem duas hastes e essa "barriguinha", é o arco.
+
+A letra "b" parece ter um saltinho. Essa fonte que utilizo no notepad++ não tem, mas na imagem tem. É chamado de esporão.
+
+A letra "A" tem aquela partezinha de cima, a ponta, que é chamada de vértice. O "V" também.
+
+A letra "R" tem aquela... vírgula..? É chamado de terminal. Cuidado pra não confundir com "braços" e "pernas".
+
+A letra "K" tem um elemento que sai de uma haste e sobe diagonalmente. Chamamos de braço. Existe também um elemento que sai do braço (as vezes da haste) que desce também diagonalmente e chamamos de braço. E, bem, também tem pé. As vezes o pé tem serifa. Tem fonte que não tem serifa, mas tem pé.
+
+Existe um elemento que só tem na letra "s" que são essas curvas dela. É chamado de espinha.
+
+A letra "b" tem uma haste, e da haste, saem dois arcos juntos. Eles são chamados de "barriga".
+
+O buraco da letra é chamado de olho.
+
+A letra "g" tem um... chifre..? Chamamos de orelha, e no segundo olho ali, a cauda. A letra Q também tem uma calda. Veja a imagem Anatomia.
+Esses foram os componentes anatômicos de letras, de fontes, de glifos.
+
+O que é um glifo?
+
+As letras. O "A" é um glifo dessa fonte Times New Roman.
+
+Cada uma das letras de um alfabeto, de uma fonte, são glifos. Quando eu pego o conjunto de glifos de uma família, chamamos de fonte. Os glifos são também conhecidos como caracteres ou letras, e o conjunto destes, chamamos de fonte.
+
+Há uma outra característica. Vamos mudar afonte para "Open Suns" (eu acho).
+
+Ela é muito mais simples. Tem menos elementos visuais. A letra "A", o vértice dela tem um corte, não tem serifas, mas tem as hastes e o filete. Essa Open Suns tem vários formatos de A. Esses formatos é o que chamamos de "Família Tipográfica". Veja a imagem de mesmo nome. 
+
+NEM TODA FONTE TEM FAMÍLIA TIPOGRÁFICA!
+
+======================================================================Categorias de Fontes.===========================================================================
+
+Vvamos supor que você queira escrever "Olá, Mundo!", mas qual fonte eu vou escolher ela? Sempre escolhemos pela categoria de fonte.
+
+A Times New Roman é a padrão do navegador, mas as vezes você não quer utilizá-la.
+Como são classificadas?
+
+A Times New Roman é da categoria serifada... Por ter serifa. É.
+
+A segunda é a Open Sans(eu acho) da categoria sans-serif do francês... que significa sem serifa.
+Qual a diferença entre elas? Hoje em dia, é recomendado que para textos muito longos em TELAS, dê preferências para fontes Não Serifadas. E cuidado com as fontes serifadas com espaço horizontal muito curto. Elas podem atrapalhar. Inclusive, NUNCA use cores não-constratantes. Imagine fundo branco com letra amarela? Uma merda de ler. Fundo branco e letra preta. Ou letra branco e fundo preto.
+
+A terceira forma é uma sans-serif também... Mas mono-espaçada! Toda fonte monoespaçada pode ser com ou sem serifa. Toda monoespaçada tem a mesma distância entre as letras para qualquer caractere.
+
+A penúltima é uma fonte "handwirting", por simular a caligrafia humana.
+
+A última é chamado de fontes comemorativas, ou fonte display. Ela não se preocupa em obedecer... porra nenhuma.
+
+
+
+

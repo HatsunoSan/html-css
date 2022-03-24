@@ -1,0 +1,74 @@
+Como outras pessoas vão ver os sites que eu crio?
+
+Vamos adicionar mais alguns cliente do gráfico anterior.
+
+No gráfico anterior, tinhamos você, que vamos chamar de cliente A, além do DNS e do servidor.
+
+Agora, adicionamos também mais dois clientes, o cliente B e o C.
+
+Vamos usar de exemplo o repositório do professor Gustavo Guanabara:
+gustavoguanabara.github.io
+
+Basicamente, você viu na aula anterior que o servidor não tem esse nome, mas sim um número de identificação, preferivelmente chamado de IP.
+
+E ao digitarmos o endereço do site, a solicitação vai para o servidor DNS, que vasculha a relação nome-número e te retorna o ip que te conecta ao servidor e você acessa o site.
+Os arquivos HTML e CSS estão no servidor. Mas a partir da próxima aula, esses arquivos estarão no SEU computador, que também é quando você vai começar a escrever códigos.
+
+Você terá acesso TOTAL ao HTML e CSS do seu site.
+Vai aprender a modificar como quiser coisa e tal, deixar bunitin do jeito que tu quer e etc.
+
+Aí vai chegar o momento que você quer que seus amigos vejam o site que você criou, certo?
+
+Mas que endereço de site você vai compartilhar para que eles o acessem? Mesmo que você dê o IP a eles, eles não terão acesso, pois sua máquina não é um servidor. Ninguém além de você terá acesso. E como você não tem o endereço físico, não tem como acessar o DNS, o endereço fica inacessível. Logo, não há maneira de se conectar.
+
+Sendo assim, seus amigos, o B e o C, não terão como acessar seus arquivos. Seu site.
+
+A única maneira de compartilhar com eles, é se o HTML e o CSS estiverem no servidor e tiver o endereço.
+
+A URL (o endereço do site) é o que te dá acesso ao DNS que te retorna o IP que te conecta ao servidor que é onde estariam guardados o HTML e o CSS onde outras pessoas poderiam se conectar e visualizar o que você criou.
+E pra ter o acesso, a primeira coisa que você precisa é o DOMÍNIO!
+o site do professor, "gustavoguanabara.github.io", apenas o "github.io" que é o domínio.
+Você precisa de um domínio para que as pessoas acessem o site que você criou.
+Outra coisa que você precisa também, é de um local para colocar seus arquivos. Você precisa de um servidor, não dá pra hospedar as coisas em casa. Isso seria MUITO trabalhoso e até mesmo perigoso.
+Quando a gente cria site, você também tem que pensar mais na frente um DOMÍNIO e uma HOSPEDAGEM.
+	Domínio - É o nome que identifica seu site.
+		São de nome únicos. Não podem existir dois domínios com o mesmo nome.
+		São pagos anualmente. Há uma média de preço entre 30 e 60 reais que você paga por ano e aquele domínio é seu por ano pago.
+		Têm vários TLDs. Ou Top Level Domains. É necessário escolher entre G-TLD ou C-TLD. Jajá explico.
+		
+	Hospedagem - É o local que o seu site vai estar armazenado.
+		Espaço para armazenar aquivos.
+		Pago mensalmente.
+		Escolha baseado na necessidade. Precisa de espaço? Memória? Recursos? Tem e-mail? Suporta PHP? Python?
+===========================URL=====================================
+uwww.github.com/gustavoguanabara/.
+Esse endereço todo, chamamos de URL. Uniform Resource Locator.
+
+Você se depara com endereços assim o TEMPO TODO.
+Você sabe pra que que serve cada uma dessas partes? 
+
+Dentro de uma URL há partes:
+
+"github.com" é o DOMÍNIO. 
+	Na hora que você compra o domínio, você não compra o "www" ou "gustavoguanabara". Na hora que você paga o domínio, você paga pelo "github.com". Isso te dá direito hospedar coisa, no caso do plano de hospedagem do professor, que hospeda na Hostnet, dá direito ao e-mail por exemplo.
+
+o ".com" é a TLD. ".com", ".net", ".io", ".info", ".online", ".store". Isso tudo é o que chamamos de G-TLD. O "G" é de GENÉRICO.
+	"com" é para instituição comercial
+	"edu" é para instituições educacionais
+	"gov" é para governamentais
+	"store" é para lojas.
+
+Existem também os "CC-TLDs". O "CC" significa Country Code, que é "código de país".
+Aqui no brasil temos muitos sites com ".com.br" por exemplo.
+	.br pro brasil
+	.us pro eua
+	.ar pra argentina
+	Tem um muito usado que é de uma ilhazinha chamada "tuvalu", que é .tv, e aí um monte de televisão comprou um monte de cctld do tuvalu porque achavam que .tv era uma g-tld de televisão, mas não era.
+
+O "www" é um sub-domínio. No caso, é o subdomínio principal do servidor web. Mas existem outros subdomínios também. Pode ter ou não um subdomínio.
+
+E o "/...". Basicamente, é o caminho. Como se fossem pastas do computador. Como Documentos/_CURSOEMVIDEO/HTML... Pode ter caminho ou não.
+
+Então uma URL é composta de sub-domínio, domínio, TLD, e o caminho (ou não).
+
+"https://" É PROTOCOLO. Visto na aula anterior.

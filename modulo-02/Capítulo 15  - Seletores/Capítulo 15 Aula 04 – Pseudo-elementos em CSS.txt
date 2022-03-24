@@ -1,0 +1,32 @@
+Brother, eu recomendo de verdade você assistir.
+https://www.cursoemvideo.com/curso/curso-html5-e-css3-modulo-2-de-5-40-horas/aulas/modulo-2-2/modulos/capitulo-15-aula-04-pseudo-elementos-em-css/
+
+Mas pra facilitar sua vida, falamos sobre mais uma pseudo-classe> :active, que é quando clicamos.
+
+Mas agora vamos falar sobre pseudo-elementos! O pseudo-elemento pode agir nas classes, nos elementos, nos ids...
+Veja os exemplos no minuto 08:20
+
+SE eu quiser que todo link no final tenha uma indicação dizendo "eh linq"...
+a::after { 		
+			content: '(link)'
+}
+
+pseudo-classes 1 vez " : "
+pseudo-elemento 2 vezes " :: "
+
+Perceba que eu ADICIONEI COISAS SEM ALTERAR O QUE JA TINHA SIDO ADICIONADO!
+
+Na mesma linha tem palavras de cores diferentes.
+
+Cara... só olhando o arquivo e assistindo o vídeo pra você pegar.
+* Pego do PDF: 
+" Já um pseudo-elemento CSS é uma palavra-chave adicionada às declarações de um 
+seletor após dois sinais de dois pontos e permitem que você formate UM PEDAÇO ESPECÍFICO DO ELEMENTO REFERENCIADO. "
+
+# 	= id
+. 	= class1
+: 	= pseudo-class
+:: 	= pseudo-element
+> 	= children
+
+No próximo capítulo vamos falar sobre divs, tamanhos, posição, localização ,margens, bordas, alcochoamento... 

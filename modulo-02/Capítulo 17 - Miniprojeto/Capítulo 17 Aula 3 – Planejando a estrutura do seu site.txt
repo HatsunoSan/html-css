@@ -1,0 +1,22 @@
+Vamos primeiramente planejar o site!
+
+1º Planejaremos o Layout do site.
+	Use o site https://www.mockflow.com/, crie uma conta... Enfim. 
+	O site não é totalmente gratuito, mas o que ele tem de gratuito pra essa aula é o suficiente.
+
+	Mock é tipo... Estrutura. Você vai utilizar ele pra "desenhar" o formato do seu site.
+	Bom, o site é bem intuitivo, então crie um novo projeto, use a interface Web.
+
+	Enfim, esse site serve pra você planejar o site antes de efetivamente montá-lo.
+
+	EXISTE TAMBÉM O ADOBE XD!!!! Indicado por um usuário nos comentários do YouTube. Vale a pena dar uma olhada.
+
+2º Planejaremos as fontes que serão utilizadas no site.
+	https://fonts.google.com/
+	O professor utilizou Bebas Neue para destaque.
+	Ele também baixou uma fonte do site https://www.dafont.com/pt/. Ele baixou a font IDROID que há na pasta do Android.
+
+
+3º Planejaremos a palheta de cores que será utiliazda no site.
+	Em relação a cores, cara, sem erro:  https://color.adobe.com/pt/create/color-wheel
+	O professor utilizou a paleta monocromática, com cor adaptadas desse verde do android: #3DDC84

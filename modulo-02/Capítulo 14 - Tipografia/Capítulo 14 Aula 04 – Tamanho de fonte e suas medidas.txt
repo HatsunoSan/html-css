@@ -1,0 +1,31 @@
+Vamos falar nessa aula sobre tamanhos!
+
+Existem várias formas de utilizarmos um "font-size"!
+Temos...
+Medidas Absolutas 
+cm, mm, in (polegada), px, pt, pc
+	* Existe um grande problema na hora de representar 1cm. As vezes o navegador não consegue representar 1cm. Sua TV pode mostrar de uma maneira, seu tablet de uma maneira, e seu celular de outra. Até mesmo o px sofre com isso.
+	pt (ponto) e pc (paica) não se recomenda utilizar em material impresso em telas. 
+
+
+E 
+
+Medidas Relativas
+em (medida relativa ao tamanho atual da fonte), ex (relativo a altura x), rem (tipo "em" , mas relativo a fonte do body), vw (relativo a view-port), vh (altura da view-port), %
+	* view-port = tamanho da tela
+	
+a W3C recomenda utilizr as medidas "px" e e"m".
+Normalmente o font-size dos navegados é 16px por padrão.
+
+Qual a diferença do px pro pt?
+O ponto é uma medida tipográfica. No word por exemplo, utiliza-se PONTOS pro tamanho de uma fonte. Em um EDITOR de textos, tudo bem, pois a intenção normalmente é imprimir. Mas se é pra ser impresso em TELA, não utilize pt(pontos), utilize px(pixels) ou em.
+16px = 1em(geralmente)
+
+em é sempre RELATIVO ao tamanho natural da fonte. Tem também o rem, ele é relativo a fonte utilizada no body.
+
+O GUANABARA RECOMENDA UTILIZAR SEMPRE O "em"!
+Isso pois, como foi explicado anteriormente, a apple se n me engano, utiliza px como 1/4 do px normal.
+
+
+POR FIM! Utilize px ou em, preferindo em!
+RECOMENDAÇÃO DA W3C E DO GUANABARA!

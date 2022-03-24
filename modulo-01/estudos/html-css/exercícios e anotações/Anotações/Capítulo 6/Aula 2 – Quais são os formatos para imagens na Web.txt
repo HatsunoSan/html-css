@@ -1,0 +1,10 @@
+Os formatos de imagens de imagens para a web que devem ser utilizados
+depende do que você precisa:
+
+jpeg se é uma imagem leve e sem transparência - surgiu em 1983
+png se precisa de transparência ou qualidade melhor - surgiu em 1986, pela w3c, msm da www
+gif se precisar que ela se mexa além da transparência - SE FALA GIFI, mas popularizou guif.
+
+arquivos de imagens enormes é o mesmo que a morte em sites. Demora MUITO pra carregar
+e se demorar MUITO pra carregar, o google simplesmente não mostra nas pesquisas.
+

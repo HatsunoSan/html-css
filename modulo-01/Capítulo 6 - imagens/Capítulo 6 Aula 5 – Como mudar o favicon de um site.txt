@@ -1,0 +1,13 @@
+Sabe aquele imagenzinha que fica lá em cima na aba do site? Aquilo é um "FavIcon", favicon.
+
+Ou ícone de favorito.
+Enfim, existem alguns sites que você pode procurar uns ícones assim como:
+*	https://iconarchive.com/
+*	https://favicon.io/
+*	https://www.favicon.cc/
+
+OU como alternativa você mesmo pode fazer. Mas não esqueça de que tem de ser com a extensão ".ico".
+
+Cê pode também formatar uma imagem de png para ico, no GIMP da pra fazer isso, mas parece que há alguns problemas. No https://favicon.io/ Há como converter se desejar.
+
+Bom, no seu arquivo html, acima do title, você digita link:favicon e o lance é o mesmo de adicionar imagens... Apaga o que estiver dentro das aspas de href="", dá ctrl + space e escolhe sua imagem. Abra seu site, ou atualize se necessário, e tá la, o ícone de favorito.

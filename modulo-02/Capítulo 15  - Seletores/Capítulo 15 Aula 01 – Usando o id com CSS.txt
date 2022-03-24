@@ -1,0 +1,24 @@
+Em que momento vamos precisar personalizar um seletor?
+Bom, é comum termos vários subtítulos, vários títulos, e principalmente, vários parágrafos. E se eu quiser personalizar parágrafos, títulos ou subtítulos específicos? É aí que entram os seletores.
+
+Vamos utilizar um estilo externo (
+<link rel="stylesheet" href="style.css">)
+
+Nele prepare para configurar o body, o h1 e o h2.
+
+Quando fazemos isso, se houver vários h1 e h2, simplesmente configurando o h1, todos vão se alterar igual, certo? Mas e se eu quiser que o meu título principal do site seja diferente?
+
+Volte no HTML, e vá no h1 princial e adicione o seguitne na tag: 
+de <h1> para <h1 id="principal">
+
+Pronto, criamos um indentificador pra tag, pro título, que queriamos personalizar sem alterar TODOS os títulos, e sim aquele específico. Agora, volte no css e crie mais uma configuração de h1, mas da seguinte forma:
+
+h1#principal { * Não é obrigatório aquele h1 de início antes do #, mas vamos manter para facilitar nossa visão geral do código.
+
+}
+e Voillá!
+
+TUDO QUE EM HTML FOR " id= ", em CSS é " # "
+TUDO QUE EM HTML FOR " class= ", em CSS é " . "
+
+Mas, quando que é hora de usar um ou o outro? Isso nós saberemos no próximo vídeo.

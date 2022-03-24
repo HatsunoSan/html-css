@@ -1,0 +1,127 @@
+Vamos começar a estudar o modelo de Conceitos de Caixas!
+
+
+================================= Modelos de Caixas =============================================
+
+Quando você tem um documento HTML, tudo aquilo que é exibido na tela, é exibido na forma de caixa.
+
+A grande maioria das caixas da HTML podem estar uma caixa dentro da outra. E isso facilita muito a nossa vida, pois podemos ficar colocando caixa dentro de caixa igual aquelas bonequinhas polonesas ou russas. Isso é chamado de ANINHAMENTO, de ninho.
+
+Exemplo:
+	<h1>Olá, mundo! </h1>
+
+Quando você coloca isso no seu arquivo HTML e abre no navegador, ele exibirá uma caixa escrito "Olá, mundo!". Abra o exemplo na pasta da aula correspondente e veja o "exemplo h1". Repare no pontilhado. Não dá pra ver, é claro, mas da pra meter essa teoria em tudo que é exibido. Tudo é caixa. O h1 é um elemento de caixa.
+
+Quando você cria um seletor pra um h1, você na verdade está configurando a CAIXA do h1. Uma caixa tem um tamanho, que é especificado com duas medidas muito importantes:
+	height = altura
+	width  = largura
+
+Outra coisa que é possível fazer com uma caixa é traçar uma linha em volta dela, e vamos chamar essa linha de border, que claro, significa palmito. Por padrão, o pontilhado invisível da caixa ficará grudadinho na borda da caixa. Mas é possível personalizar isso. 
+
+Quando aumentamos o espacinho, e a borda desgruda do pontilhado invisível, esse espacinho ganho o nome de padding, que traduzido pode ser alcochoamento OU preenchimento.
+O padding pode ser calculado em qualquer uma das dimensões, pode ter padding em baixo, em cima, direita e esquerda, OU por igual. Veja o exemplo-padding na pasta.
+
+Outra coisa que podemos configurar é:
+Da borda pra dentro há um espaço, se houver um outro box embaixo do "Olá, mundo!", ele pode ficar grudado na linha branca (que é o border). ENTÃO, além do padding (que é um espaço INTERNO) há também o margin (que é um espaço externo).
+
+Então, 	da borda pra dentro = padding
+		da borda pra fora 	= margin
+
+Outra coisa que posso fazer dentro da margin, é criar outro tracejado (que eu não chamo de borda) dentro do espaço de margin, e vou chamar de outline, que significa contorno ou traçado.
+
+=============================== Tipos de Caixa ==========================================
+
+h1 é um tipo de caixa. Vamos ver outros.
+
+Existem tipos de caixas box-level e tipos de caixas inline-level.
+Veja a imagem "exemplo box-level e inline-level" na pasta de exercícios.
+
+O que é uma caixa box-level?
+	Vamos supor que há um parágrafo (parágrafos também são caixas) na tela com algumas linhas, e eu quero criar mais uma caixa box-level. Agora vamos supor que o parágrafo não foi até o final da tela. Se eu criar mais um box-level, essa caixa será lançada para a linha de baixo, mesmo que tenha sido criado dentro do parágrafo. 
+	Outra característica de um box-level, é que ele ocupará 100% da área branca daquela linha.
+	Depois que ele exibe esse box-level após o parágrafo, pulará para a linha de baixo, e aí você, se quiser, pode criar mais caixas (como h1, outro parágrafo... enfim).
+	ENTÃO, sempre que você for criar uma caixa box-level, ele vai pular pra linha debaixo, ocupará a largura inteira da área branca da tela, e vai pular para a próxima linha novamente antes de continuar o conteúdo.
+
+Exemplos:
+	Quando eu quiser adicionar algum conteúdo e que seja quebrado para a linha debaixo, eu usarei <div>
+Exemplos de tags box-level:
+	<div>
+	<h1> ~ <h6>
+	<p>
+	<main>
+	<header>
+	<nav>
+	<article>
+	<aside>
+	<footer>
+	<form>
+	<video>
+
+O que é uma caixa inline-level?
+	Já um elemento inline-level fará o seguinte:
+	Vamos supor que há um parágrafo na tela com algumas linhas. Agora vamos supor que o parágrafo não foi até o final da tela e você queira fazer mais uma caixa inline-level. Você vai criar a caixa inline-level, ela NÃO vai quebrar pra linha de baixo, a caixa será continuada, e o conteúdo seguirá na mesma linha.
+
+Exemplos:
+	Quando eu quiser adicionar algum conteúdo mas que siga na mesma linha, eu usarei <span>
+Exemplos de tags inline-level:
+	<span>
+	<a>
+	<code>
+	<small>
+	<strong>
+	<em>
+	<sup> ~ <sub>
+	<label>
+	<button>
+	<input>
+	<select>
+	
+Mas não simplesmente assim e ponto. Se precisarmos que uma box-level ocupe menos espaço e não a largura toda, isso e muito mais é configurável.
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

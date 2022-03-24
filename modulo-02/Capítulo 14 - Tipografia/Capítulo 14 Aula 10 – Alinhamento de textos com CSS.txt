@@ -1,0 +1,32 @@
+Agora falaremos de alinhamento de fonts.
+
+Crie um novo arquivo html.
+Faça as configurações iniciais, cria um h1, h2, um p com vários lorem, e depois mais 2 p, cada um com um lorem
+Crie agora também um style
+
+E vamos ao que interessa:
+O alinhamento padrão de um texto é normalmente à esquerda. Então se você não alterar nada, ele já estará alinhado à esquerda. 
+No style, nós vamos modificar o body, h1, h2, e os p.
+
+NUNCA ALINHE UTILIZANDO HTML! SEMPRE ALINHE UTILIZANDO CSS! HTML é TEXTO. CSS é DESIGN!
+
+<style>
+        body {
+            font: normal 16px Arial, Verdana, serif;
+            text-align: left; * Padrão. Remover essa linha ou deixar como está, dá o mesmo resultado
+        }
+		
+		h1 {
+            text-align: center; * Aqui fará com que o título fique alinhado no centro da página.
+        }
+		
+		h2 {
+            text-align: right; * Aqui fará com que o sub fique alinhado à direita da página.
+        }
+		
+		 p {
+            text-align: justify; * Aqui fará com que os parágrafos fiquem alinhados da esquerda à direita da página.
+            text-indent: 30px; * Sabe quando iniciamos um parágrafo e temos que dar aquele espacinho no início de parágrafo numa prova escrita? É basicamente isso. O número de pixels dita o quão grande será esse espaço de início de parágrafo.
+        }
+		
+E se eu quiser criar um terceiro h2, mas que não fique alinhado na direita, e sim na esquerda? É possível, mas para isso precisamos falar de seletores, e isso virá na próxima aula!

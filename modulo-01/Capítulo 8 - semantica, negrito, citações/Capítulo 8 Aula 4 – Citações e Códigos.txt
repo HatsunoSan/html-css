@@ -1,0 +1,55 @@
+Mais formatações de texto:
+
+E se precisarmos escrever códigos de linguagem realmente caso queiramos criar um tutorial?
+Tudo bem apenas digitar, certo? Errado.
+Errado, pois simplesmente escrever o código, deixaria ele com a mesma fonte da página. A fonte padrão da página não é mono-espaçada, ela não reserva o mesmo espaço lateral para cada letra, deixando o código um pouco difícil de ler.
+Por exemplo, a letra "i" na página é FINÍSSIMA, enquanto a letra "g" não. Uma do lado da outra tornaria difícil a leitura do código.
+Para isso, podemos usar a tag <code>. Essa tag deixa o texto selecionado mono-espaçado. Isto é, cada letra terá o mesmo espaço lateral que a outra. 
+O "i" e o "." ou o "g", todos terão o mesmo espaço lateral.
+
+Então se colocarmos um código Python por exemplo vai ficar tudo certinho né? Com quebra de linhas e tudo e tal? Como no exemplo abaixo? 
+
+<code>
+        num = int(input('Digite um número'))
+        if num % 2 == 0:
+            print(f'O número {num} é PAR')
+        else:
+            print(f'O número {num} é ÍMPAR')
+        print('Fim do programa.')
+
+E então? 
+Não. Tudo ficará na mesma linha, e quebrará pra linha de baixo quando chegar ao final da página.
+Para fazer igual as linhas de código Python, é necessário usar a tag <pre>.
+Ela pré-formata o que você digitar dentro dela. Então se você apertar enter, quebrará para a linha de baixo.
+E você pode usar ambas as tags. Considera inclusive os espaços antes das letras. Caso não queira isso, selecione e aperte shift + tab
+
+O próximo passo são as citações.
+
+Como diria o pai de um amigo: o computador é um burro muito rápido
+
+Você poderia simplesmente colocar aspas ali depois de ":", certo? Igual acabei de fazer nesse documento de texto. Bom, apesar de eu achar meio bobo isso, há tag para fazer isso em html, e ela é a "<q>".
+Isso colocaria uma citação simples, sem quebra de texto.
+
+A desculpa para utilizá-la, é que você não tá simplesmente colocando aspas, você ta dando um sentido ao seu texto ao utilizar ela. Então vai pelo Guanabra, não simplesmente dê forma, dê também sentido ao que precisa de sentido.
+
+Há também a citação completa, com quebra e tal e um pouco mais deslocada para a direita da página, deixando claro que é uma citação de um determinado autor. 
+Essa tag é a <blockquote>:
+
+<blockquote cite="https://books.google.com.br/books?id=E8ZtDwAAQBAJ&printsec=frontcover&dq=html5+para+leigos&hl=pt-BR&newbks=1&newbks_redir=0&sa=X&ved=2ahUKEwiKy_iN0J70AhW8HLkGHZNFBt4Q6AF6BAgGEAI#v=onepage&q=html5%20para%20leigos&f=false">
+        A diferença entre elementos inline e um bloco de texto é importante. Os elementos HTML neste capítulo descrevem os blocos de texto.
+    </blockquote>
+	
+Como você pôde ver, é inclusive possível você criar um parâmetro chamado "cite", citando o endereço do livro.
+Visualmente na página não fará nada. Não levará a um link pra uma página nem nada do tipo. MAS, os mecanismos de buscas perceberão isso e talvez, quando alguém pesquisar sobre o livro, sua página, que cita o link do livro, apareça nos resultados da busca.
+
+Também é possível demonstrar o significado da abreviação sem realmente dizer na página. Utilize a tag <abbr>. Exemplo:
+
+<p>Estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets
+        ">CSS</abbr>. Estou adorando!</p>
+		
+Na sua página, HTML e CSS ainda estarão lá. MAS, estarão sublinhadas com vários pontinhos. Ao passar o mouse, um popup surgirá com o significado das siglas. HyperText Markup Language pro HTML e Cascading Style Sheets pro CSS.
+
+E o inútil:
+
+<p><bdo dir="rtl">Estou aprendendo a criar coisas em HTML.</bdo></p>
+Ela inverte o texto. rtl = right to left, ltr = left to right. É isto.

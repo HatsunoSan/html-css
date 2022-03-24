@@ -1,0 +1,50 @@
+Falaremos hoje sobre, bom, o título do arquivo. Mas pra te explicar sobre esses 3 termos, temos que voltar às imagens mostradas anteriormente que explicam o funcionamento da internet, DNS, tráfego ponto-a-ponto, clientes... 
+O professor prefere outro termo do que esses 3, mas ali na frente ele explica.
+
+O seu computador ou celular é um cliente, é quem solicita dados ao servidor. A função do servidor é entregar dados para o cliente. E vimos nas aulas anteriores que o servidor entrega dados diretamente para o cliente. Ele entrega, de forma resumida, o HTML, CSS, e Javascript. E faz o mesmo para TODOS os clientes. São chamados sites estáticos.
+E a tecnologias assim, chamamos de client-side.
+HTML, CSS e Javascript são tecnologias que vão funcionar do lado do cliente.
+
+Dito isso, o que o professor prefere, é que fôsse chamado de client-side developer, e não "front-end developer", mas o mercado instituiu esse termo.
+
+Ou seja: Desenvolvedor Front-end é aquele desenvolvedor que fará coisas pra web, em HTML, CSS e Javascript. Tecnologias que irão rodar no lado do cliente. É claro que o desenvolvedor front-end precisará saber ao menos o básico de algumas outras coisas, como o básico de imagens, de cores, tipografias, saber o básico de Photoshop, Gimp. 
+Mas não significa que ele vai desenvolver o design.
+É importante saber a diferença entre designer e o desenvolvedor front-end.
+
+O designer é aquele que vai imagianar como vai ficar disposto o site. Quais as cores serão utilizadas, como os elementos ficará dispostos, qual o tipo de fonte utilizada, e aí ele pega esse "desenho" do site, e entrega na mão do front-end, que vai ter que saber o básico pra utilizar as mesmas ferramentas do designer só pra adaptar e gerar um resultado utilizando HTML, CSS e Javascript.
+
+
+
+
+
+Por outro lado, há tecnologias server-side. Isso ja é outra parada. O desenvolvedor "server-side" é chamado no mercado como Back-end developer. E aí você vai ter que ter outros tipos de conhecimentos.
+
+Em suma, o front-end é especializado em client-side, ele é especializado em gerar a parte visual e interativa do site, ele vai se preocupar muito em dar uma boa experiência pro usuário que utilizar o site, entao ele vai ter que conhecer alguma coisa de User Experiênce apesar dele não ser oe specialista nisso. O designer também vai ter que se preocupar com isso...
+
+O trabalho do front-ent e o designer se ligam em alguns pontos
+
+Mesma coisa com front-end e back-end.
+
+Front-end focado no usuário, na interatividade.
+
+Back-end ta mais interessado no código dele com o servidor, com as tecnologias envolvidas no server-side.
+
+Quais os tipos de tecnologa server-side? 
+
+Algumas linguagens que funcionam do lado do servidor são:
+Php, o próprio Javascript tem uma versão que roda no servidor (como o Node), C#, Python, Ruby, Java (que é diferente de Javascript).
+
+Exemplo com Php:
+
+O cliente ta querendo entrar numa loja online só de camisetas. Se por acaso o cliente fizer uma solicitação pro servidor e o servidor tiver um site estático (CSS HTML JS puros) ele vai retornar com os arquivos e o cliente montará a estrutura na tela. Porém o site não pode ser estático, porque ele nao vai saber que produto colocar ali. Ele tem de ser dinâmico. Um site estático é igual pra TODO mundo. E não pode acontecer de 1 pessoa colocar um item em um carrinho de compra em um site e se houver 100 pessoas acessando o site, todas receberem a mesma camiseta em seus 100 carrinhos. O site precisa ser dinâmico. E quando houver promoção? E quando acabar o estoque?
+
+Quando envolvemos tecnologia server-side, o cliente vai solicitar informação pro servidor, no servidor a tecnologia Php vai solicitar prum banco de dados, e vai requisitar quantas camisetas/quais irão aparecer na página principal da loja, quais estão em promoção que o dono da loja escolheu... O Php vai obter essas informações, vai gerar uma página HTML puro com essas informações, e vai enviar esse HTML junto do estilo e interação, pro cliente. 
+
+A partir daí com essas informações, com esse HTML produzido especialmente pela linguagem Php, o site vai poder ter as camisetas dispostas la todas bonitinhas com todas as informações que tão no banco de dados.
+
+
+
+
+Mas é possível saber um pouco de tudo? Sim. Quando você soma ambos esses conhecimentos, o mercado passa a te chamar de Fullstack developer.
+E ser Fullstack é tranquilo? Não. É difícil, é complicado. Você quer aprender duas tecnologias BEM diferentes e que trabalham juntas. NÃO É FÁCIL. Demorará muito.
+Obtenha seu conhecimento no SEU tempo. Arrume um trabalho com front-end (ou back-end) e no seu tempo, estude a outra tecnologia. Faça seus projetos no seu tempo, de ambos os lados. NÃO ESPERE entrar no mercado ja sendo um full stack, você estará se iludindo.

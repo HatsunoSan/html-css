@@ -1,0 +1,19 @@
+Vamos falar agora sobre algumas ferramentas que podem nos ajudar com as cores:
+
+1 - https://color.adobe.com/pt/create/color-wheel#
+	Logo de cara já te joga na cara o círculo cromático e te joga uma sugestão de paleta de cores. Se você tiver uma conta e estiver logada nela, você pode salvar sua paleta de cores personalizada. No canto inferior esquerdo há o esquema de cores: 
+		RGB: Que é de monitores.
+		CMYK: Para impressoras. Impressoras não usa Red Green Blue, ela usa Ciano, Magenta, Amarelo e preto;
+		HSV: Hue, Saturaion and Value
+		LAB: seilagarai
+	Nele também há todo aquele lance de Complementar, Análoga, Monocromática e etc... Além de te dar o código de todas as cores.
+	
+	Vamos supor que o seu cliente tem uma loga pronta e ele quer utilizar as cores da sua logo no site dele... O Adobe pode extrair a paleta de cores da logo dele na opção "extrair cores". Você pode também criar uma degradê em "Extrair Gradiente", além de ter opções de personalização em cada opção. No menu em cima, há a opção de "Explorar", onde os próprios usuários criam suas paletas e as compartilham na plataforma...
+
+2 - paletton.com - Esse	por algum motivo não é funcional para mim... 
+2.1 - https://colorschemedesigner.com/
+	Parecido ao Paletton.com. Ele dá inclusive um exemplo de site com a paleta que você escolheu.
+3 - https://coolors.co/
+		Esse é meio pra quem ta perdido... Você entra lá, te mostra 5 paletas aleatórias, você vai apertando espaço e vai aleatorizando. Você marca uma com o cadeado que você gostou... vai aleatorizazndo até achar o que gosta... enfim.
+
+O adobe é o mais completo desses.

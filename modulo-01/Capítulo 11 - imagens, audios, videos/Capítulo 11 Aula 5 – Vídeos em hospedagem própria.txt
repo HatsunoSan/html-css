@@ -1,0 +1,15 @@
+Cara mesma coisa que colocar o áudio taligado?
+põe a tag video, o que o vscode colocar a mais tu deleta.
+aí tu coloca o source src. Se o vídeo ficar grande demais, tu pode colocar o parâmetro width="500" e diminuir ou aumentar a partir daí (lembre-se que isso NÃO diminui o tamanho dele. Atente-se) 
+Se tiver só a imagem estática, tu pode por controls ou autoplay.
+
+As vezes o vídeo pode estar pausado em um frame feio. Você pode adicionar também o parâmetro  poster="caminho" e indicar uma thumbnail caso você tenha.
+
+Vamos falar de hospedagem e consumo.
+Vamos supor que o cliente QUER OS VÍDEOS HOSPEDADOS NO SITE DELE.
+No exemplo do professor, o menor vídeo dele, teve um tamanho de 11mb e pouquinho. Vamos supor que 1000 pessoas acessaram o site do cliente naquele dia: FORAM 11GB DE DOWNLOAD. Isso numa hospedagem de site sai caro. E isso SÓ o vídeo. Imagine todo o resto do conteúdo: Fotos, áudios...
+O cliente TEM que estar ciente, você TEM que explicar isso pra ele.
+
+Mas calme, pro próximo vídeo, há uma dica valiosa, e que não vai custar nada pro nosso cliente.
+
+

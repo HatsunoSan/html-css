@@ -1,0 +1,33 @@
+Abra seu documento HTML e utilize duas tags:
+<picture>
+	<img>
+	</picture>
+	
+Essa tag <picture> "parece" uma imagem, tanto que ela tem uma tag <img> dentro
+mas ela permite que você crie vários sources, várias fontes.
+
+A gente tem que prestar atenção com o tamanho das imagens. ALÉM dela ser muito maior do que o que tem que ser, isso pode fazer com que a imagem seja tão grande que o usuário tenha até mesmo que rolar a tela pros lados. E o usuário NUNCA gosta disso.
+Eu particularmente odeio quando vejo um site que tem isso, logo saio.
+Outros tambem fazem isso. Com o usuário saindo logo em seguida que entra, acontece uma coisa chamada "bouncing rate". Pode-ser imaginar um ricochete. Um tiro pode ricochetear na parede e voltar. O usuário entra na página, ve que ela desliza pro lado, e sai logo em seguida, daí vem o "bouncing".
+Bouncing Rate é quando o google se liga nesse ricochete e passa a desvalozirar o seu site e para de indicar seu site para as pessoas.
+
+Okay, voltando à tag <picture>:
+Ela permite várias fontes de imagens, e nela é possível fazer com que, dependendo da resolução da página do dispositivo atual, ela carrega uma imagem de tamanho diferente. Então, se você acessar no computador, carregará uma imagem grande. Aí você acessa no tablet, carregará uma imagem de tamanho média. E se for um celular, carregará uma imagem pequena. OU se você simplesmente ficar aumentando e diminuindo a resolução da página no computador, ela ficará trocando de pequeno pra medio, e do medio pro grande, de acordo com a resolução.
+E como fazer isso?
+
+Assim:
+
+<picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+		
+		<!--
+		Esse max-width: 750px é o MÁXIMO de resolução que terá até alterar a imagem pra uma resolução maior/menor. 
+		Ou seja, até 750px é a imagem pequena. Acima disso, vamos para a próxima source. Acima dela, a imagem padrão.
+		Deixe sempre com uma folguinha de 50px pra não aparecer a barra lateral na página.
+		-->
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="imagem flexível">
+    </picture>
+</body>
+
+Mas se liga, o código vai carregar de cima pra baixo. Ou seja: Primeiro ele vai tentar carregar a imagem de 300x300. Se não conseguir, vai tentar a de 700x700. Se não conseguir, a de 1000x1000

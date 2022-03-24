@@ -1,0 +1,110 @@
+Primeiramente, vamos de algo estranho mas que é bom indo se acostumar:
+
+Hoje vamos aprende a diferença sobre A HTML, As CSS e o Javascript.
+Sim, as frase é exatamente essa. Não se preocupe, você pode falar como quiser.
+
+Explicando, HTML, tecnicamente, é representado no feminino, pois falamos "A linguagem HTML". E, CSS, é representado no feminino-plura, pois é "As folhas de estilo".
+
+Como eu disse, você pode falar como quiser, mas não ache estranho quando falarem como na linha 1.
+
+Outra dúvida que muita gente tem:
+"Eu programa em HTML e CSS". Você NÃO PODE, tecnicamente, falar que programa em HTML e CSS, pois ambas NÃO SÃO linguagens de programação.
+
+O certo é "Eu DESENVOLVO em HTML e CSS".
+
+HTML é uma linguagem, mas não é uma linguagem de programação.
+CSS é uma linguagem, mas não é uma linguagem de programação.
+Então, em ambas você desenvolve, não programa.
+
+HTML = HyperText Markup Language = Linguagem de Maração de Hypertexto.
+	HyperText é aquele texto azul que tu clica e vai pra uma página, ou site. Mas pode ser uma imagem também, ou enfim, você clica em uma área e é redirecionada a outra.
+	Markup é de MARCAS. HTML é fundamentada em MARCAS, ela não é uma linguagem com as estruturas que uma linguagem de programação tem. Variável, Condição, Repetição, Vetores, Objetos, Acesso a banco de dados. HTML não tem nada disso. HTML é Uma LINGUAGEM DE MARCAÇÃO DE HYPERTEXTO.
+CSS = Cascading Style Sheets = Folhas de Estilo em Cascata.
+	
+A Linguagem HTML é uma linguagem focada em CONTEÚDO!
+	Textos, Imagens, Vídeos, Tabelas
+	
+A Linguagem CSS é uma linguagem focada em DESIGN!
+	Cores, Scombras, Tamanhos, Posicionamento
+	
+Javascript é uma LINGUAGEM DE PROGRAMAÇÃO! E (nos sites pelo menos) seu foco é em INTERAÇÃO!
+	Menus
+	Animações
+	Popups
+	Validações
+	
+Acesse a imagem "Conjunto Primordial de Construção de Sites" na pasta do curso.
+
+===========================CONTEÚDO EM HTML=============================
+O HTML é uma linguagem com foco em MARCAÇÃO, em TAGS.
+
+Vamos ao exemplo:
+	Exemplo de Título
+	Exemplo de Parágrago
+"Exemplo de Título" é o que chamamos no HTML de conteúdo, só que para transformar em título, temos que usar uma tag específiac.
+Tags em HTML são coisas colocadas entre os sinais de maior e menor, ou o que chamamos de colchete angular.
+por ex:
+	<h1>Exemplo de título</h1>
+"<h1>" é a ABERTURA de TAG. O que estiver entre tags é o CONTEÚDO. E terminamos com o fechamento de tag: "</h1>"
+
+Mesma coisa para parágrafo, há uma tag específica.
+ex:
+	<p>Exemplo de parágrafo</p>
+	
+Há mascações mais complexas também, como:
+	<img src"foto.png" alt="Exemplo de foto">
+Traduz caralho
+se ligs:
+	"<img" é a abertura de tag. Nesse caso, não tem um "</img>". A grande maioria das tags tem, mas há algumas exceções, como essa.
+	"src=" e "alt=" é o que chamamos de Parâmetro. "src" Vem de source, origem. Alt, vem de alternativo. Isto é: Se eu não conseguir mostrar a imagem de alguma maneira, aparecerá: "Exemplo de foto".
+	"foto.png" e "Exemplo de foto" é o que a gente chama de Valor.
+É possível ter parâmetro e valor em ambos os títulos e parágrafos também, mas é menos usual, menos comum.
+
+============================Estilo emCSS================================
+Como montar um estilo CSS?
+Geralmente ele ta numa TAG "<style></style>" de HTML mas ele utiliza seletores de CSS.
+
+Se eu quero personalizar de alguma forma o título, eu farei assim:
+<style>
+	h1 {		<!--Esse "h1" é o que chamamos de seletor.-->
+	
+	font-family: Arial;
+	font-size: 20pt;
+	color: blue;
+	<!--
+	Dentro do seletor nós escrevemos declarações, que são essas linhas aí. Essas 3 linhas específicas mudam a fonte, o tamanho da fonte e a cor dela. Ou seja, o título tera a cor azul, uma fonte diferente do padrão e um tamanho diferente do tamanho padrão de um título.
+	Outra coisa, TODA DECLARÃO TEM QUE TER UM ";" NO FINAL. TODA. SEM EXCEÇÃO É obrigatório.
+	-->
+	}
+</style>
+
+"font-family", "font-size" e "color" são propriedades.
+"Arial", "20pt", e "blue" são valores.
+
+Essa é a anatomia das CSS.
+CSS tem seletores, dentro dos seletores temos declarações, e cada declarão é um par de PROPRIEDADE E VALORES.
+
+===============ESTRUTURA BÁSICA DE DOCUMENTO HTML=======================
+Vou desenvolver um site em HTML5. Para eu dizer isso para o meu navegador, temos esse comando:
+
+<!DOCTYPE html>		<!--É uma tag específica de config para dizer que é HTML5 -->
+<html lang="pt-br"> <!-- Estou dizendo que o conteúdo do site vai ser primordialmente de linguagem x. Se tiver coisas de outro idioma em área tal, há uma maneira de especificar. Mas isso lá na frente. -->
+	<head> <!-- Todo HTML tem duas áreas bem definidas e fundamentais, no caso head e body. Perceba que eles ficam PARA DENTRO. A head é a área de configurações. O body é o corpo-->
+		<meta charset="UTF-8">		<!--Essa linha significa que meu site vai ser compatível com caracteres de UTF-8.-->
+		<meta name="viewport"
+		content="width=device-width,
+		initial-scale=1.0">			<!--Basicamente, vai fazer o site ocupar TODA A ÁREA BRANCA.-->
+		<title>Document</title>		<!--Vai fazer o nome do site aparecer na aba do navegador.-->
+	<head>
+	<body>
+		<h1>Olá, Mundo!</h1>
+		
+	<body>
+</html>
+
+ESSA é a estrutura BÁSICA de todo HTML.
+
+====================Como Funcionam a HTML e as CSS?=====================
+Você vai digitar URL la no cliente, vai acessar o DNS, o DNS vai retornar o IP, aí vai lá pro servidor, e o servidor vai te devolver uma cópia do HTML e do CSS e esse HTML e CSS vai poder ser analisado pelo seu navegador, que vai transformar aquelas linhas de códigos em algo visual.
+
+

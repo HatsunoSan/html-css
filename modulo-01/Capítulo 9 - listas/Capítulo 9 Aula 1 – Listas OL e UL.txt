@@ -1,0 +1,41 @@
+Nesse capítulo iremos trabalhar com listas!
+Imagina que você iniciou o seu dia e você tem um monte de tarefas para fazer, e para não se perder, você quer organizar elas em listas.
+Aí você começa
+
+
+Aí você lembra que tem que ligar logo em seguida que acordar pro João, aí você volta
+
+1 - acordar e escovar os dentes
+2 - Ligar pro João
+2 - tomar café...
+
+E sua lista ja desandou. Tem uma coisa no HTML chamada Ordered Lista, ou Lista Ordenada, cujo a tag é <ol>
+
+Mas tem mais uma coisa, além do <ol>, dentro dele você tem que criar mais uma tag: o <li>, provavelmente de list.
+
+Como ficaria?
+
+<ol>
+	<li>Acordar
+	<li>Ligar para o João
+	<li>Escovar os dentes
+</ol>
+
+Perceba que não tem numeração, mas no seu site terá. Então não é necessário você enumerar, pois já estará enumerado no seu site. Isso facilita caso você precise adicionar ou remover algum item, pois não terá que mudar o número de todos os itens da lista. A tag fará automaticamente.
+
+É possível personalizar elas com parâmetros:
+<ol type="1" start="4">
+Nesse caso aí, é uma lista enumerada, que começa do 4 e vai subindo. Mas esse é um dos parâmetros, há outros também que fazem outras coisas ou são tipos diferentes de listas.
+
+type 1 = enumeradas
+type a = alfabética minusculo
+type A = alfabetica maiuscula
+type i = romano minusculo
+type I = romano maiúsculo
+
+Há também as não ordenadas, nesse caso em vez de ol usasse ul
+e seus parâmetros, e como não sao enumerados, têm apenas algo indicando que é um novo item da lista.
+<ul type="square">
+type square = quadrado
+type disc	= disco
+type circle = círculo

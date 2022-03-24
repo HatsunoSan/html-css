@@ -1,0 +1,24 @@
+Basicamente, vamos incorporar vídeos externos. Sabe, como os do youtube? Então.
+Se o cliente tiver vídeos próprios que ele queira hospedar em seu site, diga para ele criar um canal no YouTube e Upá-los. Assim, só será necessário incorporar o vídeo. E não é nenhum bicho de 7 cabeças isso, só entrar no vídeo dele > compartilhar > incorporar.
+Lá já terá o código html pronto, cole no seu arquivo e edite como quiser.
+Dessa forma, estará consumindo os dados de hospedagem do YOUTUBE, e não do seu cliente.
+
+MAS NOVAMENTE, NUNCA É DEMAIS FALAR SOBRE DIREITOS AUTORAIS! Cuidado na hora de colocar um vídeo no site que você está construindo pro seu cliente. ASSEGURE-SE de ser um vídeo próprio do cliente OU sem direitos autorais.
+
+Mas as vezes o seu cliente quer que o vídeo seja EXCLUSIVO do site. Se estiver no YouTube, o vídeo É ALCANÇÁVEL, público. Se é público, não é exclusivo.
+Há sites que contornam isso. Permitem você hospedar o vídeo e limitar que somente os assinantes possam ver. O serviço que o Guanabra usa no Estudonauta, a plataforma paga de cursos exclusivos para assinantes, é o Vimeo. Ele é como o YouTube, mas você pode privar ele ou não.
+Ele é pago de certa forma. Na data da aula do professor, o serviço que ele escolheu é o Business, de 50 dólares por mês, mas cobrado ANUAL.
+
+O Vimeo tem algumas vantagens e desvantagens:
+A principal vantagem, é na qualidade de vídeo, que é sensacional
+MAS tem uma grande desvantagem, o algoritmo dele não é tão bom quanto o do YouTube. Tem uma qualidade excelente, mas um codec não muito bom, então pode ser que ele dê umas travadinhas em uma internet não muito boa.
+No Vimeo também é possível personalizar mais algumas coisas. Como se aparecerá algumas informações sobre quem upou o vídeo nele, cor de texto, entre outras informações, altura e largura... Enfim.
+
+E quanto à escolha entre um ou outro?
+Bom aí talvez isso vá do seu cliente.
+As vezes quando utilizamos o YouTube e o pausamos, aparece outros vídeos. Aí imagina aparecer o vídeo da concorrência... vish.
+MAS, o consumo é ilimitado, sem aquele lance de exclusividade.
+
+O Vimeo não tem isso, além de talvez parecer que seja mais fluido. Mas se você não tiver uma conexão muito boa... bem...
+Talvez com o Vimeo você também tenha que fazer uma assinatura, caso seu vídeo seja assistido muitas vezes também. E caso você queira que seu vídeo seja EXCLUSIVO do seu site, você pode ter isso. NINGUÉM além daqueles que estiverem no seu site (e talvez, sejam assinantes), terá acesso aos seus vídeos que você upou no Vimeo e incorporou no seu site.
+

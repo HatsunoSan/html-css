@@ -1,0 +1,44 @@
+Existe a forma ERRADA, em DESUSO de utilizar as CSS:
+
+<body bgcolor="purple">
+<p><font color="white">Oi"</font></p>
+
+quando você faz dessa forma, além de ser bem meio merda de fazer, o próprio VSCode marca em vermelho que isso é antigo, e que a qualquer momento pode parar de funcionar. Imagina decidirem que isso não é mais funcional no dia que tu terminou o site do seu cliente ?
+Vai ter que refazer tudo.
+Tudo o que o VSCode marcar com vermelho-sangue, está em desuso. Então, EVITE DE TODAS AS FORMAS POSSÍVEIS! "a mas meu professor da faculdade faz assim" pois diga a ele que ele se atualize. Mas não aprenda de jeito merda.
+
+HTML é focado em semâtica, em conteúdo. Em fazer o conteúdo fazer sentido.
+E o CSS é transformar o conteúdo em algo agradável aos olhos. Focado em Estilo.
+
+As CSS podem ser aplicadas de 3 formas:
+A primeira forma é o estilo Inline, o mais fraquinho de todos, menos recomendado, mas temos que começar de alguma forma, certo?
+
+Da seguinte forma:
+
+<body style="background-color: aquamarine; font-family: Arial;">
+<h1 style="color; blue;">
+
+Dessa forma só é interessante fazer se for em um lugar ou outro perdido.
+Imagina que você tem que colocar isso em 50 h1 diferentes? Pois é.
+É importante que você estilize de forma que seja AGRADÁVEL.
+Que seja um site realmente estiloso e que seja até legal de ver.
+Um site feito espanda visitantes.
+
+Esse estilo Inline inclusive acaba ficando confuso no próprio código, ou até mesmo poluído.
+
+Dessa forma, você acaba colocando coisas de ESTILO no seu CONTEÚDO.
+O CERTO, O IDEAL, é separar o CONTEÚDO do ESTILO.
+
+Uma parte é HTML.
+
+Outra parte é CSS
+
+Outra parte é Javascript
+
+Pior ainda se o cliente quiser alegorar o site em época de natal por exemplo, e você tiver que alterar C A D A  P Á G I N A do site dele.
+
+Linha.
+Por.
+Linha.
+
+Só... Não utilize. Utilize outros estilos.

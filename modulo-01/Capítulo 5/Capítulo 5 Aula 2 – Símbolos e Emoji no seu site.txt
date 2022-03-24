@@ -1,0 +1,12 @@
+Se você precisar de algum espaço entre uma linha e outra (não estou querendo dizer uma quebra de linha), NÃO utilize vários "<br>". Isso é coisa de NOOB! Mais pra frente será ensinado como fazer em CSS.
+
+Não esqueça de utilizar comentários em HTML e CSS, além do Javascript mais pra frente.
+
+<!--xyz--> = html
+/*xyz*/	   = css
+//		   = javascript
+
+Na pasta desse arquivo que você abriu há uma tabela com códigos de alguns simbolos e como você pode adicionar no seu site. 
+
+Mas pra resumir, o código de todo emoji começa assim: "&#x123" e termina com 123, onde 123 é o código do emoji que você encontra na "emojipedia.org"
+obs: "#x" hexadecimal

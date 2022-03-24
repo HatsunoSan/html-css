@@ -1,0 +1,18 @@
+Agora falaremos sobre download!
+Criaremos links para efetuar download.
+O professor diz que é super simples de parecer bobo, vamos ver.
+E realmente é!
+
+É o mesmo lance de colocar na pasta do exercício, ctrl + space pra abrir o popup de seleção de arquivo no vscode.=, com a diferença QUE dependendo do arquivo, há um parâmetro. Como assim?
+Dessa forma: 
+
+ <ul>
+        <li><a href="livro/cap10 teste de download.pdf" download="pdftest.pdf" type="application/pdf">Baixar o livro em PDF</a></li>
+        <li><a href="livro/cap10 teste de download.zip" download="ziptest.zip" type="application/zip">Livro compactado em ZIP</a></li>
+    </ul>
+	
+ignore as listas, eh so pra ficar bonitinho.
+
+Como para cada arquivo há um parâmetro, há um site que mostra quais parâmetros para quais arquivos. Segue o link: https://www.iana.org/assignments/media-types/media-types.xhtml
+
+

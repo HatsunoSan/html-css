@@ -1,0 +1,79 @@
+O que é responsividade? 
+
+Responsividade é um conceito simples: Adaptar o tamanho e o conteúdo de seu site ao tamanho de telas diferentes.
+
+Quando você abre um vídeo ou um site, em um computador, você tem uma tela bem maior. 
+
+E no celular quando você vai consumir informações, texto, você deixa a tela em pé. Quando você vai consumir vídeo, você deita o celular.
+
+Você precisa adaptar seu conteúdo a esse tipo de variação: O seu site vai responder, se adaptar, ao tamanho de tela do usuário.
+
+Essa é a ideia principal da responsividade.
+
+Um dos recursos mais simples é adaptar o tamanho maximo ou minimo.
+
+Nós mantemos o ideal como 1200px de largura. Acima de 1200px de largura, a gente cria um bloco que é adaptável, mas que não seja muito largo.
+
+No meu caso, olhando para 1000px, eu achei uma largura ok. Uma largura menor que eu também achei ok foi 820px ou 821px, que foi o limite para não se ter uma rolagem horizontal. Menos que isso começa a vazar a imagem.
+
+Vamos relembrar sobre largura máxima e largura mínima que olhamos láááá atrás.
+
+Antigamente, criávamos dois sites: um para dispositivos móveis e outro para dispositivos grandes, o que não é muito legal. Muita linha de código desnecessária. Mais coisa pro navegador ler. Enfim. Não é legal.
+
+Vamos testar a responsividade:
+
+Coloque uma imagem dentro de um main, e entre dois lorems enormes e fique brincando com a largura do site. Perceba que ambos a imagem e o texto em uma determinada largura diminuta, passam a fazer com que seja necessário uma rolagem lateral.
+
+Agora faça o seguinte: crie um estilo com o body tendo o background cinza e o main com o background branco, padding 20px e border-radius 10px, e vamos dizer que a largura perfeita pro CONTEÚDO do nosso site, seja 800px, então, meta um "width: 800px;" nesse main.
+
+Veja a imagem "Representação de Blocos" na pasta.
+O body do nosso site é cinza, o main é branco.
+
+Perceba que apesar de diminuirmos a largura do bloco principal onde está o conteúdo do site, ele não centralizou. Podemos resolver isso com um "margin: auto;". Nada que a gente já não soubesse. Mas ainda que façamos isso, o conteúdo não se adapta a tela. 
+
+apague então o width: 800px;
+E vamos trabalhar com min e max width.
+Nesse caso, um min-wdith de 300px e um max de 1000 ficou legal.
+
+Agora, o conteúdo se adapta às telasm mas a imagem não.
+
+Podemos "resolver" isso na CSS. Como?
+
+img {
+	width: 100%;
+}
+
+isso fará com que a imagem ocupe 100% da largura sempre.
+
+Mas como eu disse, isso apenas "resolve".
+
+O que a gente pode fazer é meter a imagem dentro de uma tag <picture> para podermos alterar como ela se comportará.
+
+Fazendo isso, em seguida a gente irá trabalhar com duas imagens: A que a gente já trabalha, e uma outra adaptada para telas menores, mantendo o nosso foco mais em evidência, removendo as partes menos importantes da imagem. Por sorte, o professor já deixou essa parte da imagem menor pronta, então basta a usarmos.
+
+Usaremos então o seguinte código: 
+
+<source media="(min-width: )" srcset="">
+
+Basta escrever source que o VSCode ja deverá nos ajudar com o código.
+
+
+Primeiramente, alterarmos o min para max. e no srcset, colocaremos o caminho da imagem MENOR. Infelizmente o ctrl+space nesta parte não funciona.
+
+Agora, no max-width:, veja qual é a largura ideal de tela para o site alterar a imagem e ficar melhor encaixada no conteúdo.
+
+
+Ainda assim, não resolve 100%. Isso a gente verá lá na frente com Media Query. Até o próximo vídeo!
+
+
+
+As vezes, é necessário centralizar uma imagem, ou diminuir ela caso não tenhamos à disposição uma em resolução menor.
+
+Bom, margin: auto nesse caso não nos ajuda, pois só funciona em blocos, e a tag img per se não é considerado um bloco.
+Nesse caso, usamos de display: block
+
+Aí sim, o margin: auto; funcionará.
+
+Agora no caso de diminuir a imagem, damos um id àquela imagem, e usamos o comando width: 50%;
+Isso fará com que independente da largura do bloco, a imagem sempre tenha 50% de seu tamanho, e vá diminuindo conforme a largura do bloco.
+

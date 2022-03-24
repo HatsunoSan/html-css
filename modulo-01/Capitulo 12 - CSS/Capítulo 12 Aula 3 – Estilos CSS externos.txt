@@ -1,0 +1,49 @@
+Agora, a maneira mais versátil (e favorita) do Guanabara:
+
+Estilo CSS Externo!
+
+Um estilo externo é quando utilizamos um OUTRO arquivo para modificar o estilo da página!
+
+Mas façamos o seguinte... Crie um parágrafo que leve a uma outra página (SEM criar o arquivo antes, vem um macetinho na frente)
+
+Óbvio que quando você clicar, você não vai conseguir abrir a "pagina02.html", pois ela não existe.
+
+Mas para fazer ela existir sem clicar la em cima em criar novo arquivo, simplesmente segurel ctrl e clique nela, e voillá!
+
+Agora, copie todo o conteúdo do style (sem copiar o style) e aperte ctrl + x
+
+apague toda a tag, e escreva "link" e escolha no popup a opção css.
+E crie o arquivo CSS
+
+Agora uma coisa...
+
+As vezes o CSS pode dar problema com acentuação. Para resolver isso, na primeira linha escreva " @charset "UTF-8"; ". Assim força o formato de escrita. Manja? 
+
+Isso é uma regra. Tudo que começar com um "@", é uma regra.
+
+enfim.
+
+Como funciona esse CSS em outro arquivo?
+
+É mais ou menos parecido com o lance das imagens. Você pode puxar uma imagem pra página, certo?
+Bem, você puxou um CSS pra página.
+
+E você pode puxar o mesmo CSS para diversas páginas, e inclusive especificar qual página você quer alterar, tudo em um mesmo arquivo. Sendo assim, todas as páginas podem ser diferentes umas das outras.
+Você pode inclusive usar mais de um link de CSS caso você queira algo mais específica e queira deixas destacado! Os estilos se somam!
+
+Dá inclusive em um mesmo arquivo html, usar CSS Inline, CSS Interno e CSS Externo!
+Mas eles têm meio que uma... Hierarquia?
+
+Você pode ter alterado tudo com o CSS Externo pá e tudo mais...
+Mas se utilizar o CSS Interno em alguma alteração do Externo, o Interno vai substituir e vai passar a valer. 
+Se você utilizar o Inline em uma alteração do Interno, o Inline vai substituir e passar a valer.
+
+Enfim, é isto.
+
+Mas nunca é demais repetir: 
+
+EVITE USAR O INLINE A TODO CUSTO!
+
+Só utilize o Interno para estilos pequenos.
+
+O Externo você pode usar sem moderação.

@@ -1,0 +1,11 @@
+Não importa como você quebre a linha no vscode. Não vai quebrar a linha no site. 
+Você precisa utilizar uma tag que quebre a linha, e ela é a "<br>", ou breakroll
+Não é possível utilizar os sinais de tag, porque o vscode VAI ENTENDER COMO TAG
+e vai executar a ação daquela tag. É preciso utilizar &lt; &gt;
+lt é less than e gt é greater than
+É possível escrever diversos simbolos, como símbolos de dinheiro de diversos países
+Na pasta de anotações há um tabela com os símbolos.
+Inclusive é possível utilizar emojis: procure no emojipedia.org,
+então voce entra no emoji que voce quer, desce até achar algo assim: U+1F596
+do + pra trás você ignora, e copia só o da frente. vai no VSCode, e cole assim:
+"&#x1F596;", e voillá

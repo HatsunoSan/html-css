@@ -1,0 +1,46 @@
+Mais sobre formatações:
+
+Existe uma outra tag, que é idêntica a um marca texto. é a Tag "<mark>"
+
+Ela deixará o texto que você quiser... Marcado em amarelo. Exatamente como um marca texto.
+Mas e caso a minha página ser clara demais e não contrastar com o amarelo? 
+
+Você pode usar o CSS pra isso. Como?
+<mark style="background-color: purple;">xyz</mark>
+
+Dessa forma, você muda de UMA MARCA ESPECÍFICA!
+
+Se precisar mudar as marcas de uma página inteira, não pode ser dessa forma acima.
+Tem que ser da seguinte:
+
+Logo abaixo de <title>
+<style>
+	mark {
+	background-color: purple;
+}
+</style>
+
+E pronto, DAQUELA PÁGINA, todos os textos marcados estarão com o fundo do texto roxo. Ou da cor que você quiser.
+
+MAS, se você especificar dentro de uma tag mark uma cor, mesmo que você use a tag style pra alterar TODAS da página, as daquela tag que você especificou permanecerão com as cores especificadas.
+
+você também pode aumentar ou diminuir o tamanho de um texto usando as tags big e small
+
+mas cuidado, que a tag big está obsoleta, então não é recomendada
+
+Há também a tag <del> que serve para indicar que o texto deve ser lido, mas não considerado
+
+A tag <ins> para dar ênfase e indicar que o texto foi adicionado depois.
+
+Existe também a tag sup e sub.
+
+Por exemplo: 
+x^20+3	x Elevado a 20, o 20 deveria estar na parte superior
+H2O		o Número 2 deveria estar um pouco abaixo do H
+
+para isso usamos <sup> e <sub> respectivamente, ficando entao:
+
+x<sup>20</sup>+3
+	*infelizmente não é possível demonstrar no notepad.
+H<sub>2</sub>O
+	*infelizmente não é possível demonstrar no notepad.

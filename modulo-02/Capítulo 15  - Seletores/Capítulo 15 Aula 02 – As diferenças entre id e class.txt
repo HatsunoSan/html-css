@@ -1,0 +1,32 @@
+BOM, diferenças entre id e class, certo?
+
+Dentro de um mesmo documento HTML, SÓ SE PODE TER UM ELEMENTO COM ID! A regra do W3C diz, dentro de um mesmo documento HTML, SÓ SE PODE TER UM ELEMENTO COM ID! Se alguém diz o contrário, TÁ ERRADO!
+Deixe eu dar um exemplo...
+o id="principal"... Se eu já usei id="principal" em um h1, eu não posso usar id="principal" em outro. Funciona? Sim, MAS NÃO É O CORRETO!
+
+FUNCIONAR =/= CERTO
+
+A maneira correta de fazer isso, é utilizando o class.
+
+resumindo: ID É ÚNICO! CLASS PODE SER MÚLTIPLO!
+
+Outra coisa, não dê nome dos id's ou das class's de acordo com a forma, e sim de acordo com a função.
+
+Por exemplo, o h1 é título e eu quero ele verde... NÃO DÊ O ID DELE COMO id="verde"
+Esse h1 verde, esse título verde, é o título principal? Então dê o nome de PRINCIPAL, como demos.
+
+Não é comum, também, colocar, por exemplo, " 'h2'.basico ". Normalmente com class só utilizamos ".basico".
+
+Com o class, podemos fazer com que parte específicas do texto tenham a mesma configuração que o subtítulo. Envelopa alguma parte de lorem, shift + * (foi como configurei, mas vc pode utilizar ctrl~ou é alt?~ + shift + p), escreva span e dê enter. 
+O span na verdade não faz nada, mas é útil se quiser usar ele com outras coisas, como por exemplo, o class!
+
+
+Podemos criar uma configuração de class chamada class="destaque", e aí se nós quisermos destacar alguma coisa de forma bemmmm específica no texto, a configuração está lá pronta previamente para ser utilizada.
+
+É possível também aplicar mais de uma classe em um elemento. Por exemplo, em uma classe só se alterar a cor de fundo, em outra só se altera a letra, posso colocar as duas da seguinte forma:
+class="basico destaque"
+
+Mesma coisa com id e classe:
+<h1 id="principal" class="destaque">
+
+No próximo vídeo falaremos sob pseudoclasses e pseudoelementos

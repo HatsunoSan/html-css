@@ -1,0 +1,15 @@
+Vamos falar sobre direito autorais de imagens!
+
+Não é correto pegar imagens da internet e usar em seu site como se fossem suas!
+Utilizar imagens do google em seus estudos, em seus sites de exemplo, em suas práticas, não dará qualquer problema, realmente. Mas a partir do momento que você trabalhar com clientes, aí que mora o perigo. É bom que desde já você comece a criar o hábito de utilizar bancos de imagens gratuitas, pra não acontecer de quando você fazer algo profissional, você automaticamente procure e utilize uma imagem do google no site dele. Isso dará problema pro seu cliente, e principalmente para você.
+
+Banco de imagens favoritos do professor são: Unsplash, Pexels
+e tem muitos outros sites no documento em PDF na pasta deste arquivo que você está lendo, mas pra facilitar, eu mesmo abri e tirei print e salvei la. Obrigado Wolly do passado!
+
+Direitos autorais são sérios! Tem que ficar atento e é algo que você PRECISA saber e ter noção.
+
+Outra coisa: Sobre formatos de imagens... Quando for utilizar imagensm opte sempre por imagens JPEG em relação a PNG. Use PNG apenas quando precisar de uma imagem transparente. Isso porque o PNG permite isso, tem lá sua tecnologia de compactação, mas em relação a compactação, JPEG é muito melhor.
+
+Isso é necessário porque caso seu site esteja MUITO pesado, ele simplesmente não aparecerá nas pesquisas do google.
+
+E outra, se você PRECISAR de uma imagem de tamanho x por y, GERE UM ARQUIVO COM ESSE TAMANHO! Não utilize códigos para diminuir o tamanho dele, pois o servidor enviará o arquivo que o cliente solicitar, e só então seu tamanho será redimensionado. (ou seja o peso do arquivo vai permanecer o mesmo, embora a largura e altura dele não). Portanto, GERE UM ARQUIVO X POR Y QUE VOCÊ PRECISA!

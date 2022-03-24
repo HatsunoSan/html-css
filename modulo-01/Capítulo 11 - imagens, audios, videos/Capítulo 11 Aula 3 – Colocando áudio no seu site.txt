@@ -1,0 +1,65 @@
+ÁUDIOS EM SITE!
+
+O mesmo com imagens: CUIDADO COM DIREITOS AUTORAIS! Existem sites (inclusive o youtube) que contém mídias que precisam (ou não) de autorização/atribuição.
+Com atribuição necessária, ALÉM DE CONSEGUIR POR O ÁUDIO NO SEU SITE, você talvez precisa colocar algo que o autor escreveu lá.
+
+BOM! Existem duas maneiras de por áudio no seu site. A maneira é a mais simples, mas que tem menor compatibilidade entre navegadores.
+
+simplesmente use a tag <audio>, escolha o arquivo no source e adicione o parâmetro autoplay. Ficará assim: 
+
+<audio src="midia/Doctor-Momentum-Slynk.mp3" autoplay></audio>
+
+***************outra coisa, REMOVA ESPAÇOS, REMOVA ACENTUAÇÕES. Facilite as coisas para você mesmo************
+
+No vídeo do professor, por algum motivo o "autoplay" não funcionou. Caso isso aconteça, antes do autoplay adicione o parâmetro "controls", ficando assim "controls autoplay"
+
+Aparecerá um player de áudio onde o usuário escolhe dar play, vê a duração, controle o volume e velocidade de reprodução além de conseguir baixar o áudio.
+
+E de novo, assim como foi com direitos autorais, cuidado também com o tamanho do arquivo. Lembre-se, o Google não é muito chegado a sites pesados.
+
+MAIS UMA COISA!!!!
+Tem muito navegador que não tem muita compatibilidade INCLUSIVE COM MP3!!!!!
+Temos o formato MP3, WAV e OGG. MAS EVITE O FORMATO WAV!!!!
+o formato WAV é o de MAIOR QUALIDADE! Utilize apenas se for para que o usuário baixe, e SE o intuito for mostrar algo realmente de qualidade, e não algo apenas para contextualizar caso o navegador tenha qualquer incompatibilidade com áudios. Por exemplo: Um áudio que é importante pro contexto do seu site, você deixe disponivel para baixar em .mp3 ou .ogg.
+obs: .ogg é open source
+
+O intuito é dar algo de qualidade pro usuário ouvir? Aí sim, .wav
+
+Então acá vamos a lá segunda maneira:
+
+simplesmente escreve a tag audio e dê enter no que o vscode tentar ajudar, e apague o que tiver entre ela, e dê uma quebra de linha ficando assim:
+<audio>
+
+</audio>
+
+dentro dessa tag, escrevar source, e na ajuda do vscode, escolher src, que estará a linha lá bem configuradinha só te esperando. Ficando assim:
+
+<audio>
+	<source src="" type="">
+</audio>
+
+E então coloque seu arquivo de mídia. No type você pode colocar:
+
+type="audio/mpeg"
+type="audio/ogg"
+type="audio/wav"
+
+E é o mesmo esquema, você pode colocar vários sources:
+
+<audio>
+	<source src="midia/Doctor-Momentum-Slynk.mp3" type="audio/mpeg">
+	<source src="midia/Doctor-Momentum-Slynk.ogg" type="audio/ogg">
+	<source src="midia/Doctor-Momentum-Slynk.wav" type="audio/wav">
+</audio>
+
+E NOVAMENTE, ATENÇÃO À ORDEM!!!
+Ele vai tentar carregar primeiramente a linha de cima, e se não conseguir, vai tentar a linha de baixo.
+
+Tu ainda pode colocar parametros na tag audio. Alguns que vale mencionar:
+
+preload="auto" = Padrão. Se for pra reproduzir sozinho nem precisa desse parâmetro. Esse é perigoso, pois o navegador só vai considerar que o site terminou de carregar quando também terminar de carregar o áudio. Imagine o site do JovemNerd carregar apenas quando o último episódio INTEIRO de Call of Cthulhu terminar de carregar?
+
+preload="metadata" = Vai carregar apenas o nome do arquivo, a data, duração.
+
+preload="none" = Não vai carregar nada, nem mesmo a informação ou o áudio, como no anterior, a não ser que o usuário dê play.
+

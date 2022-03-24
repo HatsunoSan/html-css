@@ -1,0 +1,8 @@
+É uma extensão do Google Chrome. Procure na Chrome Web Store e procure por fonts ninja e instale ela no navegador.
+Já instalou ela, beleza. Agora, de exemplo, vá no site https://www.hostnet.com.br para usar de exemplo.
+Ative a extensão, e passe o mouse por cima das fonts.
+Essa extensão dá muitas informações:
+O tamanho dela, o peso dela, a font obviamente, a cor, espaçamento entre caracteres... Inclusive se a família da font permite variaços como itálica, negrito, e etc.
+Tendo o nome, agora o trabalho dela terminou. E é sua vez de trabalhar buscando ela. As vezes a font é paga, e aí não tem jeito, é necessário pagar por ela se quiser utilizá-la.
+
+No próximo vídeo vamos aprender a identificar fonts dentro de imagens!

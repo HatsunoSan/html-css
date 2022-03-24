@@ -1,0 +1,34 @@
+Agora, como carregar uma imagem no site?
+
+É muito simples
+
+Abra seu VSCode
+
+e no body escreva apenas img e tecle enter que a linha de código irá aparecer assim:
+<img src="" alt="">
+
+Vamos destrinchar ela
+
+"src" significa source, fonte, origem.
+"alt" significa alternativa, o texto que explica melhor essa imagem.
+
+
+ali nas aspas do src voce deve estar pensando: poxa vou ter que escrever o nome do arquivo todo aqui né?
+
+Nop. clica ali no meio das aspas, agora segure CTRL e aperte Espaço. Os arquivos que estiverem dentro da pasta junto do html irão aparecer em uma lista.
+
+Agora e no alt? É mais por acessibilidade. Isso serve para leitores de tela, isso serve como acessibilidade para pessoas com deficiências visuais.
+
+Salve, e agora abra seu html no navegador.
+GIGANTE A IMAGEM CARREGADA NÉ. Isso pesa, e na real, tem REALMENTE NECESSIDADE DE UMA IMAGEM DAQUELE TAMANHO PRAQUELE SITE?
+
+Mesmo que precise de uma imagem grande no site que você fizer pro seu cliente, convenhamos, dá pra diminuir o tamanho dela e economizar no tráfego de banda. Ficará mais profissional e o google não tirará o site das pesquisas.
+
+Voltemos abra
+<img src="" alt="">
+
+*	Se a imagem estiver na mesma pasta, CTRL + Space que abre o menu e tu seleciona
+
+*	Se estiver numa sub-pasta, mesmo lance, mas clique na pasta que aparecerá no menu, e depois na imagem.
+
+*	Também é possível pegar uma imagem de outro servidor. Basta procurar a imagem que você quer, clicar com o botão direito Nela > Copiar Endereço da imagem, e colar entre as aspas do "src". Mas cuidado, se acontecer do servidor de onde você copiou a imagem cair, ela também cairá do seu site.

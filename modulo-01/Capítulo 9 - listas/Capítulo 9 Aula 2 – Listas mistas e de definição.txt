@@ -1,0 +1,39 @@
+Também é possível colocar uma lista dentro de outra lista:
+<h2>Meus jogos favoritos</h2>
+<ol>
+	<li>PS2
+		<ol>
+			<li>shadow of the colossus
+			<li>god of war
+			<li>gta sa
+		</ol>
+	<li>xbox360
+		<ol>
+			<li>red dead redemption
+			<li>halo
+			<li>
+		</ol>
+</ol>
+
+
+e se liga, dá pra por mais listas ainda. Existem vários Halos né? Vários GOW, várias franquias... Só por mais uma lista e dizer qual jogou mais.
+
+E uma dica: utilizando o ALT e clicando em várias linhas, você pode apagar ou escrever em varias linhas ao mesmo tempo
+
+Existe também as listas de definições:
+
+<dl
+	<dt>TERMO</dt>
+	<dd>DESCRIÇÃO</dd>
+</dl>
+
+Ela é bem importante, pois o google dá mais atenção e valor a sites que têm listas de definições.
+
+<dl>
+        <dt>HTML</dt>
+        <dd>Linguagem de marcação para a criação do conteúdo de um site.</dd>
+        <dt>CSS</dt>
+        <dd>Linguagem de marcação para a criação do design de um site.</dd>
+        <dt>Javascript</dt>
+        <dd>Linguagem de programação para a criação de interatividade de um site.</dd>
+    </dl>

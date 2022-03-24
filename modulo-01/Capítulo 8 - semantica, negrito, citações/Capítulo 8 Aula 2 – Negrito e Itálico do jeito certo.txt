@@ -1,0 +1,26 @@
+Vamos falar sobre Formatação!
+
+Há duas maneiras de deixar em negrito, por exemplo.
+Uma forma semântica e não semântica.
+
+<h1>Principais formatações</h1>
+    <h2>Negrito / Destaque</h2>
+    <p>Nessa frase temos um <b>termo em negrito</b> usando a tag B (não semântica)</p>
+    <p>Nesta frase, tenho um <strong>termo em destaque </strong> usando a tag STRONG (semântica)</p>
+    <p>Nesta frase, temos um <i>termo em itálico</i> usando a tag I (não semântica)</p>
+    <p>Nesta frase, temos um <em>termo em ênfase</em> usando a tag EM (semâtica.)</p>
+	
+Repare nos títulos e parágrafos acima.
+
+Existem mais de uma forma de deixar em negrito ou em itálico alguma parte do texto.
+
+Visualmente falando, não há qualquer diferença entre eles, mas para o HTML há.
+
+Se eu quero deixar algo em negrito, é porque eu quero destacar esse algo, certo? a tag <b> até deixa em negrito, mas nas linhas de código ela fica tão ofuscada...
+Em contrapartida, a tag <strong> deixa bem evidente entre as linhas de código o que você queria deixar em destaque no texto do seu site.
+
+Uma dica que eu posso dar, é apertar CTRL + SHIFT + P.
+Caso você digite o texto todo primeiro e não quer passar pelo processo de clicar na frente do texto, digitar uma tag, dar enter, aí apagar onde a tag fecha porque fechou no lugar errado, e aí colocar a parte que falta do final no fim do texto... 
+
+Você simplesmente seleciona, aperta a combinação de teclas, pesquise Wrarp Abrevviation, e tecle enter. AÍ você digita a tag que você quer. Não precisa digitar "<>". apenas o texto da tag. Como por exemplo, "strong", ou "b", ou "i", ou "em", e não "<strong>", que o seu texto selecionado terá a tag antes e depois.
+

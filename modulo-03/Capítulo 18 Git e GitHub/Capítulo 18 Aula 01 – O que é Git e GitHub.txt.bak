@@ -1,0 +1,32 @@
+Cara, parabéns e bem vindo ao Módulo 3 do curso! Vamos passar a falar sobre Git e GitHub.
+
+Vamos começar falando sobre repositório local/remoto de uma maneira superficial.
+
+Vamos falar apenas o estritamente necessário para por o projeto no ar. Git e GitHub são MUITO complexos, quando você tiver mais experiência, procure sobre. Vai agregar MUITO!
+
+==============================REPOSITÓRIO=================================
+
+Um repositório é um local onde você guarda coisas.
+
+Existe repositórios que você vai colocar no seu computador, e existem repositórios em que você irá colocá-lo no ar.
+
+Basicamente a situação é essa aqui: Você fez os 17 capítulos, fez tudo bonitinho, os arquivos, o site, etc. Estão todos salvos numa pasta. Numa pasta de exercícios, numa pasta de HTML no seu computador.
+O capítulo 17 todo foi a apresentação e construção do miniprojeto do site de apresentação, o qual você concluiu e tem os arquivos salvos no seu pc.
+
+Agora vamos criar algumas situações:
+
+Situação 1 - Você fez o site e ta perfect, normalmente um aluno um pouco mais dedicado vai falar assim: hm, vou criar uma segunda versão desse site, vai alterar o site, adicionar coisas, remover coisas, usar técnicanos novas, enfim, vai modificar o site.
+
+Demorou 2 semanas com você brincando com o site. Mudou muita coisa no site, e no final, você não gostou muito, e agora? Cara, se você não fez um backup, uma cópia de segurança, se fudeu. 
+O ideal é que você guarde versões anteriores do projeto. Só que "guardar versões anteriores", você precisa lembrar, precisa ter uma disciplina interna, mental, pra falar: agora cheguei nessa versão, vou criar uma cópia... E em algum momento você vai ter várias cópias do seu projeto. Mas você mesmo ficar organizando, acaba não sendo muito prático.
+ 
+E pra isso, você pode instalar no seu pc um gerenciador de versões. E aí pra cada versão nova, você vai lá e diz: olha, essa é uma nova versão, e aí ele guarda essa versão. 
+
+Você fez o seu site, essa é a versão 1.0. Aí você vira e diz: hm, vo trabalhar agora na versão 1.0, mexe nele, por dias, semanas, chega no resultado final e fala: hm, não gostei. E aí tu vira pro gerenciador de versões e fala pra ele voltar pra versão anterior - E ele volta.
+
+Esse software é muito importante, e vamos instalar ele no próximo vídeo.
+O nome do software que vamos instalar é o GIT.
+
+Ele é um dos softwares que fazem isso. Mas porquê vamos utilizar esse programa?
+
+Primeiramente por ele é gratuito, 100% grátis. Na verdade, ele é um software livre. Tão livre mas tão livre, que ele foi criado pelo criador do Linux. 

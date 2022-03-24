@@ -1,0 +1,39 @@
+LINKS! FINALMENTE!
+
+Basicamente, o fundamento básico do protocolo HTTP,o fundamento básico do HTML, são os links. Toda vez que você acessa um site, quando você clica em um lugar para ir a outro lugar, isso é um link. Esse ponto clicável, chamamos de Âncora, de Hyperlink.
+
+Mas antes de criar um link, vamos falar sobre a importância dele.
+
+Como funciona o Google?
+O Google é um grande ( ou melhor, o maior ) mecanismo de busca, mas também tem um algorítmo de encontrar e indexar sites. Basicamente quando você faz um site, você quer que ele seja encontrável. O Professor por exemplo, quer que quando as pessoas pesquisem "Curso em Vídeo", o site dele apareça. Mas como cadastrar o site no Google?
+
+Você não cadastra cara. O Google vai encontrar você. Mas você tem que fazer um trabalhin pra facilitar essa procura dele. Mais pra frente vamos falar sobre isso.
+E ele é baseado em links, por isso é tão importante.
+
+Agora sim, exercícios!
+
+Primeiramente, vamos falar de links externos.
+Vamos supor que estamos falando sobre dedetização.
+E aí como referência, você wolly fala sobre o site do seu pai.
+
+"Um exemplo de dedetizadora que eu posso te dar, é a Dedetizadora Força da Águia..."
+
+É possível transformar a frase "Dedetizadora Força da Águia" em um link que leve ao site do seu pai da seguinte forma: 
+
+<p>Um exemplo de dedetizadora que eu posso te dar, é a <a href="https://forcadaaguia.com.br/">Dedetizadora Força da Águia</a></p>
+
+"<a href="">TEXTO<a/>" O texto que estiver antes do fechamento da tag, permanecerá lá, mas se tornará um link que levará ao site que você digitou.
+esse "a" é de HyperText anchor, ou âncora.
+
+Agora algo importante:
+Quando você coloca o link externo, o usuário começará uma navegação nova, e aí provavelmente ele nunca mais vai voltar em seu site, pois você sobrepôs o site externo ao seu.
+E aí, o que você pode fazer sobre isso..? Bom, na verdade quase nada, não dá pra forçar o usuário a ficar no seu site pra sempre, e você também não pode fazer um "Google dos sites", e ter todos os conteúdos do mundo pra ele nunca mais sair dele. Então, o que faço?
+
+Utilize os parâmetros " target="_blank" " e " rel="external" "
+
+o " target="_blank" " fará o site abrir em uma nova aba, enquanto o " rel="external" " diz pro seu navegador que é um link externo.
+
+É interessante fazer isso APENAS quando o seu site referencia sites externos.
+
+Ficará da seguinte forma na HTML:
+<p>Você pode acessar o meu <a href="https://gustavoguanabara.github.io/" target="_blank" rel="external">repositório público no GitHub</a></p>

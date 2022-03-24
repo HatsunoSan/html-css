@@ -1,0 +1,14 @@
+Qual o tamanho certo pra um site?
+Cara, 1500 de largura no máximo.
+
+abremos uma imagem enorme no GIMP, e mantenha as proporções da imagem caso o GIMP pergunte.
+
+Agora, vamos clicar na aba Imagem > Redimensionar imagem.
+
+Mantemos o elo entre largura e altura fechado e alterando a largura pra 1500, a altura automaticamente irá ser alterada para se adequar.
+
+Outra coisa que as vezes é alto demais, é a resolução:
+
+as vezes é acima de 100, 150... Cara, 72. Pode colocar sem medo de ser feliz 72, 50...
+
+Mas sempre mantenha o arquivo original também, pois caso o cliente ache que algo não ficou muito legal ou feio, você tem a imagem original para refazê-la, redimensioná-la e etc

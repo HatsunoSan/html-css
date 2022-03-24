@@ -1,0 +1,44 @@
+Estilo CSS Interno:
+
+Esse estilo inclusive vai ser bom pra você ver na prática o que é CONTEÚDO e o que é ESTILO.
+
+É aqui que usamos o <style> debaixo do <title> que o professor apresentou láááá atrás.
+
+Esse estilo fica numa seção diferente do HTML, separadinho, diferente do estilo Inline que era facil de confundir onde o CSS começava e onde terminava.
+
+Ele tem uma seção própria, e ela é assim:
+<style>
+        body {
+            background-color: crimson;
+            font-family: Arial;
+            font-size: 20px;
+        }
+        h1 {
+            color: cyan;
+            background-color: grey;
+        }
+        h2 {
+            color: greenyellow;
+        }
+    </style>
+Esse estilo é interessante, pois você escolhe o que quer alterar, e se por exemplo, temos 70 <h1> ou 70 <p>, todos são alterados.
+
+E se eu tiver dois h1 e quiser só alterar um deles? É possível?
+Sim, mais pra frente o professor irá ensinar sobre class e sobre divs, e aí aprenderemos.
+
+Esse estilo é mais voltado para uma página simples, onde seus estilos não serão aplicados a outros documentos. Para páginas simples, cai dentro e use e abuse desse estilo.
+
+MAS
+essa técnica tem duas grandes desvantagens.
+
+A primeira é simples: Ela incomoda. Não, seu cliente não vai nem sequer vislumbrar o que há por trás, não vai se incomodar. VOCÊ quem vai se incomodar.
+
+Seu código vai parecer ligeiramente mais bagunçado. E GRANDE.
+Geralmente o Estilo ocupa BEM MAIS LINHAS do que o conteúdo. Então pode ser que o arquivo tenha centenas e centenas de linhas e aos seus olhos pareça grande demais, coisa demais pra ler.
+
+
+A outra desvantagem é mais incômoda.
+Se você tiver outras 30 páginas e quiser aplicar o mesmo estilo, taca-lhe ctrl c ctrl v 30 vezes.
+Clientes mudam de ideia muitas vezes. Então imagina um cliente que nunca fica satisfeito (até ficar) e você tiver que ficar alterando 30 páginas o tempo todo. É.
+
+Mas se for uma página única, esse estilo é o suficiente.

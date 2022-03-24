@@ -1,0 +1,19 @@
+HTML 5 hoje em dia foca na semântica, no SIGNIFICADO.
+
+O que isso quer dizer?
+
+Segundo o Dicionário Michaelis...
+"Semântica é o significado dos vocabulários, por oposição à sua forma."
+
+Analisando a frase acima, percebemos que uma palavra pode ter forma e significado, e que a semântica dá mais valor ao significado.
+
+Antigamente no HTML4 você digitava lá o que tu queria e no próprio HTML você já alterava cor da página, cor das letras, se era sublinhado ou não, se era de tal fonte, etc... Nada disso é SIGNIFICADO, e sim FORMA.
+
+Hoje em dia no HTML5 essas coisas ficaram de fora. Estão obsoletas. Mas entenda, ainda é possível fazer, mas não é nenhum pouco recomendado.
+
+Hoje em dia, a FORMA ficou pro CSS, é ele quem fará todas essas coisas e outras mais.
+Ou seja: 
+
+HTML5 = SIGNIFICADO, SEMÂNTICA
+CSS   = FORMA, ESTILO
+Deixe o CSS dar forma ao SIGNIFICADO, e deixe o HTML dar um SIGNIFICADO para FORMA

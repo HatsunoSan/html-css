@@ -1,0 +1,10 @@
+Como sempre cara, direitos autorais. Cuidado
+Os padrões de vídeo mais suportados pelos navegadores, são os formatos: 
+
+.Mp4 ou .M4V
+.WEBM
+.OGV
+
+Assim como nos áudios, é bom ter vários formatos disponibilizados. Pode haver ou não incompatibilidade com um ou outro formato, então disponibilize todos.
+Baixe e instale o software chamado HandBrake (https://handbrake.fr/r).
+E, bem, baixe um vídeo gratuito pelo pexels e converta no Handbrake. Siga para o próximo arquivo de texto e aula.

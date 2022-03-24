@@ -1,0 +1,29 @@
+As vezes o seu cliente não precisa das mais de 1100 fontes do Google fonts, ele precisa de UMA fonte específica, e ela não tá lá. Aprenderemos hoje a baixar uma fonte e a utilizá-la em seu site.
+Existem vários sites para pegar fontes externas que são gratuitas, como por exemplo o site www.DaFont.com
+
+Escolheu sua font? Beleza, clica nela e verifica se ela tem acentuação e tudo mais. As vezes existem fonts que não suportam todas as variações, e as vezes variações básicas, como acentuação.
+Escolheu e verificou a font? É hora de baixar ela.
+
+Baixe, descompacte se necessário, e você verá (as vezes) dois formatos: otf e ttf. Copie as fonts e jogue na pasta em que está o seu site.
+
+Agora, certo, tem dois formatos de font, otf e ttf, qual o melhor usar? Depende do navegador. Tem navegadores que funcionam melhor com um ou melhor com o outro.
+
+E COMO USAR CARALHO?
+Lá na primeira linha do style, escreva " @font-face ", e deixe o autocompletar do vscode te ajudar nisso. Tu vai ver que vai ficar da seguinte forma:
+<style>
+	@font-face {
+		font-family: ;
+		src: url(''); * é possível adicionar mais de um url, mas é logo depois do format da primeira. Utilize vírgula nesse caso.
+Ali na url, você coloca exatamente como ta escrito o nome do arquivo que está na pasta do seu site e o formato dele. No nosso exemplo: " Awake the Beauty.ttf ". Dê um espaço e digite também " format('');
+
+O que é esse format?
+
+Existem alguns tipos de format():
+	opentype (são otf) * Existem fonts opentype que são também ttf, tem de pesquisar.
+	truetype (são ttf)
+	embedded-opentype
+	truetype-aat (Apple Advanced Typography)
+	svg
+AGORA, lá em cima no font-family você cria um nome. No nosso caso, como a font se chama Awake the Beauty, vou chamá-la apenas de Beauty. Não esqueça de deixá-la entre aspas.
+
+NORMALMENTE não jogamos a font onde está a pasta do nosso site. Normalmente criamos uma pasta nova. Imagine jogar vários arquivos pra dentro da pasta do seu site, e ficar uma desorganização só se você precisar ficar indo de um arquivo pra outro, seja ele css, js, ou html? O normal é criarmos uma pasta para isso. Mas se você criar e simplesmente jogar pra lá, vai deixar de funcionar. Pra resolver isso é simples: Vai ali na url, e escreva 'NomeDaPasta/Awake the Beauty.ttf' que voltará a funcionar.

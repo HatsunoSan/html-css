@@ -1,0 +1,16 @@
+tudo que for "<xyz>" é uma TAG. Quase todas elas começam "<xyz" e termina "<xyz>"
+A primeira linha do index.html diz que o documento é em HTML5.
+A segunda linha diz qual o idioma do seu HTML. é MUITO importante.
+a terceira linha é a tag <head>, é a configuração do site.
+A linha 4 diz o padrão de condificação de caracteres que suporta acentuação.
+no caso utilizamos o "UTF-8". Essa linha é importante. Caso inexistência,
+acentuação não existirá em seu site.
+A linha 5 n sei e ele n explicou, n existia na época.
+A linha 6, meta name="viewport" indica que seu site ocupará 100% da área disponível seu navegador.
+A linha 7 tem o título do seu site.
+a linha 8 a tag da head fecha, indicando que a config dessa tag acabou.
+a linha 9 é o  body, que seria o conteúdo do site.
+nele criamos o h1 e o p, título e parágrafo respectivamente.
+Se quisermos criar uma linha horizonta, só usar "hr". Essa tag por exemplo,
+n tem fechamento como head body ou html.
+

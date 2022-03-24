@@ -1,0 +1,59 @@
+Cara, parabéns e bem vindo ao Módulo 3 do curso! Vamos passar a falar sobre Git e GitHub.
+
+Vamos começar falando sobre repositório local/remoto de uma maneira superficial.
+
+Vamos falar apenas o estritamente necessário para por o projeto no ar. Git e GitHub são MUITO complexos, quando você tiver mais experiência, procure sobre. Vai agregar MUITO!
+
+==============================REPOSITÓRIO=================================
+
+Um repositório é um local onde você guarda coisas.
+
+Existe repositórios que você vai colocar no seu computador, e existem repositórios em que você irá colocá-lo no ar.
+
+Basicamente a situação é essa aqui: Você fez os 17 capítulos, fez tudo bonitinho, os arquivos, o site, etc. Estão todos salvos numa pasta. Numa pasta de exercícios, numa pasta de HTML no seu computador.
+O capítulo 17 todo foi a apresentação e construção do miniprojeto do site de apresentação, o qual você concluiu e tem os arquivos salvos no seu pc.
+
+Agora vamos criar algumas situações:
+
+================= Situação 1 - 
+Você fez o site e ta perfect, normalmente um aluno um pouco mais dedicado vai falar assim: hm, vou criar uma segunda versão desse site, vai alterar o site, adicionar coisas, remover coisas, usar técnicanos novas, enfim, vai modificar o site.
+
+Demorou 2 semanas com você brincando com o site. Mudou muita coisa no site, e no final, você não gostou muito, e agora? Cara, se você não fez um backup, uma cópia de segurança, se fudeu. 
+O ideal é que você guarde versões anteriores do projeto. Só que "guardar versões anteriores", você precisa lembrar, precisa ter uma disciplina interna, mental, pra falar: agora cheguei nessa versão, vou criar uma cópia... E em algum momento você vai ter várias cópias do seu projeto. Mas você mesmo ficar organizando, acaba não sendo muito prático.
+ 
+E pra isso, você pode instalar no seu pc um gerenciador de versões. E aí pra cada versão nova, você vai lá e diz: olha, essa é uma nova versão, e aí ele guarda essa versão. 
+
+Você fez o seu site, essa é a versão 1.0. Aí você vira e diz: hm, vo trabalhar agora na versão 1.0, mexe nele, por dias, semanas, chega no resultado final e fala: hm, não gostei. E aí tu vira pro gerenciador de versões e fala pra ele voltar pra versão anterior - E ele volta.
+
+Esse software é muito importante, e vamos instalar ele no próximo vídeo.
+O nome do software que vamos instalar é o GIT.
+
+Ele é um dos softwares que fazem isso. Mas porquê vamos utilizar esse programa?
+
+Primeiramente por ele é gratuito, 100% grátis. Na verdade, ele é um software livre. Tão softwarelivre que ele foi criado pelo criador do Linux: O Linus Torvald. 
+
+	Um git é um software que vai guardar o seu código, ou as suas versões de código, dentro do seu computador.
+=============SITUAÇÃO 2 -
+Você tem todo aquele sistema exemplificado na situação 1. Beleza, aí teu pc explode com o código já na versão 35, e agora?
+Tomou no cu irmão, já era. Precisamos de uma outra solução.
+Agora, e se você quiser mostrar o seu site pro seu amigo? Vai zipar e mandar pra ele? Pouco prático. Pode ser que ele sequer saiba abrir o teu site. Ou pior: como que tu vai fazer pra mostrar pro teu cliente?
+
+Vamos precisar de um servidor no meio do caminho. Mandamos os arquivos do nosso site pro servidor, e aí esse amigo ou cliente, acessa o servidor, e ele tem acesso ao site. Existem diversas formas de fazer isso. Aaaaa mas isso é pago né? Não, a forma apresentada nas aulas é gratuita.
+
+Estamos falando do GitHub. Não, não são a mesma coisa.
+
+O Git vai manter versões do código no seu computador, e o GitHub vai manter esse código e/ou versões, na nuvem. Então se o seu computador explodir, que pena. Mas o código tá lá salvo.
+	Uma curiosidade: O GitHub não foi criador pelo Linus, foi criado por outras 4 pessoas, e hoje em dia ela foi comprada pela Microsoft, e não se preocupe, é gratuito!
+
+Um complementa o outro.
+
+Como vai funcionar esse esquema então?
+
+Você tá lá com o seu projeto salvo, e o Git instalado, e tudo versionado.
+A caixinha que tá ali (veja o print EXEMPLO na pasta) nós chamamos de Git. O servidor que ta representado, é o GitHub.
+Essa caixinha na verdade a gente chama de REPOSITÓRIO LOCAL.
+E o GitHub qu ta ali do lado, chamamos de REPOSITÓRIO REMOTO.
+
+E o mais daora? O GitHub permite trabalhar em equipe. Se você tiver alguns amigos que pensaram em um projeto juntos e querem cada um trabalhar com uma coisa: Eles podem mexer no projeto, atualizar o REPOSITÓRIO LOCAL deles (cada um tem seu próprio repositório local), e você vira pro GitHub e fala: "Eles são da minha equipe!", e aí eles vão podem atualizar TAMBÉM o MESMO REPOSITÓRIO REMOTO.
+
+

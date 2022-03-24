@@ -1,0 +1,21 @@
+Vamos falar sobre mídias como um todo: Imagens dinâmicas, vídeos, fotos...
+
+Adaptação de Material para Múltiplas Mídias!
+
+Isso é uma realidade hoje em dia. As pessoas acessam a internet pelo celular, pelo computador... Notebook, Tablet - Uma parcela bem pequena da população - pela televisão. Todo o seu conteúdo tem que se adaptar ao seu público principal.
+Quando você trabalha com imagens principalemente, temos a tendência de trabalhar com a imagem com o maior tamanho de resolução possível. E já vimos que isso NÃO é bom. Isso deixa o site lento. Colocar uma imagem grande e pesada mas diminuí-la com CSS (coisa que vamos aprender) NÃO ajuda seu site, pelo contrário, o deixa lento, e site lento o google tende a não fazer com que apareça nas pesquisas. Reduza a resolução da imagem via programas antes de subi-la no site, não o faça com o CSS.
+
+Ainda assim, isso não é o ideal. Você altera a resolução da imagem pro tamanho que o cliente pediu. Você acessa no PC, e o site está perfeito. Quando você acessa pelo celular... A situação é outra.
+É preciso fazer com que a imagem se adapte, fique dinâmica, à tela do dispositivo. 
+
+Iremos trabalhar com múltiplas imagnes para tamanhos de telas diferentes.
+
+Então no GIMP, abra três imagens de tamanhos diferentes, e todos com resolução 80:
+300x300
+700x700
+1000x1000
+
+Coloque bem no meio da menor foto a letra P. Utilize as réguas e visualize na barra abaixo onde ela está.
+
+Criará uma nova camada com a letra P na direita. Arreste ela para as outras imagens, e as coloque no meio também, e altere a letra para M e na proxima imagem, G.
+Pinte os fundos das 3 de cores diferentes.

@@ -1,0 +1,23 @@
+o JPEG é o melhor formato de compactação que existe até o momento. Ele surgiu em 1983.
+
+Já o PNG é mais recente e surgiu em 1996 e foi criada pela World Wide Web Consortion, ou W3C. Mesma empresa/órgão que criou e mantém a linguagem html.
+Basicamente o PNG foi criado pra substituir o formato gif (que muita gente pronuncia como se pronunciaria "Gift", mas não, se pronuncia jifi mesmo).
+
+O formato Gif é um formato muito antigo que voltou a ser popular através do whatsapp. Ele tem uma qualidade de imagem horrorosa, só que permite duas coisas importantes: Transparência e Animação.
+
+O PNG não permite Animação, mas permite transparência.
+
+Em suma:
+
+JPEG - Alta Compactação.
+PNG  - Compactação, não tão boa quanto JPEG, mas permite transparência, maior qualidade.
+
+Quero botar uma foto no fundo da tela: melhor formato é o JPEG.
+
+Quero uma imagem que fique flutuando no fundo transparente:
+PNG, não tem pra onde correr.
+
+Tem que ter bastante cuidado pra imagem não pesar no site.
+Não adianta você pegar uma imagem LINDA, incrível e grande e colocar no seu site, e ela pesa tipo, 20mb, 50mb.
+Se um celular for carregar 20mb meu filho, ja era, muito difícil, muito pesado.
+Tem que tomar bastante cuidado com isso.

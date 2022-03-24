@@ -1,0 +1,107 @@
+====================Representação de Dados
+
+Como os dados são interpretados pelo computador?
+Os dados são represetandos pro computador como Zeros e Uns, ou 0 e 1, os famosos números binários, ou dígitos binários.
+Ou bit, simplificando.
+
+Na verdaaade na verdaaaade não são exatamente zerinhos e umzinhos, são sinais elétricos representados como Com e Sem sinal. O com sinal seria 1 e sem sinal seria 0.
+
+Só que apenas um 0 e um 1 não dá pra representar muita coisa. E por isso a tecnologia, a computação, ela reúne um conjunto de 8 bits, que é a porção mínima para representar algum dado.
+ex: 01000001.
+
+E esses 8 bits têm um nome específico:
+Byte.
+
+1 byte é a porção mínima que pode representar uma informação. 
+
+01000001 - Essa sequência de números, esses 8 bits, esse 1 byte, representa por exemplo a letra A.
+Quando você aperta a letra A no seu teclado, o que vai pra memória do  seu computador, o que o teu computador entende, não é a letra "A", mas sim exatamente essa sequência de bit aí. E para saber a tabela inteira, é só procurar o "Código multibyte UTF-8"
+
+Mas o que é UTF-8????
+
+=======================Múltiplos de Bytes=============================
+
+assim como temos o grama, o miligrama, a tonelada... Temos os múltiplos de Byte.
+
+E sempre são representados por 1024, exceto pelo bit.
+
+8 bits = 1 byte
+1024 bytes = 1 Kilobyte, ou 1 KB.
+1024 KB	   = 1 Megabyte, ou 1 MB.
+1024 MB	   = 1 Gigabyte, ou 1 GB.
+1024 GB    = 1 Terabyte, ou 1 TB. <!--Terabyte inclusive é utilizado hoje em dia como a maior quantidade de armazenamento possível.-->
+1024 TB    = 1 Petabyte, ou 1 PB.
+1024 PB    = 1 Exabyte,  ou 1 EB.
+1024 EB    = 1 Zetabyte, ou 1 ZB.
+1024 ZB    = 1 Yotabyte, ou 1 YB.
+
+Existe mais ainda, mas já que hoje em dia estamos no terabyte, já conhecemos boa parte do caminho.
+
+Mas atenção, vamos usar o Megabyte de exemplo.
+Quando você ver esse MB, o B é SEMPRE maiúsculo. E isso faz diferença SIM! Quando é "MB", significa MEGABYTE, e com o B minúsculo = MEGABITS.
+Megabyte normalmente é para armazenamento. Megabyte, Gigabyte, Terabyte. O Megabit é mais para TRANSMISSÃO. Megabit, Gigabit, Terabit.
+
+================Como nos conectamos na internet?======================
+
+Nós quando estamos nos conectando na internet, o dispositivvo é chamado de cliente. Porque clientes?
+
+Pois estamos fazendo uso de um serviço. Você quer navegar na internet, você acessar uma página, uma imagem, um vídeo, você quer baixar um programa, uma foto, uma música, um filme, etc.
+
+Geralmente na sua casa, para você fazer o acesso pelo computador, você tem que fazer a assinatura de internet e instalar um aparelho, geralmente conectado à sua rede telefônica, ou ao seu sistema de cabeamento de TV. Se é no seu celular ou notebook, o celular ou notebook tem que se conectar sem fio à esse aparelho, ou se estiver na rua, o dispositivo ta dentro do teu celular e se conecta a uma antena, mas o princípio é o mesmo.
+E esses dispositivos que o cara chegou la e instalou, vai fazer com que você tenha acesso à internet.
+
+Lembra que eu disse que o computador é uma máquina que aceita, ou que reconhece sinais de ondas quadradas? O problema é o seguinte:
+O computador entende ondas quadradas, mas os telefones ou o sistema de tv NÃO entendem essas ondas quadradas. Então, o computador tem que mandar esses sinais por uma linha telefônica, ou por uma antena celular, ou pelo sistema de tv, e esses destinos NÃO entendem esses sinais Zeros e Ums.
+Eles entendem os sinais senoidais, parecido com aquele de aparelho médico que faz "pi".
+Então, é por isso que é necessário instalar um aparelho ao contratar um serviço de internet na sua casa. Esse aparelho transforma os sinais quadrados em senoidas, o que chamamos de MOdulação e os sinais senoidais em sinais quadrados, que é o que chamamos de DEModulação.
+Agora, presta atenção nesses dois nomes. Especificamente, apenas nas letras maiúsculas. ESSE é o nome do aparelho que faz essa conversão possibilitando que o computador se comunique com os outros meios.
+
+Veja a Imagem na pasta do curso.
+
+Um MODEM nada mais é que um aparelho que faz Modulação e Demodulação.
+Um Modem tem um roteador, tem um switch... Ele é o que chamados de Gateway, mas mais pra frente estudamos isso em rede.
+
+=========================Como acessamos servidores?=====================
+ 
+Mas onde estão as imagens? Os vídeos?
+Onde ta o Instagram? O Instagram nada mais é que um monte de arquivos. Onde eles estão? Em um servidor. Ou em um conjunto de servidores, como é o caso do instagram.
+
+E os servidores todos tem uma identificação, mas não é o link do site.
+Na verdade, toda máquina que ta na internet tem um número de identificação.
+Por exemplo: No momento que esse vídeo foi pro ar, em 15 de outubro de 2020, o número de identificação de um dos servidores do Instagram era 3.224.112.47 de verdade.
+
+E até nós recebemos um número quando nos conectamos na internet, como por exemplo "201.17.81.22" Quer ver como isso funciona?
+Vamos na prática descobrir nosso IP e o IP de um site. Lembra o que é IP?
+
+no site www.iplocation.net, é mostrado o seu IP PÚBLICO! Mas relaxa caso alguém veja o seu IP, é só você reiniciar o modem tirando da tomada por 1 minuto ou 30 segundos e colocar novamente que você adquire um novo "endereço de ip". E para descobrir o IP de algum serviço? No mesmo site, você colocar, por exemplo "instagram.com" E, além do IP, aparecerá uma série de outras informações. No momento que EU pesquisei o IP do Instagram, mudou de 3.224.112.47 para 184.72.136.14.
+
+Mas como esse endereço é traduzido? instagram.com, como é traduzido? Imagina se tivéssemos que digitar número, como é o caso de chips de celular. Ainda mais que altera como vimos, como iámos saber?
+E aí no celular, como a gente faz pra evitar isso? Criamos o contato né? Hugostoso número tal, Sammy Otária número tal. É a "mesma coisa" com os sites.
+Essa """Agenda Telefônica""", chamamos de Servidor DNS.
+
+=======================O que são servidores DNS=========================
+
+DNS significa Domain Name System. Sistema de Nome de Domínio.
+
+É um local na internet em que eu posso questionar. Se liga na narrativa:
+
+Quando tu chega na tua casa e digita instagram.com, ele não vai pro servidor diretamente. Ele chega no DNS e diz "coé, eu quero ir pro instagram.com" Aí o DNS pesquisa na lista e devolve o endereço
+"Aaaah, instagram.com? O endereço é 184.72.136.14."
+
+Aí de posse desse número, você tem acesso ao servidor. Dá um seligue na imagem "Acesso DNS" na pasta do Curso.
+
+No instagram tem várias imagens, aí sempre vai rolar tudo aquilo da aula anterior: As fotos vão ser divididas em pacotinhos, cada uma indo pra sua máquina por rotas e tempos diferentes, até serem montadas no teu computador, onde você vai poder visualizar elas.
+
+=======================Entendendo as rotas da Internet==================
+
+A internet é uma rede FINITA com caminhos FINITOS.
+Nem sempre as rotas utilizadas pela internet é o caminho mais curto. As vezes uma rota está congestionada e você é obrigado a pegar uma outra rota mais longa pra demorar menos. E pra piorar, os pacotinhos nunca vão juntinhos. Eles SEMPRE vão separados e por ROTAS DIFERENTES. As vezes um vai de prima pela rota mais curta, e outro da 3 voltas no globo para na vó pra comer bolo e tomar um chá aí chega no tio dar uma pausa pra comer aquele churras E AÍ, chega em você. Acredite ou não, essa era a rota mais curta desse pacote ae.
+As vezes você tenta entrar no site e demora e demora e demora a carregar, ai você recarrega a página e vai. Isso quer dizer que talvez tua solicitação tenha ido por uma outra rota mais rápida.
+
+Dê uma olhada na imagem "Rotas" na pasta do curso.
+
+
+
+
+
+

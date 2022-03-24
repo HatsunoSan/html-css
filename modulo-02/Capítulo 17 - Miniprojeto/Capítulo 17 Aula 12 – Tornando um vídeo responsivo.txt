@@ -1,0 +1,61 @@
+Preparar o vídeo e torná-lo responsivo é complicadinho, pois o embed já deixa ele preparadinho de tal maneira que complica. Mas trabalho é trabalhoso, não é mesmo?
+
+Programadores vivem de gambiarra. Não necessariamente isso é algo bom OU ruim.
+E pra resolver isso do vídeo, do iframe, é meio que uma gambiarra.
+
+A primeira coisa que a gente vai fazer, é envelopar o iframe em uma div, e daremos uma class="video". Class e não ID, pois pode haver vários vídeos no site dependendo do conteúdo.
+
+A div serve para configurarmos algo em específico. Mas além disso, ela é também um bloco!
+
+faça as configurações necessárias que você queira, como background, margin, padding... etc.
+BOM, AGORA QUE VEM A GAMBIARRA DA PARADA!
+
+na div, coloque:
+	position: relativa;
+	
+e no iframe coloque:
+	position: absolute;
+	
+	
+iSSO VAI DEIXAR COMPLETAMENTE ZOADO! Mas é necessário, há como ajeitar ainda. 
+
+na div, coloque:
+	padding-bottom: 56.5%; ~ Isso varia, ache a sua configuração adequada. Mas isso per se só já deve deszoar um pouco.
+Ficando dessa forma:
+	
+	div.video {
+		background-color: var(--destaque);
+		margin: 0px -20px 30px -20px;
+		padding: 20px;
+		padding-bottom: 56.5%;
+		position: relative;
+	}
+
+
+
+
+Agora no iframe.
+
+Quando você determina um "position: absolute;", você pode trabalhar diretamente com as direções top left right bottom, e também com width e height.
+
+Como assim? Veja o arquivo "exemplo-direcoes.png". Basicamente, é a distância entre a linha vermelha e a linha roxa.
+
+coloque então no iframe:
+	top: 5%;
+	left: 5%;
+Esses 5% ficaram uma distância legal no meu caso. Configure conforme necessário.
+
+Agora, coloque também:
+	width: 90%;
+	height: 90%;
+	
+Porque 90% e não 100%? Por eu querer que o fundo apareça. Se eu coloco 100%, o fundo verde escuro será 100% sobreposto pelo vídeo.
+
+E voiallá, gambiarra completa. Dê play no vídeo.
+
+Pode ser que seja perceptível no vídeo bordas escuras. Isso pode ser arrumado (com sorte) alterando o padding-bottom: 56.5%; da div. Mexa lá. No meu caso, eu consegui tirar a borda escura do vídeo.
+
+Importante que isso vai de vídeo pra vídeo viu.
+
+
+Teste seu site, veja o que ainda funciona e o que não funciona e se há algo ainda a ajustar, pois o próximo passo, é a hospedagem!

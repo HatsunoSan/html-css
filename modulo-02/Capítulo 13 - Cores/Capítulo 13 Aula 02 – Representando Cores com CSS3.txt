@@ -1,0 +1,19 @@
+Como representar as cores nas CSS?
+Vamos utilizar o VSCode, mas ainda vamos ver sobre a importância delas.
+No VSCode vemos black, yellow, purple... Parece bem limitado né? Principalmente quando existem mais de 65 milhões de cores... Pois é.
+
+Cores em HTML a gente representa de diversas maneiras.
+
+A gente pode representar por nomes: red, green, blue...
+
+A gente pode representar por códigos hexadecimais:
+Decimal: 0 1 2 3 4 5 6 7 8 9
+Hexadecimal: 0 1 2 3 4 5 6 7 8 9 A B C D E F
+
+Usando os códigos de cores rgb: rgb(0, 0, 255)
+
+A gente pode representar por HSL: hsl(240, 100%, 50%) <!--azul-->
+
+E também podemos controlar com a ajuda do VSCode. Utilizando qualquer um desses acima, aparecerá um quadrado com a cor. Passe o mouse em cima, e você poderá alterar como quiser. Além de poder mudar a transparência. E também pode mudar a representação entre RGB, HSL, Hexadecimal, clicando na barra colorida acima.
+
+E como harmonizar as cores? Bom... apenas na próxima aula.

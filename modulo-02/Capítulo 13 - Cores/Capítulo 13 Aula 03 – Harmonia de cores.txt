@@ -1,0 +1,99 @@
+Como fazer essas cores fazerem sentido?
+
+Na verdade, o estudo de cores, de harmonia de cores, ele não faz parte dessa disciplina de desenvolvimento web. Ela faz parte de Design.
+Mas é muito importante que falemos de Design para que possamos entender pontos importantes.
+
+Vamos falar sobre harmonia de cores.
+
+============================= Círculo Cromático =============================
+Veja na pasta o que é um circulo cromatico.
+
+Acredite ou não, há 65 milhões de cores ali. Mas vamos pegar apenas os 12 tons principais.
+
+O foco do estudo do Círculo Cromático, é para podermos enteder Harmonia de Cores.
+Sabe quando achamos uma coisa bonita, mas não sabemos explicar o porquê?
+
+Simetria.
+Uma coisa simétrica, acaba se tornando mais bonita. Conforme formos estudando um pouco mais sobre design, sobre artes, poderemos ver que a simetria é uma poderosa arma pro Designer, para criar uma comodidade visual, para que as pessoas achem nosso produto, nossa criação, bonita.
+
+Outra coisa muito importante além da simetria, é a cor.
+Cor é absurdamente importante. 
+
+******Cores Primárias********
+Existem cores primárias secundárias e terceárias.
+As cores primárias dentro do círculo cromático são: Amarelo, Vermelho e Azul. Se você olhar no círculo cromático, elas fazem um triângulo bem simétrico. As cores tem uma certa harmonia. Elas tem uma harmonia meio grosseira, pode ser que não fique tão bonita na tela, mas elas são importantes para representarmos as outras cores.
+
+******Cores Secundárias******
+As cores secundários são: Laranja, Violeta e Verde. E também formam um triângulo simétrico, mas de cabeça para baixo. Elas também são grosseiras e meio meh de trabalhar.
+
+******Cores Terceárias******
+As cores terceárias são todas as outras que são misturas das últimas duas. Sempre que formos nomear uma cor terceária, você sempre vai colocar o nome da cor primária antes, e depois a secundária. Como por exemplo: amarelo-esverdeado.
+
+Mas porque não é verde-amarelado? Pois o amarelo é primário e o verde é secundário.
+
+Mesma coisa com Amarelo-alaranjado, vermelho-alaranjado (que parece um laranja escuro), vermelho-arroxeado (consideramos a cor Violeta, mas na hora de nomeá-la, consideramos a palavra roxo), azul-arroxeado e por último, azul-esverdeado.
+Olhe a imagem na pasta.
+
+As cores terceárias se você analisar de forma grosseira, é o que chamamos de Tons Pastéis. Os Tons Pastéis não são exatamente cores Terceárias, mas as cores Terceárias tem uns tons pastéis.
+
+Outra coisa que conseguimos fazer no círculo cromático, é fazer uma distinção visual clara do que são as temperaturas de cores ao dividirmos as cores no círculo. Veja a imagem na pasta
+
+Quando você quer representar algo frio, você utiliza o hemisfério esquerdo. E quando você quer representar algo quente, você utiliza o hemisfério direito. Elas criam uma harmonia entre elas.
+
+Quando você for desenvolver um site, você tem que se preocupar MUITO com a paleta de cores dele. A plaeta sempre parte de uma cor principal:
+"Ah eu vou fazer um site de restaurante"
+então buscamos no vídeo anterior a cor que condiz com a ideia de um restaurante chique, um restaurante elegante. Elegância tem a ver com dourado, um pouco com preto, um marrom mais escuro. Então vou trabalhar essas cores. Marrom.
+Além do marrom, preciso de uma cor similar ao marrom, algo que contraste bem com ele. Qual o Tom de marrom é melhor trabalhar quando trabalho com branco? 
+Porque branco? Porque o conteúdo vai ser lido com fundo branco e letra preta. O padrão.
+Qual a cor desse papel branco com letra preta que eu vou fazer, qual a cor que eu coloco atrás, qual o melhor tom de marrom? Essa cor também vai fazer parte dessa paleta de cores. GERALMENTE, uma paleta tem de 3 a 5 cores NO MÁXIMO, desconsiderando branco e preto, pois elas SEMPRE terão em qualquer site. 
+
+Uma outra forma de decidir a paleta: Qual a cor primária da logo do meu cliente? Então no site DESSE cliente, normalmente eu vou utilizar a cor primária da logo dele.
+
+A partir de agora, o que o Guanabara vai falar, ajudará bastante na escolha de paleta de cores.
+
+==============================Cores Complementares===========================
+Cores Complementares são aquelas cores que tem mais contraste entre si. Se você quer saber qual cor mais contrasta com o Marrom, você vai considerar ele, e vai escolher a cor Imediatamente Oposta a ele no círculo cromático.
+
+O que contrasta com o Violeta? O amarelo, que é a cor imediatamente oposta ao Violeta. Qual contrasta com o Laranja? O Azul, que está imediatamente oposta ao Laranja. É sempre um traçado reto de uma cor a outra que vai dizer qual contrasta com qual.
+Não necessariamente elas vão ficar bonitas, mas existem tons e tons que podem ou não ficarem legais.
+
+uma curiosidade: No curso de Python do professor, ele usou bastante Laranja e Azul, porque essas cores tem um contraste legal entre elas. Não foi tentativa e erro ou simplesmente hmmmmmmm gostei dessas cores. Não, tem uma ciência por trás daquela escolha.
+
+=====================================Cores Análogas==========================
+As vezes você não quer um contraste muito grande entre as cores. Nesse caso você vai utilizar cores análogas.
+Ao contrário das cores Complementares, elas não tem tanto contraste, mas são perceptíveis.
+Vamos utilizar o Violeta como exemplo. As cores análogas ao Violeta são as cores vizinhas.
+
+Pode-se utilizar também Cor Análoga com Complementar. Isso vai criar um contraste bem grande... Talvez.
+Usamos o Violeta como base para as cores Análogas, e traçamos uma reta e escolhemos também o Amarelo, que é imediatamento oposto ao Violeta.
+Pronto, temos uma paleta de 4 cores: Azul-arroxeado, Violeta, Vermelho-arroxeado e Amarelo. Sem erro, você vai achar as cores bonitinhas.
+
+E você pode girar esse traçado desenhado para qualquer lado, que você vai achar bonitinho. Há uma ciência na parada.
+
+========================Cores Análogas Relacionadas==========================
+Quando você pega uma cor Análoga e uma complementar, você pega um contraste MUITO forte, as vezes você não quer algo tão forte assim.
+Cores Análogas são três vizinhas. Você escolhe uma como base, essa de base fica no meio das outras duas que vão ser utilizadas em conjunto.
+As cores Análogas Relacionadas tem um princípio um pouco diferente: As Cores Análogas meeeio que cria um degradê de três cores, mas não cria um contraste.
+Quando você pega uma Cor Análoga Relacionada você cria um contraste MUITO FORTE. As vezes você não ta buscando por isso.
+
+Pegamos duas cores vizinhas, pulamos uma, e pegamos a seguinte. Veja a imagem na pasta para visualizar.
+
+======================Cores Intercaladas================================
+Cores Intercaladas são parecidas com a anterior:
+Usamos o amarelo como exemplo, pulamos uma e escolhemos a outra. Pula mais uma, e pega a seguinte.
+
+
+Existem Três Cores Intercaladas muito famosas: 
+	1 - Cores Triádicas: Você vai pular sempre três cores, e pegar a outra cor. Isso vai gerar um Triângulo Equilátero. Veja a imagem.
+
+
+	2 - Cores em Quadrado: Você vai pular sempre duas e pegar a próxima. Formando um quadrado. Veja a imagem.
+
+	3 - Cores Tetrádicas: Escolha qualquer cor. Agora, você pegará a complementar dela, a imediatamente oposta. Escolha mais uma cor, e faça o mesmo. Isso formará um retângulo. Veja a imagem.
+	
+==============================Monocromia=====================================
+A Monocromia trabalha com uma cor apenas.
+
+Vamos pegar o Laranja e modificaremos duas características: A saturação e o brilho.
+Alterando as duas (utilizando hsl por ex) Vamos ter diversas cores diferentes! Veja a imagem.
+Monocromia constantemente é ligado ao Degradê.

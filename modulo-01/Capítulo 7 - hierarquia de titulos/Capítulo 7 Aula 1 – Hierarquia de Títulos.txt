@@ -1,0 +1,14 @@
+Bom, em uma matéria de Jornal, há a materia principal, e que fica em destaque, e o título dela.
+
+Mas há também outros títulos sobre outras coisas em uma mesma página. Mesma página, títulos diferentes com importancias diferentes e assuntos diferentes.
+E todos eles são separados por níveis.
+
+Vá na pasta deste arquivo que você está lendo e abra a imagem para entender.
+Cada cor é um nível, e imagino que eles sejam autoexplicativos de qual é o primeiro e qual é o quarto.
+
+Vai de h1 até h6, onde h1 é TÍTULO, e o resto subtítulos, e subtítulos de subtítulos, e por assim vai.
+
+É totalmente possivel ter vários h1.
+
+Muita gente diz que h1 deixa a letra grande... NÃO! Esse não é o intuito do h1.
+Tamanho de letra você altera usando CSS. h1 à h6 são TÍTULOS E SUBTÍTULOS!

@@ -1,0 +1,49 @@
+Existe um código base que todo arquivo html tem:
+No VSCode, você digita uma exclamação, vai aparecer um menu com duas opções com exclamações, clicando na primeira, sua árvore DOM é montada.
+
+A primeira linha do arquivo "index" que você criou, indica que o documento é em HTML 5.
+A próxima linha, a numero 2, ela tem uma marca "<html> [...] </html>" Com um parâmetro chamado "lang", que seria o idioma do site. Alteraremos o "en" para "pt-br".
+
+Todo documento HTML começa com <html> e fecha com </html>. Dentro do <html>há apenas duas áreas. a <head> e a <body>
+
+<head> - cabeça - Parte de configurações do site.
+
+<body> - corpo - Parte do conteúdo do seu site.
+
+
+Dentro da <head>, há a seguinte linha:
+	4  <meta charset="UTF-8">
+O que significa esse UTF-8? É um conjunto de caracteres que suporta acentuação. Pense na lingua inglesa, alguma palavra com acentuação, com cedilha. Não tem. Por conta disso, se você não por essa linha, seu site terá problemas com acentuações.
+
+
+A linha 6 "<meta name="viewport" content="width=device-width, initial-scale=1.0">" Ela indica que seu site ocupará 100% da tela disponível do navegador.
+
+A linha 7 "<title>Document</title>" é o titulo do seu site na aba do navegador.
+
+No corpo, isto é, no <body> será colocado algumas tags, como:
+<body>
+	<h1>Olá, Mundo!</h1>
+Este é o título do site, o header, né
+
+Agora, o parágrafo:
+<p>Esse é o meu primeiro documento HTML! Estou muito feliz!</p>
+
+
+
+Quando você abrir o seu site no navegador (abrindo o documento na pasta exercícios), verá seu site lá montado. Bom, faça isso.
+
+É interessante você instalar a extensão "Live Server" no VSCode, pois ele atualizará automaticamente seu site quando você editar o arquivo. Clique no ícone de extensão na esquerda, procure e instale o Live Server. Reinicie se pedir.
+Agora, CTRL + Shift + P, e digite Live Server pra executar a extensão.
+
+"<h1></h1>" Significa Título de Nível 1, ou Header1. mais pra frente tudo será explicado. Só pra deixar claro aqui mesmo.
+
+obs, nem todas as tags tem um fechamento, como essa do exemplo a seguir:
+
+Debaixo do h1, coloque <hr>.
+hr significa Horizontal Roll, ou linha horizonta. Ela colocará uma linha debaixo de "Olá, Mundo!"
+
+<meta> por exemplo, n tem </meta>.
+
+Tudo no html é feito com marcas, com tags. 
+
+HTML significa HYPER TEXT MARKUP LANGUAGE, ou em português: Linguagem de marcação de Hipertexto.

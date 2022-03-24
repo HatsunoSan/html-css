@@ -1,0 +1,70 @@
+Uma div é uma área que vai ocupar do lado esquerdo ao lado direito inteiro da tela naquela linha.
+Assim como o <span>, ela não representa nada, mas é muito útil.
+primeiramente crie 3 divs. Simplesmente escreva div e dentro delas escreva d1 d2 e d3 respectivamente.
+
+Vamos personalizar ela no <style>:
+div {
+	display: inline-block; 		/*  Acho que display tem a ver a como vai ser mostrado. Inline-block é blocos em mesma linha. */
+	border: 1px solid black; 	/* Isso aqui é a borda. Perceba que utilizamos de shorthand! */
+	height: 200px; 				/*  Altura */
+	width: 200px; 				/* Largura */
+}
+
+Vamos dar ID's a todas as divs
+
+Lembre:
+# é id
+. é class
+e agora : é pseudo-classe
+
+======================== PSEUDO-CLASSE==========================
+
+
+As pseudo-classes tem de estar relacionadas a um elemento ou a uma classe.
+Pseudo-classes são relacionados ao estado de um determinado elemento: Se ele está ativo, se ele ta marcado, se ele ta vazio, se ta habilitado... Você consegue configurar o estado.
+Exemplo: div:hover {
+}
+hover significa... Quando eu passar o mouse por cima, configuração x acontece. É como se fosse os eventos que aprendemos no curso de Javascript que pausamos pra começarmos esse.
+
+ENTÃO, O QUE FIZEMOS ATÉ AQUI? Configuramos as divs para que fossem representados como quadrados pintados de roxo alinhados ao centro da página com uma certa altura e largura e bordas, e com algo escrito dentro.
+
+E, agora, adicionamos div:hover, e configuramos para que quando passássemos o mouse em cima, trocasse a cor da div.
+Pra funcionar, TEM QUE ESPECIFICAR O QUÊ VAI SER CONFIGURADO!
+Diferente de class e id que você simplesmente poderia deixar só #principal ou .destaque, a Pseudo-classe ( : ) TEM que ter o elemento antes de " :evento " pra funcionar, como por exemplo: div:hover
+Pois é aquilo, Pseudo-classes TEM de estar relacionados a um elemento ou a uma classe.
+
+
+Isso poderia ocorrer com h1, com h2, com um parágrafo específico... Enfim. Usamos a div apenas de exemplo. O que faz a mágica acontecer é o " xyz:hover ".
+
+Vamos fazer um outro exemplo:
+
+Crie um arquivo chamado hover.html, e faça as configurações iniciais.
+Deixe-o da seguinte forma:
+<style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        div > p { 				/* Quando você usa " > " você quer dizer que a tag seguinte é FILHO da div, e pode alterar ele sem alterar o resto. */
+            display: none;		/* Ele não estará visível. */
+        }
+
+        div:hover {				/* Quando passar o mouse por cima... */ 
+            color: darkmagenta;
+        }
+    </style>
+<body>
+    <h1>Exemplo de hover</h1>
+    <p>Passe o mouse sobre o texto abaixo:</p>
+    <div>Passe o mouse aqui.
+        <p>TEXTO ESCONDIDO...</p>
+    </div>
+    <p>FIM DO EXEMPLO!</p>
+
+BOM, alteramos a cor do texto que estava na div, adicionamos um parágrafo oculto, mas eu quero que o parágrafo fique visível quando eu passar o mouse por cima... Como fazer isso?
+Utilizando o que acabamos de aprender:
+div:hover > p {					/* Aqui especificamos que queremos alterar o p dentro da div, e não a div. */ 
+	display: block; 			/* "Block" irá gerar um bloco. No caso, o texto oculto. */
+}
+
+É de se pensar até mesmo em fazer menus com essas coisas que aprendemos nessa aula!

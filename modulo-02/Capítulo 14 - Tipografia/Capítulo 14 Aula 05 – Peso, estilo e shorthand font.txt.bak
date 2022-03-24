@@ -1,0 +1,32 @@
+Peso é quando a gente faz a fonte ficar mais magrinha ou mais gordinha.
+Primeiramente, vamos pro VSCode para a prática.
+
+Pra vermos o peso da fonte, não podemos utilizar fontes simples. Iremos utilizar a fonte 'work Sans'. O problema é que no momento não temos ela instalada no nosso computador, então só iremos assistir o professor fazendo seus exemplos, e na próxima aula a utilizaremos.
+
+O peso da fonte é " font-weight: ;". Muita gente confunde as seguintes palavras: weight, width e height. Que respectivamente significam peso, largura e altura.
+
+Existem pesos "literais": lighter, normal, bold e bolder. Essa "work Sans" é perfeita por ter todos esses pesos.
+	ex: font-weight: bold;
+	
+Outra variação existente é a numérica, que vai de 100 ~ 900.
+	ex: font-weight: 300;
+	
+A maioria das fontes não tem essa variação de 100 a 900 de peso. Nessa numeração, o 400 é a fonte normal.
+Outra variação que não existe em todas as fontes é o " font-style: xyz; ".
+	ex: font-style: italic; 
+
+O h1 normalmente ja é em negrito sem precisarmos mudar nada nele. Então a fonte que você escolher TEM que ter TAMBÉM a variação de negrito e itálico juntos.
+
+Se você quiser sublinhado, o código é " text-decoration: underline; "
+
+E volto a dizer, a sua família de fontes TEM que possibilitar essas 3 variações de fonte. A maioria delas não permite isso.
+
+Preste bastante atenção nisso:
+	h1 {
+	font-family: 'work Sans', sans-serif;
+	font-weight: bolder;
+	font-size: 3em;
+	font-style: italic;
+	}
+Essas configurações nós fazemos MUITAS VEZES MESMO!
+Mas é possível condensar elas em uma única declaração, ocupando assim menos linhas, mantendo o código bonito e menos poluído e até mesmo organizado.

@@ -1,0 +1,19 @@
+Agora vamos a prática
+
+Criando um novo exercício e adicionando alguns titulos, subtitulos e parágrafos (este ultimo, com alguns lorem's), perceba a Times New Roman em ação.
+É uma fonte serifada, de certa forma menos clara do que uma sem serifa.
+Vamos mudá-la com o estilo interno. Lembra? dentro do style.
+
+Podemos usar Arial ou Courier New, mas use Courier New. Ele é uma fonte serifada e monoespaçada. Facilita MUITO a leitura, mesmo que ela não seja... exatamente bonita de se olhar
+Importante dizer: o "font-family", se a fonte tiver mais de um ano, é preciso utilizar aspas pra utilizar a fonte.
+Outra coisa, nem todo computador tem Arial, Verdana e Helvetica.
+
+Basicamente, é necessário utilizar fontes que o dispositivo tenha.
+
+As vezes o font-family sugere utilizar mais de uma fonte, pois se não houver uma, utiliza a outra, ou a outra, ou a outra... Pesquise no google por CSS Web Safe Font Combination... ou utilize esse site: https://www.w3schools.com/cssref/css_websafe_fonts.asp
+
+Você pode utilizar também palavras genéricas como sans-serif, monospace... Utilizará uma fonte qualquer que seja sem serifa ou mono espaçada, respectivvamente.
+
+Bom, sempre termine sua safe combination com um nome genérico...
+Por exemplo: font-family: Arial, Helvetica, sans-serif;
+Se não tiver as duas fontes que você especificou, utilizará a genérica

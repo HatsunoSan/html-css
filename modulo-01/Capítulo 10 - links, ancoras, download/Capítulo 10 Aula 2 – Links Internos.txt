@@ -1,0 +1,14 @@
+Vamos falar agora sobre os links internos.
+Crie outro arquivo chamado pag002.html
+E crie um link da mesma maneira como se fosse um externo, só que pro novo arquivo.
+É importante que ele esteja na mesma pasta que o outro arquivo, que a outra página.
+Utilize também o " rel="next"  " para indicar que é a próxima página, e no segundo arquivo, crie um link que volte pra primeira página. Utilize o " rel="prev" " para indicar que o link é a página anterior.
+Não existe um rel "internal".
+Assim facilita pro mecanismo de busca determinar qual página é a próxima ou a anterior, você não deixa isso pra ele. Vai que ele troca os burros pelas cargas.
+
+Agora, pode vir a ter empresas que paguem para estar lá, famoso patrocínio.
+"Um oferecimento <a href="hostnet.com.br">Hostnet</a>
+
+Mas você não quer que o conteúdo dela esteja indexado ao seu. Você pode utilizar o " rel="nofollow" ", assim o mecanismo de busca não o relacionará à esse site.
+ISSO NÃO É PRO USUÁRIO! É PRO MECANISMO DE BUSCA! Você está dizendo pro Google, ou Bing, ou qualquer que seja o outro, que você NÃO dá aval a esse conteúdo.
+MAS tem cliente que pede que tenha isso, que seu conteúdo seja indexado juntamente.

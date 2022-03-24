@@ -1,0 +1,3 @@
+Nessa aula nós vamos aprender a arredondar os cantos das caixas!
+Com o código "border-radius: ;" nós podemos arredondar o canto das caixas. E é aquilo, para questões de shorthand, é sentido horário. Nesse caso, começando do top-left e terminando no bottom-left.
+E outra, duas medidas só no shorthand faz com que o superior esquerdo e o inferior direito sejam iguais na primeira medida.

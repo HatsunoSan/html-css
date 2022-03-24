@@ -1,0 +1,21 @@
+Aqui vamos fazer o que o título diz.
+
+É fácil até, crie um seletor com estilo interno da seguinte forma:
+
+	background-image: linear-gradient(to right, corx, cory); (pode usar graus tbm invez de direção, e aí teria que usar por exemplo 90deg.
+você também pode optar por radial-gradient(circle, corx, cory);
+colocando % depois da cor você diz o quanto aquela cor ocupará a tela também
+
+
+MAS se você colocar to top ou to bottom, ficará meio zebrado...
+Para resolver isso, você tem que fazer uma configuração Global na CSS.
+
+Uma configuração Global, você cria um seletor especial. E que seletor é esse?
+Esse:
+	* { 
+		height: 100%; /* E dentro dele você coloca essa config. */
+	}
+
+Ali onde você coloca as cores, você pode por quantas vírgulas quiserem pra adicionar cor.
+
+

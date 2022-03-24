@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br"> <!--Idioma do site-->
+<head>
+    <meta charset="UTF-8"> <!--Formato de escrita. UTF-8 é o mais utilizado. Evita quebra de acentuação por exemplo-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Adapta a página à resolução da tela.-->
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="imagem flexível">
+    </picture>
+
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5!</p>
+    <audio preload="metadata" controls>
+        <source src="midia/Doctor-Momentum-Slynk.mp3" type="audio/mpeg">
+        <source src="midia/Doctor-Momentum-Slynk.ogg" type="audio/ogg">
+        <source src="midia/Doctor-Momentum-Slynk.wav" type="audio/wav">
+        <p>Infelizmente seu navegador não consegue reproduzir áudio. <a href="midia/Doctor-Momentum-Slynk.mp3" download="Doctor-Momentum-Slynk.mp3">Clique aqui</a> para baixar o arquivo MP3</p>
+        <!--Esse parágrafo surgirá apenas se não for possível carregar nenhum dos formatos de áudio.-->
+    </audio>
+    <h1>Inserindo vídeos hospedados localmente</h1>
+    <p>Este vídeo está hospedado no meu próprio servidor, E só será carregado quando você der play.</p>
+    <video controls preload="none" width="175">
+        <source src="midia/Meu-Video-1.m4v" type="video/mp4">
+        <source src="midia/Meu-Video-1.webm" type="video/webm">
+        <source src="midia/meu-video.mp4" type="video/mp4">
+        <source src="midia/meu-video.ogv" type="video/ogg">
+        <p>Seu navegador não tem compatibilidade com reprodução de vídeo.</p>
+    </video>
+
+    <h1>Inserindo vídeos do YouTube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/RnvhuvYufuE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <h1>Inserindo vídeos do Vimeo</h1>
+    <iframe src="https://player.vimeo.com/video/298239911?h=9aff8a9a21&loop=1&color=ff0179&portrait=0" width="560" height="315" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+    <p><a href="https://vimeo.com/298239911">Shortwire - Reconfig [Synthwave / Cyberpunk]</a> from <a href="https://vimeo.com/shortwiremusic">Shortwire</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+</body>
+</html>

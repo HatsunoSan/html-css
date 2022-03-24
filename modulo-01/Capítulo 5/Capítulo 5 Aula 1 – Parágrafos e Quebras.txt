@@ -1,0 +1,32 @@
+Parágrafos e quebras de linha.
+
+Criaremos novamente mais um arquivo de exercício.
+
+adiante logo tudo com "!", mudando a language...
+
+Altere o title para "Parágrafos"
+no body adicione:
+<h1>Parágrafos e Quebras de linha</h1>
+<hr>
+<p>Você pode escrever
+	um parágrafo de qualquer
+	jeito.
+	Basta colocar tudo no meio do par de
+	tags p e /par
+</p>
+
+Tem uma coisa que só será explicada no próximo vídeo. Você não pode adicionar o sinal de marcação dentro do parágrafo, porque o HTML vai entender como uma marcação. Então deixe da seguinte forma:
+"&lt;p&gt; e &lt;/p&gt;" e aí no seu site ficará "<p>" e "</p>" bonitinho.
+
+
+"&lt;" estamos pedindo para colocar o simbolo Menor que "<" (less than)
+"&gt;" símbolo Maior que "<" (greater than).
+Na pasta dessas anotações vou colocar uma tabela com o código de alguns símbolos
+
+Abra agora seu site.
+
+Perceba que todas as quebras de linha são inexistentes. Isso porque, o que importa no fim do "<p>" não é a quantidade de linhas que tu quebra, e sim as marcas, as tags.
+O HTML é uma Linguagem de Marcação de Texto.
+
+Agora, crie um novo parágrafo e onde você decidir quebrar a linha, adicione "<br>".
+Essa é a tag Break Row, ou, quebra de linha.

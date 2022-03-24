@@ -1,0 +1,120 @@
+A Internet surgiu em 1949, no período da Guerra Fria.
+A Guerra Fria era uma guerra mais psicológica, tecnológica, e quem estava na frente era a União Soviética, e não os Estados Unidos.
+
+A Guerra Fria aconteceu porque duas grandes potências, ao final da grande guerra, saíram muito fortalecidas.
+
+Em 1969, a União Soviética lançou o Sputnik, o primeiro satélite artificial já lançado, mas ele não servia de muito coisa. Ele só tinha UMA função que era: Dar voltas ao redor da terra, e então cair na água. A única coisa que ele fazia é emitir bips, que a URSS captava. Era simplesmente um teste. E os EUA não sabia.
+
+=======================DARPA=======================
+
+O presidente militar na época, Dwight Eisenhower, preocupadíssimo com a evolução tecnológica da União Soviética, fundou um órgão, uma agência pra estudo de tecnologias pra guerra.
+
+O nome dessa agência é DARPA: Defense Advanced Research Projects Agency. Ela existe até hoje. Ela criou um monte de armas, um monte de tecnologias durante a guerra. E cria até hoje fora da guerra para que os EUA mantenha sua hegemonia mundial.
+
+Mas uma das tecnologias pela DARPA, em 1969, visava resolver uma preocupação gigante que os EUA tinha.
+
+Imagine duas base militares como exemplo:
+
+Se a galera da URSS que estava mandando "satélites espiões" pro espaço, fosse capaz de destruir uma das bases militares, o outro tem que ter todos os dados que a base destruída tinha. A idéia era ser um grande backup.
+Era muito perigoso deixar os dados em um centro militar e perder todos os dados valiosíssimos caso ele fosse destruído.
+
+=============================ARPANET===============================
+
+Pensando nisso, foi criado a ARPANET, uma pequena rede.
+
+A ARPANET começou inicialmente com apenas 4 pontos.
+
+Os 4 pontos tinham computadores, e os computadores que existiam era: SDS Sigma7, na Universidade da CAlifórnia, um SDS 90, na Universidade de Steinford, Um IBM 370/75 no centro de matemática de Los Angeles, E o único computador militar da época, era um DEC PDP-10 na base militar de "iuta". A idéia era conectar esses 4 centros e criar um backup gigante, uma cópia de segurança de um computador pro outro.
+
+Na época, eram 2 computadores SDS, 1 computador DEC e 1 computador IBM. Fabricantes diferentes exceto por 2. Computadores diferentes tinham linguagens diferentes, além de serem completamente diferente dos de hoje: eram ENORMES.
+
+Por não existir uma forma deles falarem entre si, passou a existir pq os maluco da UCLE (Uma universidade da CAlifórnia) é brabo e inventaram uma forma deles falarem entre sí: um protocolo, o NCP - Network Control Protocol.
+Basicamente, era uma linguagem única.
+
+Pense que esses computadores eram 4 pessoas diferentes e cada uma falava um idioma: português, alemão, russo e japonês.
+
+Agora pense que todos eles falam, além do idioma deles próprios, o idioma inglês. Pronto, a comunicação está resolvida. É exatamente assim que funciona o protocolo.
+
+Protocolos são uma linguagem, um idioma único que todo mundo vai conseguir falar. 
+
+O NCP era um protocolo MUITO inicial, muito simples, era bem merdinha. Se um computador quisesse conversar com outro, a rede TODA parava, era criada uma comunicação entre esses dois, e começavam a transmitir dados. QUANDO TERMINAVA A COMUNICAÇÃO E TRANSMISSÃO DE DADOS, aí sim a rede era liberada. Pra 4 computadores é ok, tranquilo. Agora imagine dezenas, ou centenas?
+
+Essa rede cresceu muito, imagine o problemão. Cresceram via cabo.
+
+em 1972 a situação piorou muito, ou melhorou, sei lá. A rede cresceu MUITO, e o NCP até evoluiu, mas ja estava IMPRATICÁVEL.
+
+Foi aí que dois pesquisadores criaram 2 protocolos que depois foram unidos: O Bob Kahn criou o protocolo Transfer Control Protocol, ou TCP. A ideia do TCP era eliminar o problema do NCP: Parar a rede ao,  transmitir dados. Mas o TCP tinha um grande problema... a ARPANET ja tinha se expandido bastante e o TCP tinha problemas de identificação de pontos. Então o Cint Cerf criou um protocolo de identificação de máquinas, o IP: O Internetwork Protocol.
+
+Juntando ambos os protocolos de Bob Kahn e Vint Cerf, criou-se um conjunto de protocolo chamado TCP/IP, que é o protocolo que usamos até hoje. Mas claro que a versão de hoje é bem mais evoluída, estamos atualmente na versão 6. Mas a versçao 1 surgiu com esses dois em 1972.
+
+A criação desse protocolo foi emergencial, pois alguns anos depois em 77, a primeira comunicação via satélite rolou, que inclusive foi entre continetes, e foi entre EUA e Londres.
+
+E com isso a ARPANET cresceu tanto que chegou o momento em que os militares arregaram e não quiseram mais tomar conta dela. Tinha gente demais, que inclusive não eram militares.
+Tinha a galera militar, tinha a galera de universidade, tinha empresas pequenas, e resolveram separar a porra toda
+
+A parte militar ficou com uma rede menor chamada MILNET.
+
+A parte científica, das universidades, ficava com uma rede batizada de NSFNET - National Science Foundation, que é uma fundação de apoio a ciência dos EUA
+
+E a parte comercial que... bem... foda-se.
+
+E todas elas tirando a MILNET, tinham que se comunicar, queriam se comunicar. Elas queriam criar uma rede de interconexão entre elas. Uma Interconnect Networking. Esse termo foi cunhado, talvez pelo Bob Kahn, que de forma abreviada ficou por Internetworking.
+Depois foi simplifcado ainda mais e ficou por Internet.
+
+A Internet que temos hoje cobre o MUNDO todo por cabos debaixo D'ÁGUA.
+Cabos submarinos. Praticamente todos os continentes estão interligados entre sí.
+Veja a imagem na pasta desse curso.
+
+Cada linha colorida é um cabo, e se reparar bem, estão EM VOLTA do continente, não passando por ele. Mas como que a comunicação rola dentro dos continentes? Aí a gente tem sistema de satélites, balões de comunicação, a gente tem transmissões via antenas pra celulares e etc.
+
+Mas hoje como funciona a comunicação entre pontos? Como funciona a transmissão de dados entre o ponto A e o ponto B?
+
+Vamos chamas o computador A de cliente e o computador B de servidor.
+O seu computador é o computador A.
+O ponto B é basicamente o computador que armazena alguma informação que o meu computador (o cliente) quer acessar. Por exemplo, o curso que eu estou assistindo foi upado no YouTube. Logo, o meu computador (que é o cliente, o computador A) está querendo acessar o vídeo que está no servidor (o ponto B). Ou seja, estou acessando os servidores do Google, que é o dono do YouTube, para assistir os vídeos do curso.
+
+Os servidores do Google têm um arquivo (no caso, os vídeos) e eu quero esses arquivos. 
+
+O que o meu computador vai fazer é SOLICITAR esse vídeo. O que vai acontecer com esse servidor que tem esse vídeo? Se o servidor mandar esse vídeo inteiro, que é um vídeo grande, a internet mundial pode ficar lenta, então o que o TCP/IP faz? Basicamente, o IP vai identifica o Ponto A e o Ponto B, e aí o TCP quebra esse vídeo em vários pacotinhos e vai mandar esses pacotinhos totalmente fora de ordem e por rotas diferentes e em tempos diferentes. Se um dos pacotinhos sumir, ele vai mandar denovo. De qualquer formam, no fim da transmissão, todos os pacotinhos vão chegar no Ponto A.
+
+Você já deve ter reparado isso quando sua internet fica lenta. As coisas vão carregando de pouquinho em pouquinho e normalmente fora de ordem. São os pacotinhos chegando de forma aleatória e meio que se montando.
+
+Se quiser saber mais, dá uma olhada nesse vídeo documentário (tem até vídeo de tubarão mordendo o cabo de internet): https://youtube.be/TNQsmPf24go
+
+===========================GOPHER-------------------
+
+A internet antigamente não tinha NADA GRÁFICO.
+
+Era basicamente esse estilo do Notepad: preto com letras verdes (que meio que é uma homenagem).
+Não existia sequer mouse, e usava-se as setas do teclado para navegação
+
+O protocolo básico pra navegação de conteúdo era um protocolo chamado GOPHER. (Dá uma olhada na pasta do curso)
+Dava pra baixar imagens, mas tinha que abri-las no SEU AMBIENTE GRÁFICO, não tinha imagens no meio do site como hoje em dia.
+
+====================Tim Bernes-Lee - Internet=========================
+
+Mas em 1993, em Genébra, um Inglês chamado Tim Bernes-Lee criou uma parada mt maneira.
+
+Ele participou de um projeto que era tipo GOPHER, era um texto com áreas sensíveis, mas que podiam ser acessadas por links (ou hyperlinks). Ele evoluiu tanto essa tecnologia e chegou a um protocolo que mais tarde foi incluído no TCP/IP: o HTTP - Hyper Text Transfer Protocol.
+
+Além do HTTP, ele criou o HTML. O HTTP é baseado no HTML. É uma linguagem bem simples fundamentada em marcas. Esse HTML significa: Hyper Text Mark-Up Language. Linguagem de Marcação para Hypertextos (hypertexto são aqueles linkzins azuis ou textos azuis que levem a alguma página)
+
+==================NAVEGADOR==================
+
+Isso na verdade tem outro nome, o WWW - World Wide Web. Outra coisa que foi criada pra WWW funcionar é um navegador. Na época, o primeiro navegador criado foi o MOZEI por Marc Andreessen. Graças a esse conjunto a WWW se tornou realidade.
+
+Mas qual a diferença entre World Wide Web e Internet?
+
+Internet é uma parada mais ampla. A Internet é a rede mundial, a interconexão, a rede das redes. E dentro da internet a gente tem um conjunto de servidores especializados em um determinado tipo de serviço ou protocolo. 
+Alguns desses servidores são especializados em transferências de arquivos, com o FTP. Outros são especializados (no caso, na época) em transferência de hypertexto simples, como o GOPHER.
+Alguns outros são especializados em e-mails, como o SMTP, POP3 e o IMAP.
+E também existem os servidores especializados em HTTP. O termo que ele cunhou, a WWW, é uma subrede da internet. É uma parte da internet que é especializada em HTTP. 
+
+E essas subredes podem se comunicar entre sí, sem problema nenhum.
+
+================HTTP===============
+
+E por falar em HTTP, esse protocolo é especializado em hypertexto, e pra nós produzirmos o hypertexto (que é o objetivo da nossa disciplina), a gente tem que começar os estudos em HTML.
+
+
+

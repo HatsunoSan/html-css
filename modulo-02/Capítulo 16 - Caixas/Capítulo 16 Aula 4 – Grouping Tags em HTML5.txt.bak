@@ -1,0 +1,44 @@
+Agora vamos aprender a agrupar as caixas de modo mais inteligente.
+
+==================================== Tags de Agrupamento ====================================
+
+As tags de agrupamento, (ou grouping tags) basicamente, sempre foram duas:
+	<div> - box-level
+	<span> - inline-level
+Antigamente era muito comum criar sites assim:
+
+<div>
+	<div id="cabecalho">
+		<h1>
+		
+		</h1>
+		<div id="menu">
+		
+		</div>
+	</div>
+	<div id="conteudo">
+	
+	</div>
+	<div id="rodape">
+	
+	</div>
+</div>
+
+E existem muitos professores que até hoje ensinam dessa forma. A linguagem HTML evoluiu muito e hoje utiliza muito de semântica. Você pode (e deve optar por) criar um site utilizando grouping tags semânticas. Montar um site semântico.
+
+Nós vamos utilizar das tags: <header>; <main>; <footer>; <nav>; e outras que iremos apresentar.
+	observação: todas as tags acima não passam de divs, MAS, são divs SEMÂNTICAS!
+
+Um site jornalístico há o título principal, o assunto principal, o cabeçalho, o conteúdo, rodapé... Enfim, todas essas coisas. NÃO É NECESSÁRIO DAR UM ID OU CLASS PRA TODAS ESSAS COISAS PARA INDICAR CADA UM DELES SEPARADAMENTE
+Para isso, nós podemos usar as tags de cima. Não é errado usar os id's e classes, mas os mecanismos de busca valorizam mais o seu site e seu conteúdo e têm muito mais chances de mostrarem o site do seu cliente nos resultados.
+
+E aí sim, dentro dessas "divs", dessas tags semânticas, podemos descaralhar nas classes e ids.
+
+Seguindo o exemplo jornalísticos:
+	No nosso <main>, nós criamos 2 <section>, ambos respectivamente com id assuntos e noticias.
+	dentro do noticias nós criamos a tag <article>, e dentro deles vamos criar um h2 que será o subtítulo da notícia, um p que será o conteúdo da notícia, também dentro do article podemos criar a tag <aside> - que não tem a ver diretamente com o conteúdo da notícia, mas tem alguma relação, como por exemplo, quem escreveu o artigo - E dentro dele um outro <p> cujo conteúdo é " Escrito por Luna "
+Em alguma versão anterior do HTML5, não era permitido certas grouping tags dentro de certas grouping tags, hoje em dia isso mudou. É uma putaria desenfreada.
+
+ENFIM. E agora, utilizando de CSS, podemos configurar nosso main, article, os childrens de article, footer, e tudo mais. Recomendo que você abra o arquivo cap16a04.html pra você ter uma ideia de como ficou o código, e caso queira ver como ficou sem abrir o arquivo no navegador, veja a imagem " visualizando grouping tags "
+
+No próximo vídeo aprenderemos sobre algumas configurações mais pontuais

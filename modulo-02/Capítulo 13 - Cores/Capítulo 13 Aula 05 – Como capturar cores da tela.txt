@@ -1,0 +1,13 @@
+Você tava navegando nas interwebs e achou uma cor M A R A?
+
+Vamos aprender aqui a capturar essa cor pra utilizá-la mais tarde!
+
+Na verdade eu já sei disso, mas no navegador. Aperte F12 > Na própria aba Elements, na aba abaixo em Styles, procure qualquer coisa com aquele popup de cor do VSCode e clique... Vai abrir um bang de cores com um conta gota. Voillá!
+
+Mas o Guanabara ensina de outros modos...
+Gimp: as pessoas apertam print > salvam no gimp > conta gota > clica na cor e pegou. Aí só abrir a cor do gimp e ta lá o código da cor.
+MAS NÃO É TÃO CONFIÁVEL ASSIM! As vezes a tonalidade da cor até muda com o print.
+E também uma extensão chamada ColorZila... Mas não parece funcionar MUITO bem pra mim... enfim.
+Instala essa extensão na lojinha do chrome. Vai aparecer lá em cima, clica nele, clica em sla oq active e pegou a cor.
+
+E aí com o código em mãos... seja feliz

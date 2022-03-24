@@ -1,0 +1,8 @@
+Aqui vamos aprender sobre o repositório gratuito de fontes do Google!
+A forma que utilizamos de inserção de fontes é bastante limitada. Então vamos utilizar uma nova:
+https://fonts.google.com
+Nesse site, podemos utilizar de forma gratuita diversas fontes públicas e, clicando em uma, podemos ver a quantidade de estilos que a fonte que escolhemos tem.
+E nele podemos filtrar as fontes por categorias, linguagem, propriedade... enfim.
+Escolhendo uma fonte, você pode ir na página dela e clicar em download, MAS, existe uma forma de você utilizar ela em seu site sem precisar baixar nada!
+
+Selecione a fonte e depois selecione todos os estilos de fonte( se houver ) que você quer utilizar, clique no quadradinho no canto de cima direito, em "use on the web" vai ter link e @import, clique em @import e o resto é autoexplicativo.

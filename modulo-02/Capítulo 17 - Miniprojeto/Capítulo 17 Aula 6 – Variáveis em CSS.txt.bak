@@ -1,0 +1,36 @@
+SIM! Isso mesmo. Variáveis em CSS!
+
+Como funciona? Vamos ao exemplo.
+
+Imagine que você tem separado 6 cores que você vai usar no site. Cor monocromática. Que vai do verde mais claro até o mais escuro, por exemplo:
+
+	#c5ebd6
+	#83elad
+	#3ddc84
+	#2fa866
+	#1a5c37
+	#063dle
+	
+Aí sempre que eu for usar as cores eu deixo separadinho ali em comentário e vou copiando e colando conforme necessário né? Não é tão difícil assim e nem demorado...
+
+Mas as vezes é um código gigante de enorme, imagina ter que subir e descer a página sempre pra ir buscar lá em cima nos comentários as cores? A gente pode simplificar usando variáveis!
+Mas como? Assim:
+
+	:root {
+		--cor0: #c5ebd6;
+		--cor1: #83elad;
+		--cor2: #3ddc84;
+		--cor3: #2fa866;
+		--cor4: #1a5c37;
+		--cor5: #063dle;
+	}
+Facilita muito! Pois eu posso trocar o nome da variável o quanto eu quiser.
+Beleza, fiz essa listinha e dei nomes... Como usar?
+	background-color: var(--cor0);
+
+O nome da variável dá lugar ao código dar cor ou o nome da cor. MAS É NECESSÁRIO COLOCAR ESSE VAR ANTES!
+
+E vamos supor que o cliente não gostou da cor de fundo das páginas, e todas as páginas utilizaram a mesma cor, saca?
+Cara, só alterar lá. Todas as páginas vão alterar. Não precisar ir de um em um.
+
+E dá pra fazer o mesmo com fontes e... bom, tudo mais.

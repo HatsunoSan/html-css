@@ -1,0 +1,18 @@
+CUIDADO COM AS SOMBRAS! Você não precisa exagerar, você não precisa "mostrar" pro usuário. O cérebro vai perceber, é inconsciente.
+
+Mas uma correção antes. O Footer era pra ter 1px segundo nossa configuração. Cara, se você olhar na imagem de exemplo que eu falei anteriormente, não tem 1px nem aqui nem na china. Isso é por conta do parágrafo dentro do footer. Por padrão, ele ta considerando uma margin de 16px. Adiciona uma configuração para deixar com 0px que ficará nos trinques. É algo a prestar atenção na criação de sites!
+
+Agora ao conteúdo do vídeo:
+
+Vamos adicionar sombras no nosso nav (que é onde estão os links). Vamos usar de shorthand para iso.
+
+no nav, nós adicionamos à configuração o box-shadow com alguns parâmetros:
+	box-shadow: 1px 1px 1px black;
+		parâmetros: deslocamento horizontal, vertical, espalhamento e cor da sombra. Não precisa decorar. Sempre que você for trabalhar com sombras, você faz a linha acima e depois configuramos ela.
+Feito isso vamos usar o devtools e alterar ele com a roda do mouse pra uma melhor visualização do que tá acontecendo com o nav.
+
+É... Tem que usar o Google Chrome pra aula. Nele tem um layout bem prático pra você personalizar a sombra sem ter que escrever. Simplesmente girando uma bolinha em uma área xy ou aumentando ou diminuindo o espaçamento/espalhamento e embaçamento com um "slide".
+
+Enfim, utilizando a linha do professor (pois utilizamos o EDGE e n o chrome), a sombra ficou MUITO PRETA! E sombras não são assim. Elas tem uma cor meio transparente, pendendo pro cinza. Bom, use o popup de cores do VSCode e deixe-a transparente. A barrinha tem de ficar da metade pra baixo.
+
+No próximo vídeo, UTILIZE CHROME PORRA! E vamos trabalhar com bordas agora.
