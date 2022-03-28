@@ -1,0 +1,41 @@
+Sim, um capítulo inteiro para falar de imagens de fundo.
+
+ligeiro:
+crie 3 divs no body, todas com class quadrado, e também id de q1 a q3
+
+e meta um style assim:
+
+ <style>
+        div.quadrado {
+            display: inline-block;
+            border: 1px solid black;
+            border-radius: 10px;
+            background-color: lightcoral;
+            width: 300px;
+            height: 300px;
+        }
+        div#q1{
+            background-color: skyblue;
+        }
+        div#q2{
+            background-image: linear-gradient(to bottom, yellow, purple);
+        }
+        div#q3{
+            background-image: url('imagens/pattern001.png');
+        }
+
+    </style>
+	
+Se você for pegar pra ver o q3, a imagem que foi colocada nele não condiz com o tamanho dela mesmo. E se prestar bem atenção, parece que há uma divisão na imagem. Olhe na pasta da imagem e abra ela. É minúscula! O que aconteceu foi que ela se repetiu pra caber no quadrado todo.
+
+Agora, altere para o wallpaper002.jpg
+
+Só uma parte da imagem está no quadrado, pois a imagem é enorme pro quadradinho minúsculo.
+
+Se você mandar um body {
+	background-image: url('imagens/wallpaper002.jpg')
+}
+
+vai ver que o fundo também se repete. É de se atentar.
+
+E outra coisa, NÃO SE ESQUEÇA QUE O PESO DA IMAGEM IMPORTA EM UM SITE! Se ele for MUITO pesado, demora a carregar. Se o google achar que seu site demora a carregar, simplesmente ele deixa de aparecer nas buscas.
