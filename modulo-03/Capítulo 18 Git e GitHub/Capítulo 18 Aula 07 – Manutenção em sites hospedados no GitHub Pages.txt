@@ -1,0 +1,18 @@
+Aqui aprenderemos a fazer a manutenção do site no Github Pages!
+
+Primeiramente abriremos o Github Desktop.
+
+Na verdade na verdade, não é correto alterar a branch main. Ali em cima tem uma aba escrito "Current branch main".
+
+Mas como não é curso de github, meio que foda-se, láááá na frente, você pode fazer um curso de git e github se quiser.
+
+Digamos que você acabou de fazer uma alteração no seu código no repositório local, certo? Mas teu site já tá no ar, e você quer mandar essa versão corrigida. Como faz?
+
+Bom, se você seguiu até aqui o curso, ao instalar o github desktop/git, teu vscode foi detectado e configurado pelo instalador pra se comunicar com o git/hub desktop e tudo mais, quando você abrir o GitHub depois de alterar o código no vscode, o github desktop vai notar essa alteração.
+
+Ao adicionar ou deletar, o GitHub vai notar. Veja o exemplo "alteracao".
+
+Perceba que lá embaixo também tem um "comit". E é ali que você mexe pra upar a atualização pro githubpages.
+
+Ali no "Update index.html" você dá um resumo da alteração. Dê uma descrição se quiser também, e depois, clique em Commit to main. Isso vai atualizar o """registro""" no repositório local, mas pra alterar o site já no ar, na direita vai aparecer "push to origin. Clicando ali, o site é atualizado. Não é de imediato, pode demorar de segundos a minutos. Depende do Github.
+
