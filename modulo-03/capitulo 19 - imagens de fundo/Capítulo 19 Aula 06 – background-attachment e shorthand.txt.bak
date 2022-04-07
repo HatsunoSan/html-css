@@ -1,0 +1,21 @@
+Vamos agora falar sobre vínculos de background: Se ele vai ficar vinculado ao conteúdo ou fixado na tela!
+
+Eu quero rolar a página e a imagem estar fixada. Isso se chama vínculo, ou attachment!
+
+background-attachment: ;	- Há dois opções basicamente:
+
+...scroll	-	O padrão, você rolar a página e o fundo rolar junto
+
+...fixed	-	Rolar o conteúdo, mas a imagem fica estática.
+
+
+Existe a possibilidade de usar shorthand background!
+
+color > image > position > repeat > [size] > attachment
+
+Porque o size tá desse jeito?
+
+Apesar da documentação dizer que o cover na shorthand funciona... Bem, não funcionou.
+MAS SEGUNDO AS ESPECIFICAÇÕES DO W3C, ERA PARA FUNCIONAR! Problema da documentação? Não sei, problema dos navegadores? Também não sei. Tem que declarar separadamente.
+
+

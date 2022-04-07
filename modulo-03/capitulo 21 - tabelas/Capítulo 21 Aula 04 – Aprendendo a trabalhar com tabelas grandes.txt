@@ -1,0 +1,6 @@
+Vamos começar a falar sobre a anatomia de tabelas grandes!
+
+No HTML, temos diversas tags semânticas pro conteúdo e coisa e tal.
+
+Isso também existe para tabelas. 
+Se for uma tabela simples como fizemos anteriormente, tudo bem ser feito daquela forma. Mas se for uma tabela maior, com maior quantidade de dados, é bom fazer da forma que iremos aprender agora!

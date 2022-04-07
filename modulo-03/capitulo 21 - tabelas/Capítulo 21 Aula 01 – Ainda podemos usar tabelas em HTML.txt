@@ -1,0 +1,32 @@
+Nesse capítulo, falaremos bastante sobre tabelas!
+
+Mas antes, algo MEGA IMPORTANTE!
+Você NÃO PODE usar tabela pra criar a ESTRUTURA do seu site!
+
+Veja na pasta a imagem: exemplo-tabela
+
+Essa é a Lista de unidades federativas do Brasil.
+
+Quando você precisar utilizar uma tabela como essa, VOCÊ VAI USAR UMA COMO ESSA!
+
+Mas porra, isso é meio óbvio né? Pra quê sequer comentar isso?
+
+Porque existem pessoas que dizem que tabelas são inúteis. Oi?
+
+São dois extremos.
+
+Tem gente que usa tabela pra CRIAR A ESTRUTURA DE UM SITE.
+
+
+Muito antigamente, lá na época do HTML4, um HTML que não existe mais há muitos anos, os sites eram criados em forma de tabela.
+
+Veja o exemplo na imagem site-estrutura-tabela
+
+Não é assim que se constrói sites hoje em dia, tanto que até a versão do HTML mudou. Usamos o HTML5.
+
+Com a evolução do HTML, CSS, com o monte de características, Grid View, Flexbox, flutuações normais da CSS... Enfim, dá pra criar os sites sem precisar de tabela.
+
+Sites criados em tabela são muito "duros", é difícil de posicionar as coisas, elas quebram com facilidade, quando você adiciona um componente o site todo bagunça...
+
+
+

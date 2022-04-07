@@ -1,0 +1,47 @@
+Vamos falar sobre... o título né, qq tu esperava?
+
+A centralização vertical DE VEZ EM QUANDO É NECESSÁRIA. É meio complicadinho, mas você vai chegar lá.
+
+Quando você vai centralizar verticalmente, você PRECISA de um CONTAINER E UM CONTEUDO
+ex:
+	<section>			// container
+		<article>		// conteudo
+		
+		</article>
+	</section>
+	
+Olhe o exemplo "container-conteudo" na pasta.
+
+Se você quiser alinhar horizontalmente o conteudo, você vai dar um margin: auto, certo?
+
+Mas ele só serve pro alinhamento horizontal.
+
+O que tem que se fazer é:
+	O container primeiramente tem que ter um position: relative;
+	
+	Segundamente, o conteudo tem que ter o position: absolute;
+	
+Quando você coloca o position: absolute; em um elemento, você pode configurar propriedades muito importantes:	top; left; bottom; right
+
+Trabalhando diretamente com as direções!
+
+Vamos trabalhar com left: 100px; e top: 200px;
+
+Essas duas configurações aí de left e top significa que: tem 100 pixels de distância até a borda esquerda do conteúdo chegar à borda esquerda do container, e 200 pixels de distância até a borda superior do conteudo, chegar à borda superior do container.
+
+Mas também podemos trabalhar com porcentagem também.
+
+	*É interessante ter uma imagem que tenha algum tipo de demonstração de centralização*
+	
+No exemplo do professor, a PONTA ESQUERDA de cima do conteudo centralizou no meio do target, mas nós queremos que ambos os targets se encontrem e fiquem centralizados.
+
+E pra isso, ele utilizou a propriedade transform: ;
+	Mexer em qualquer caixa aplicando alguma alteração de transformação nela como por exemplo:
+		aumentar ou diminuir com o scale, mexer na perspectiva, rotacionar...
+
+Mas vamos utilizar de transform: translate();
+	Colocando dois valores positivos, ele anda pra direita e pra baixo. E colocando dois negativos, ele anda pra esquerda e pra cima.
+	
+	
+	
+	
