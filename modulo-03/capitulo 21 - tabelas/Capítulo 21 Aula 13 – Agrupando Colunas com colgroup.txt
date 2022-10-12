@@ -1,0 +1,11 @@
+Bom, você precisa estilizar A COLUNA, mas é meio chatinho né? Meter uma classe em cada linha daquela mesma coluna... Bom, pra isso existe o <colgroup>
+<table>
+	<colgroup>
+		<col class="xyz">
+		<col class="zyx">
+		<col class="xzy">
+		<col class="zxy">
+	</colgroup>
+cada col que vc criar no colgroup, é para uma coluna da tabela. agora, só meter ela no style com as classes e ser feliz.
+
+Se houver 4 colunas na tabela e você meter 3 col, um dos col você pode colocar span="2" que a estilização vai valer pra duas colunas. Só fique atento.

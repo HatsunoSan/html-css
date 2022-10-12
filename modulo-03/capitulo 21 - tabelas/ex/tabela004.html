@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas Filmes</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table {
+            border-collapse: collapse;
+            width: 500px;
+        }
+        caption {
+            font-size: 1.5em;
+            background-color: lightgrey;
+            font-weight: bolder;
+        }
+        td, th {
+            padding: 5px;
+            border: 1px solid black;
+            text-align: center;
+        }
+        th {
+            font-weight: bolder;
+        }
+        .sexo {
+            font-weight: bolder;
+        }
+    </style>
+</head>
+<body>
+    <h1>Filmes favoritos dessas pessoas</h1>
+    
+    <table>
+        <caption>Filmes das pessoas que eu gosto</caption>
+        <thead>
+            <tr>
+                <th scope="col">Grupo</th>
+                <th scope="col">Nomes</th>
+                <th scope="colgroup" colspan="3">Filmes</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>    
+                <th rowspan="3" scope="rowgroup" class="sexo">Mulheres</th>
+                <td>Isadora Kobayashi</td>
+                <td>Legalmente Loira</td>
+                <td>10 Coisas que Odeio em Você</td>
+                <td>Waves</td>
+            </tr>
+            <tr>
+                <td>Samyra Braga</td>
+                <td>Rapunzel</td>
+                <td>Meu Malvado Favorito</td>
+                <td>Valentes</td>
+            </tr>
+            <tr>
+                <td>Ana Clara</td>
+                <td>Interstellar</td>
+                <td>The Handmaiden</td>
+                <td>Parasita</td>
+            </tr>
+            <tr>
+                <th rowspan="3" scope="rowgroup" class="sexo">Homens</th>
+                <td>Hugo Rezende</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Eduardo Fox</td>
+                <td>Spirited Away</td>
+                <td>Koe no Katachi</td>
+                <td>Parasita</td>
+            </tr>
+            <tr>
+                <td>Patrick Leone</td>
+                <td>Cruela</td>
+                <td>Lilo & Stitch</td>
+                <td>Encanto</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

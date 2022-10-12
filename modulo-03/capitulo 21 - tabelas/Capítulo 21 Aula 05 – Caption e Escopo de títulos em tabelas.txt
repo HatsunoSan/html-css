@@ -1,0 +1,39 @@
+Vamos falar sobre os escopos do "th".
+
+th é como um título, não um dado. É título "Estado", que fica acima dos estados, ou "população" acima dos números.
+
+Sempre que for um dado: td
+Sempre que for um título: th
+
+Tá, mas isso faz parte do assunto da aula?
+É, sim.
+
+A gente precisa dar um sentido pros títulos da tabela. 
+O site tem que saber a que se refere o título: se ele se refere À COLUNA, ou se ele se refere À LINHA!
+
+
+
+<table>
+	<caption>População das Unidades Federativas </caption>	<!--Legenda da Tabela-->
+		<thead>						<!--Elemento de Título da Tabela-->
+			<th scope="col">Estado</th>		<!--th é o título, scope é a que se refere o título, se a linha ou a coluna-->
+			<th scope="col">População</th>		<!--scope="col" Se refere À COLUNA; scope="row" Se refere À LINHA-->
+		</thead>
+		<tbody>
+			<tr>
+				<td>São Paulo</td>
+				<td>numero da população</td>
+			</tr>
+			...
+			
+		</tbody>
+		<tfoot>
+			<tr>
+				<th scope="row">Total de Habitantes</th>	<!--scope="col" Se refere À COLUNA; scope="row" Se refere À LINHA-->
+				<th>numerototaldehabitantesaqui</th>
+			</tr>
+		</tfoot>
+</table>
+
+
+É pra isso que serve o "scope". Isso é muito importante para que os mecanismos de grupos achem os resultados de forma coerente.

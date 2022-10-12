@@ -1,4 +1,158 @@
+colinha:	https://caniuse.com/	Diz a % de compatibilidade de algum comando em diversos navegadores.
 colinha:
+alt 96 = 	`	// crase invertida
+alt 92 = 	\	// barra invertida
+alt 124		|	// barra vertical
+
+
+cor de fundo que eu gosto:
+	background-color: rgb(57,23,88)
+fundo interessante:
+	background-color: rgb(49, 34, 90)
+3 cores em degradê q eu achei no youtube:
+	#FF8983
+	#7F0E7F
+	#027865
+
+
+BAIXAR THUMBNAIL DE VÍDEO DO YOUTUBE:
+Veja também: https://stackoverflow.com/questions/2068344/how-do-i-get-a-youtube-video-thumbnail-from-the-youtube-api
+Primeiramente DIGITE esse endereço no navegador:
+	https://img.youtube.com/vi/youtube-video-id/maxresdefault.jpg
+
+onde tá escrito 'youtube-video-id' você altera pelo id do vídeo, que é aquele monte de número e letra aleatório depois do watch= e antes do & de um link de vídedo do youtube
+ex:
+https://www.youtube.com/watch?v=***IBvf7KUEZ78***&ab_channel=ALEXOPIBvf7KUEZ78	//Sem os "***"
+
+v
+
+https://img.youtube.com/vi/***IBvf7KUEZ78***/maxresdefault.jpg			//Sem os "***"
+
+
+=================================================PROBLEMA EM CSS===================================================
+as vezes dá problema em acentuação... Pra evitar isso, digite @charset "UTF-8"; no início da CSS. Faça isso em toda CSS. Não custa nada né?
+
+GIMP PROBLEMA RECORTE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+Aconteceu 1 vez de o GIMP reconhecer o espaço transparente de uma imagem como parte dela, e aí quando eu precisava dar um border-radius, funcionava, PORÉM O QUE ARREDONDAVA ERA JUSTAMENTE A PARTE TRANSPARENTE!!!!
+Para resolver isso, ai recortar e colar a imagem e tudo mais, clique em IMAGEM > Recortar para o Conteúdo, e pronto.
+
+
+========================================SITES ÚTEIS========================================================
+
+Símbolos Entities para HTML/CSS:
+https://www.w3schools.com/cssref/css_entities.asp
+
+Símbolos Unicode:
+https://erikasarti.com/html/dingbats-simbolos-desenhos/
+
+Sites de imagens gratuitas:
+	https://unsplash.com/
+	https://www.pexels.com/pt-br/
+
+Ícones de favorito.
+	https://iconarchive.com/	!!! CUIDADO Q EU BAIXEI UM ICON LA DE 400KB! Use o site abaixo pra dar uma convertida, ja que o iconarchive dispõe de outros formatos/tamanhos.
+	https://favicon.io/
+	https://www.favicon.cc/
+
+
+Sites de fontes:
+	www.dafont.com
+	fonts.google.com
+	https://www.whatfontis.com/
+	https://www.fontsquirrel.com/
+	https://www.myfonts.com/
+
+Sites de cores:
+	color.adobe.com
+		adobe colors é pica, dá até pra extrair as cores de uma imagem, montar degradê baseado nas cores
+	paletton.com
+		paletton dá exemplo de site, muito foda tbm.
+	coolors.co (nao tem "m" mesmo)
+		coolors é pra quem ta perdido, e comba muito bem com o paletton
+
+
+======================================COMENTÁRIOS DO YOUTUBE===============================================
+Quem não quer ficar colocando o pt-br toda hora na estrutura padrão do html criado pelo snippet pode configurar uma variável de ambiente indo em Arquivo > Preferências > Configurações, depois pesquisa por "variáveis emmet" e depois clica em adicionar item e cria a variável lang e o valor coloca pt-br. Aí todas as vezes que pressionar o ! + Enter ele já vai criar o código padrão com o parâmetro lang="pt-br"
+
+
+ctrl + espaço não funciona? clica com o botão direito diretamente no que você quer colocar como caminho, e "copiar caminho relativo" e pronto
+
+
+INSTA COMENTÁRIO NO CÓDIGO: ctrl + ; 	// OBS: transforma A LINHA em comentário.
+
+Podemos mudar a tag tanto de abertura quanto de fechamento ao mesmo tempo usando F2 com cursor em cima de uma tag
+
+li*10 cria 10 tags li uma embaixo da outra
+Ao Invés de digitar OL depois 4 Li's pode usar o comando  ol>li*4   e depois tecla Tab que ele já faz toda a estrutura com os 4 LI's dentro.
+
+
+o type dos ul e ol está ultrapassado, o MDN recomenda fazer isso agora na CSS.
+<style> 
+       ol {
+            list-style-type: 1;
+       }
+
+       ul {
+           list-style-type: circle;
+       }
+</style>
+
+ctrl + enter faz você ir diretamente para alinha abaixo mesmo que o cursos esteja entre tags.
+
+Dica para Alinhar mais facilmente no GIMP. Existe a Ferramenta de Alinhamento (tecla de atalho: Q). Ao acionar essa ferramenta, clique sobre o item que deseja alinhar e depois escolha os alinhamentos disponíveis. Existem opções de alinhamento horizontal e vertical. Experimente! 
+
+se você quiser um lorem com 10 palavras, basta digitar lorem10 por exemplo.
+
+Uma coisa legal que dá para fazer quando você cria um id é poder criar uma âncora na página que ao clicar te leva direto ao id específico, exemplo: colocar no final da página um <a href="#principal">Clique para voltar ao início</a>
+
+SELECIONAR TODAS AS PALAVRAS IGUAIS:
+" Coloque o cursor em uma das palavras "blank" do seu código; Aperte ctrl+D e toda palavra "blank" a partir daquela será selecionada. Após isto utilize a seta direita e digite a class="externo" "
+
+
+Bordas pretas ao centralizar um iframe?
+56,25% é a porcentagem para full HD. É só dividir a altura pela largura e multiplicar por 100.
+Isso vale para outras proporções de tela também.
+Abaraços e sucesso. ;)
+/* Wolly: 56.4% PRA MIM deu PERFEITAMENTE! Sem borda preta antes do play, nem depois!*/
+
+=========================================CAPÍTULO 4================================================================
+
+
+
+
+
+<hr> - Horizontal Row - Basicamente cria uma linha horizonta de um canto a outro da tela.
+	o hr representa um break temático de parágrafo. Ex: Uma mudança numa de cena em uma história, ou uma trnsição para outro assunto em uma sessão de referência à um livro.	
+
+===============================PARÁGRAFOS E QUEBRA DE LINHAS=======================================================
+Capítulo 5
+SINAL DE MARCAÇÃO NO SITE! 
+ex: <p>; </p>
+	&lt;p&gt;
+&lt;x = <x	<!--lt = Less than-->
+&gt;x = >x	<!--gt = Greater than-->
+
+&reg; = ® (marca registrada)
+&copy; = © (Copyright)
+&trade; = ™ (Trade Mark)
+&euro; = € (Euro)
+&pound; = £ (Libra)
+&yen; = ¥ (Yen, moeda japonesa) 
+&cent; = ¢ (Centavo)
+&delta; = δ (delta)
+&Delta; = Δ (Delta)
+
+TEM UMA LISTA CARALHO, vai na pasta. Tem até um site com mais símbolos.
+
+Emojis:
+	https://emojipedia.org/	Pra buscar o código hexadecimal do emoji.
+		PRA USAR OS EMOJIS:
+			Todo emoji começa assim: &#x (#x representa hexadecimal)
+				Utilizando: &#x1F596; 
+
+
+
 
 ========================================= IMAGENS =====================================================================
 Capítulo 6 (também capítulo 11 - imagens, audios, videos)
@@ -230,7 +384,9 @@ Hierarquia de tabelas (simples):
 
 Ela por padrão não vai ter aquelas linhas de tabela e coisa e tal. Então veja a imagem exemplo-style-tabela-simples.
 
-border-collapse: xyz; são propriedades que altera a forma que a tabela se apresenta, por ex: linhas separadas, linhas coladas e parecendo linha única... enfim.
+
+
+						TABELA SIMPLES
 <table> 		<!-- Elemento para as tabelas -->
 	<tr>			<!--table row   = LINHA de tabela-->
 		<td>A1</td>	<!--table data  = DADO de tabela-->
@@ -243,8 +399,75 @@ border-collapse: xyz; são propriedades que altera a forma que a tabela se apres
 		<td>C2</td>
 	</tr>
 </table
+						
+
+
+						TABELA GRANDE
+<table>
+	<caption>População das Unidades Federativas </caption>	<!--Legenda da Tabela-->
+		<thead>						<!--Elemento de Título da Tabela-->
+			<th scope="col">Estado</th>		<!--th é o título, scope é a que se refere o título, se a linha ou a coluna-->
+			<th scope="col">População</th>		<!--scope="col" Se refere À COLUNA; scope="row" Se refere À LINHA-->
+		</thead>
+		<tbody>
+			<tr>
+				<td>São Paulo</td>
+				<td>numero da população</td>
+			</tr>
+			...
+			
+		</tbody>
+		<tfoot>
+			<tr>
+				<th scope="row">Total de Habitantes</th>	
+		<!--scope="col" Se refere À COLUNA; scope="row" Se refere À LINHA. row/colgroup para mesclagem-->
+				<th>numerototaldehabitantesaqui</th>
+			</tr>
+		</tfoot>
+</table>
+
+
+border-collapse: xyz; são propriedades que altera a forma que a tabela se apresenta, por ex: linhas separadas, linhas coladas e parecendo linha única... enfim.
 
 vertical-align: xyz;	preciso responder?
+
+tbody > tr:nth-child(odd) {	<!--Pseudo-class que seleciona os childs pares (even) ou ímpares (odd) pra, por exemplo, mudar o fundo.-->
+}
+
+Título seguer a tabela ao scrollar:
+
+table {
+	position: relative;
+}
+thead > tr > th {
+	position: sticky;			<!--Vai fazer com que ela fique "colada" ao scrollar-->
+	top: 0;						<--Diz qual posição ficará colada.-->
+	background-color: qualquer;	<!--É preciso de uma cor, caso contrário, ficará transparente.-->
+}
+
+Mesclagem de células:
+
+<td rowspan="2">D</td> 	<!--A linha vai ocupar duas linhas mas NA MESMA COLUNA. Basicamente cresce pra cima ou pra baixo.-->
+<td colspan="2">B</td>	<!--A linha vai ocupar um espaço de DUAS COLUNAS. Basicamente cresce pro lado.-->
+
+GRUPO DE COLUNAS:
+<table>
+	<colgroup>
+		<col class="xyz">
+		<col class="zyx">
+		<col class="xzy">
+		<col class="zxy">
+	</colgroup>
+Se houver 4 colunas na tabela e você meter 3 col, um dos col você pode colocar span="2" que a estilização vai valer pra duas colunas. Só fique atento.
+
+Rolagem lateral apenas de uma tabela enorme:
+
+envelopa a tabela toda em uma div e dê o id de container
+
+div#container {
+            overflow-x: auto;
+        }
+pronto
 ========================================= COISAS PERDIDAS =============================================================
 
 

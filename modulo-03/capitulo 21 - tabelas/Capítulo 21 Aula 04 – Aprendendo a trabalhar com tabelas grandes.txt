@@ -4,3 +4,19 @@ No HTML, temos diversas tags semânticas pro conteúdo e coisa e tal.
 
 Isso também existe para tabelas. 
 Se for uma tabela simples como fizemos anteriormente, tudo bem ser feito daquela forma. Mas se for uma tabela maior, com maior quantidade de dados, é bom fazer da forma que iremos aprender agora!
+
+	<!--
+        ANATOMIA PARA TABELAS GRANDES
+		
+        TABLE
+		CAPTION
+            THEAD
+                TR, TD, TH
+            TBODY
+                TR, TD, TH
+            TFOOT
+                TR, TD, TH
+    -->
+	
+A tabela que vamos trabalhar agora, vai ser aquele primeiro exemplo de tabela enorme que vimos.
+

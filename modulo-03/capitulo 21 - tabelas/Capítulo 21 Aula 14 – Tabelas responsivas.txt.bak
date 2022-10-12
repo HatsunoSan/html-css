@@ -1,0 +1,11 @@
+Bom, como tornar responsivo tabelas muito grandes?
+
+Se a tabela for enorme, tiver diveeeersas colunas, e você estiver num celular? Caralho, tomou no cu, vai rolar a tela pra caraaaaaaaaaaaaaaaalho.
+
+Envelopa TODA SUA TABELA (Isto é, do table ao table) numa div#container, e no css digite o seguinte:
+
+#container{
+	overflow-x: auto;
+}
+
+que APENAS sua tabela terá rolagem lateral, e não a página toda.
