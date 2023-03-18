@@ -358,6 +358,23 @@ img {		para a imagem utilizar 100% da largura, se adequando com o aumento ou dim
 
 ====================================== CAPÍTULO 19 BACKGROUND ===================================================================
 
+com background-position vc consegue centralizar a imagem em algumas posições diferentes:
+background-position: left top;
+background-position: left center;
+background-position: right bottom;
+background-position: center center;
+e etc
+
+background-size: contain;	- Faz com que a imagem em qualquer tamanho de telha seja exibida 100%. Mesmo que pra isso barras pretas apareçam nos cantos da dela.
+
+background-size: cover;		- Faz com que a imagem não seja exibida 100%, e seja picotada em tamanhos diferentes de tela. Não será exibido as barras pretas, mas vai preencher a tela inteira.
+
+background-size: auto;		- Manda o navegador se virar pra mostrar a imagem. (Padrão)
+
+background-size: xpx/100%	- Tamanho fixo em pixels ou porcentagem
+
+background-attachment: scroll;  - Padrão, a imagem vai rolar junto do conteúdo.
+background-attachment: fixed;   - A imagem vai ficar fixam sem rolar. O conteúdo rola.
 
 
 existe shorthand de background!
@@ -378,6 +395,36 @@ background-size: cover;		- Faz com que a imagem não seja exibida 100%, e seja p
 background-size: auto;		- Manda o navegador se virar pra mostrar a imagem. (Padrão)
 
 background-size: xpx/100%	- Tamanho fixo em pixels ou porcentagem
+
+
+Como centralizar um conteúdo no CENTRO VERTICAL E HORIZONTAL? obs: o margin auto só centraliza horizontalmente.
+
+section#container
+	article#conteudo
+#container {
+	position: relative; 	//Esse já é o padrão, só estamos sendo explícitos.
+
+}
+#conteudo {
+	position: absolute;	//nos permite alterar as direções a seguir:
+	left: 50%;
+	top: 50%;
+	//Isso acima "centraliza" a imagem em relação ao topo esquerdo. O Topo esquerdo de fato estará no centro, mas não é isso que queremos, então continuaremos com o código a seguir:	
+
+	
+	transform: translate(-50%, -50%)	//Puxará 50% pra esquerda, e 50% pra cima.
+}
+Há uma forma mais simples com flexbox, mas isso é mais pra frente. Sempre bom saber como resolver um problema com mais de uma forma:
+#container {
+    display: flex; /*Possui diversas funções (procurem pela documentação), uma delas é habilitar o manejamento do conteúdo*/
+    justify-content: center; /*Alinhamento horizontal, ou seja, dispensa o "margin: auto"*/
+    align-items: center; /*Alinhamento vertical*/
+}
+
+Essas propriedades sempre são colocadas no elemento-pai (container), não se esqueçam desse importante detalhe.
+
+
+
 
 ========================================= CAPÍTULO 21 TABELAS =============================================================
 Hierarquia de tabelas (simples):
@@ -470,6 +517,7 @@ div#container {
 pronto
 ========================================= COISAS PERDIDAS =============================================================
 
+font-variant: small-caps;	//Se você gosta do estilo da letra minúscula, mas queria que ainda houvesse letras maiúsculas, o small-caps serve pra isso.
 
 
 Centralizar vídeo de forma responsiva: Altere de acordo.
