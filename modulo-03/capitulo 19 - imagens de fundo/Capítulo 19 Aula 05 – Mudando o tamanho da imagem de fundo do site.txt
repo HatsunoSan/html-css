@@ -2,13 +2,13 @@ As vezes quando um site ainda ta carregando, as imagens podem demorar um pouco p
 
 As vezes você pode pensar que, se você vai usar realmente uma imagem de fundo, não é necessári configurar uma cor de fundo, mas é sim.
 
-E se, quando a imagem no seu site demorar a carregar, por falta de cor de fundo setada por você, seu conteúdo ficar inconsumível
+E se, quando a imagem no seu site demorar a carregar, por falta de cor de fundo setada por você, seu conteúdo ficar inconsumível?
 
 Outra coisa é quando você coloca uma imagem e ela fica se repetindo no fundo, ou então, em algum momento ela corta e deixa a cor de fundo à mostra... enfim
 
 Há algumas propriedades que ajudam.
 
-background-size: contain;	- Faz com que a imagem em qualquer tamanho de telha seja exibida 100%. Mesmo que pra isso barras pretas apareçam nos cantos da dela.
+background-size: contain;	- Faz com que a imagem em qualquer tamanho de telha seja exibida 100%. Mesmo que pra isso barras pretas apareçam nos cantos da tela.
 
 background-size: cover;		- Faz com que a imagem não seja exibida 100%, e seja picotada em tamanhos diferentes de tela. Não será exibido as barras pretas, mas vai preencher a tela inteira.
 

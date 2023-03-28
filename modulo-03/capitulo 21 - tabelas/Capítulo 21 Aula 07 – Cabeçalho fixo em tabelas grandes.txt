@@ -1,4 +1,4 @@
-Como criar um cabeçalho fixo pra sua TABELA GRANDE. Não funciona pra simples. E infelizmente isso não funciona em todos os navegadores, então fique ligado!
+Como criar um cabeçalho fixo pra sua TABELA GRANDE. Não funciona pra tabelas simples. E infelizmente isso não funciona em todos os navegadores, então fique ligado!
 
 Mas... o que essa funcionalidade faz? Bom. Imagine um tabelão grandão com o título lá em cima.
 

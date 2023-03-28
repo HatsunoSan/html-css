@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alinhamento Vertical</title>
+    <style>
+        #container {
+            background-image: url('../imagens/target001.png');
+            background-size: 100% 100%;
+            
+            height: 500px;
+            padding: 10px;
+            background-color: purple;
+
+            display: flex;  
+            /* Possui diversas funções, uma delas é habilitar o manejamento do conteúdo. */
+            justify-content: center; 
+            /* Alinhamento horizontal. */
+            align-items: center;
+            /* Alinha os itens do contaner verticalmente. */
+        }
+        #conteudo {
+            background-image: url('../imagens/target001.png');
+            background-size: 100% 100%;
+            
+            
+            height: 200px;
+            width: 400px;
+            background-color: orangered;
+            /* margin: auto; // Só serve pro alinhamento HORIZONTAL */
+
+            
+        }
+    </style>
+</head>
+<body>
+    <section id="container">
+        <article id="conteudo">
+
+        </article>
+    </section>
+        
+    </section>
+</body>
+</html>

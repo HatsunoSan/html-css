@@ -1,9 +1,12 @@
 colinha:	https://caniuse.com/	Diz a % de compatibilidade de algum comando em diversos navegadores.
+
 colinha:
 alt 96 = 	`	// crase invertida
 alt 92 = 	\	// barra invertida
 alt 124		|	// barra vertical
 
+
+Em vez de apertar alt e ficar clicando linha por linha, segure o scroll e vá subindo ou descendo com o mouse.
 
 cor de fundo que eu gosto:
 	background-color: rgb(57,23,88)
@@ -374,7 +377,7 @@ background-size: auto;		- Manda o navegador se virar pra mostrar a imagem. (Padr
 background-size: xpx/100%	- Tamanho fixo em pixels ou porcentagem
 
 background-attachment: scroll;  - Padrão, a imagem vai rolar junto do conteúdo.
-background-attachment: fixed;   - A imagem vai ficar fixam sem rolar. O conteúdo rola.
+background-attachment: fixed;   - A imagem vai ficar fixa sem rolar. O conteúdo rola.
 
 
 existe shorthand de background!

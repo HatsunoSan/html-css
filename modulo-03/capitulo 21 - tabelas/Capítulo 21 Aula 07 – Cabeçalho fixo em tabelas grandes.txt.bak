@@ -1,0 +1,18 @@
+Como criar um cabeçalho fixo pra sua TABELA GRANDE. Não funciona pra simples. E infelizmente isso não funciona em todos os navegadores, então fique ligado!
+
+Mas... o que essa funcionalidade faz? Bom. Imagine um tabelão grandão com o título lá em cima.
+
+Aí, você se distrai, ja ta no meio da tabela, não lembra o que as linhas se referem à... E vai ter que voltar lá pra cima, e se perder da linha.
+
+BOM, esse recurso faz com que o título da tabela fique fixo mesmo você rolando a página. Ele vai acompanhar.
+
+E como faz isso? Assim:
+
+table {
+	position: relative;
+}
+thead > tr > th {
+	position: sticky;			<!--Vai fazer com que ela fique "colada" ao scrollar-->
+	top: 0;						<--Diz qual posição ficará colada.-->
+	background-color: qualquer;	<!--É preciso de uma cor, caso contrário, ficará transparente.-->
+}

@@ -1,6 +1,8 @@
 Cara, não se explicar isso daqui muito não, mas eu sei que é importante.
 
-Se liga, as vezes uma célula precisa ocupar + de 1 coluna ou + de 1 linha. E aí é pra isso que serve isso vídeo aqui:
+Se liga, as vezes uma célula precisa ocupar + de 1 coluna ou + de 1 linha. 
+
+Dá uma olhada no print (desafio-futuro) e preste atenção no "filmes". Dê uma olhada nas células maiores. Essa aula é pra isso!
 
 
 <table>

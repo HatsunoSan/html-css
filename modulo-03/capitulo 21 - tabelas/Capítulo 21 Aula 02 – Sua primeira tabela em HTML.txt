@@ -10,8 +10,28 @@ Todas as tabelas - ou pelo menos as mais simlpes - têm a seguinte HIERARQUITA:
                 TABLE DATA      =   dado de tabela
     -->
 
+Você pode ter reparado que ao colocar uma borda no table, talvez as células estejam separadas. Para resolver isso, meta um:
+	style
+		table {
+			border-collapse: collapse;
+		}
+	style
+	
+O padrão é border-collapse: separate; // Não que você precise colocar, mas não faz mal informar.
+
+
+
 Veja a imagem exemplo-tabela-vscode
 
 o W3C, ele coloca como opcional o fechamento das tags <tr> e <td>. PORÉM, se tu não colocar os elementos na hierarquia certa, os dados vão aparecer ou antes, ou depois da tabela.
+
+
+IMPORTANTÍSSIMO!
+
+Se as linhas de códigos NÃO estiverem certinhas, com o fechamento certo, hierarquia certa, os dados da tabela que você adicionou (e que estão com as linhas incorretas) irão aparecer OU antes, OU depois da tabela, OU no meio da tabela todo errado. PRESTE ATENÇÃO COM A HIERARQUIA E COM O FECHAMENTO!
+
+Feche as tags. Não faz mal não fechar mesmo que não precise! ;)
+
+Me repetindo? Talvez, mas não custa reforçar.
 
 E as colunas? Bom, isso é para as próximas aulas.

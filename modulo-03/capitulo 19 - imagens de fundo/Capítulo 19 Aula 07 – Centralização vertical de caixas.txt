@@ -42,6 +42,21 @@ E pra isso, ele utilizou a propriedade transform: ;
 Mas vamos utilizar de transform: translate();
 	Colocando dois valores positivos, ele anda pra direita e pra baixo. E colocando dois negativos, ele anda pra esquerda e pra cima.
 	
+	E ao utilizarmos transform: translate(-50%, -50%), ambos se centralizam!
+	
+	Mas há uma forma muuuuuito mais simples de fazer isso. E com apenas 3 linhas!
+	Não existe jeito melhor de fazer isso, existe a maneira que é necessária pro trabalho atual.
+
+	Criemos um novo fundo008.html, e copiamos todo o código (todo mesmo) do 007 e apagamos todo o position do container e do conteudo, inclusive os left tops e transforms.
+	
+	Agora, MEXEREMOS APENAS NO CONTAINER!
+	
+		display: flex;	/* Possui diversas funções, uma delas é habilitar o manejamento do conteúdo. */			
+		justify-content: center;	/* Alinhamento horizontal. */
+		align-items: center;	/* Alinha os itens do contaner verticalmente. */
+	
+	
+	
 	
 	
 	

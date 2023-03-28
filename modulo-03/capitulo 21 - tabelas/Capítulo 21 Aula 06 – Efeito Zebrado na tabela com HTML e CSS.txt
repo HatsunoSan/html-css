@@ -14,4 +14,8 @@ Isso faz com que, de tantos em tantos "pulos" um child seja afetado pelo style p
 
 Assim, a gente pode fazer com que a cada tr par (even) ou a cada tr ímpar (odd), fique cinza.
 
+Podemos colocar também por (xn) em vez de (odd) ou (even)
+
+2n de dois em dois. 3n de 3 em 3. E assim vai.
+
 Veja a imagem nth-child-odd-exemplo

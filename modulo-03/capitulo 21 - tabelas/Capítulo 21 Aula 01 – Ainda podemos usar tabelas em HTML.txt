@@ -28,5 +28,8 @@ Com a evolução do HTML, CSS, com o monte de características, Grid View, Flexb
 
 Sites criados em tabela são muito "duros", é difícil de posicionar as coisas, elas quebram com facilidade, quando você adiciona um componente o site todo bagunça...
 
+Tabelas para mostrar dados? Tudo ok.
+
+Para CONSTRUÇÃO DE SITE? Absolutamente e sob hipótese alguma: Não!
 
 

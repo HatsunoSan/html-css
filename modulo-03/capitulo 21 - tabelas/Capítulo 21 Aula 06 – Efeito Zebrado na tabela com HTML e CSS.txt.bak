@@ -1,0 +1,17 @@
+Em tabelas que a letra é pequena e a coluna é grande, com muitos dados, fica difícil de saber qual dado é de qual linha.
+
+E pra isso, existe algo bacana que facilita, um recurso muito legal: o efeito zebrado
+
+Pra criar o efeito zebrado dentro das linhas, em primeiro lugar eu só vou querer o efeito zebrado no CORPO, certo?
+
+então, no style:
+tbody > tr{
+	background-color: lightgrey;
+}
+
+pronto né? Não. O resultado é o mesmo com outra cor. É necessário usar uma pseudo-class que ainda não foi falada sobre: tr:nth-child(odd ou even)
+Isso faz com que, de tantos em tantos "pulos" um child seja afetado pelo style por exemplo.
+
+Assim, a gente pode fazer com que a cada tr par (even) ou a cada tr ímpar (odd), fique cinza.
+
+Veja a imagem nth-child-odd-exemplo
