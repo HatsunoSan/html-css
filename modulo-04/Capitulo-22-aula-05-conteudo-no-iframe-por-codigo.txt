@@ -1,0 +1,11 @@
+Cara esse aqui é bem rápido e... bem estranho. Diria que quase contraditório inclusive.
+
+Quando você carrega a página, seu iframe vai estar completamente vazio até que você clique em um link, certo?
+
+Pra ter algo assim que carrega sem precisar clicar, você criar um srcdoc. QUE?
+Assim:
+	<iframe id="tela" name="frame" srcdoc="<h1>Escolha uma das opções acima!</h1><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit ullam iure saepe unde atque odio commodi mollitia tempore veritatis deserunt dolor voluptates id excepturi tempora, fugiat blanditiis fuga quis quos?</p><img src='caminho/da/imagem.png EM ASPAS SIMPLES PQ ESTÁ DENTRO DE ASPAS DUPLAS!'>" frameborder="0">
+        <p>Infelizmente seu navegador não é compatível com isso.</p>
+    </iframe>
+	
+	Recomendo todo código você fazer fora do iframe e depois simplesmente colar lá dentro. Eu disse contraditório pois os códigos aparecem no vscode em vermelho, como se estivesse em desuso ou não fosse recomendado ou não funcionasse.

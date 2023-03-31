@@ -1,0 +1,16 @@
+Taí algo interessantíssimo!
+
+no target nós conseguimos colocar um link pra abrir dentro de um iframe!
+
+Vamos supor que queremos abrir um exemplo rápido dentro ao clicar um link, mas nós não queremos ir naquela página, mas gostaríamos que aparecesse em algum lugar na página atual (no iframe).
+
+Ora, damos um "name" ao iframe, parecido como damos um id!
+ex:
+	<iframe id="tela" name="frame" src="NÃO PODE TER NADA AQUI! POIS AQUI TERÁ PREFERÊNCIA!">
+        <p>Infelizmente seu navegador não é compatível com isso.</p>
+    </iframe>
+		Perceba o "name="frame"
+	
+	E aí no na âncora que queremos que vire a página sem recarregar a atual, fazemos o seguinte:
+		<a href="[...]" target="frame">Primeira página</a>
+			Perceba o "target="frame"

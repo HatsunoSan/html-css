@@ -1,0 +1,33 @@
+Agora vamos aprender a personalizar o iframe.
+
+Nem todos os navegadores de celular têm suporte ao iframe.
+
+Pra "contornar" isso, você pode colocar uma âncora dentro das tags do iframe, e aí se for incompatível, o que aparecerá será a âncora com o texto levando pro site em questão
+ex:
+	<p>Acessando o site do 
+        <iframe src="https://www.cursoemvideo.com/" frameborder="1" height="500">
+            <a href="https://www.cursoemvideo.com.br/" target="_blank" rel="external">Curso em Vídeo</a> 
+            <!-- 
+            Esse link aparecerá se por acaso o navegador não for compatível com iframe!
+            -->
+        </iframe>
+
+        para aprender a programar.
+	</p>
+	
+Um iframe também tem um tamanho padrão de 300x150, e que você PODE alterar com height ou com width
+
+
+Outra coisa: Existe o parâmerto "scrolling" que o vscode não reconhece muito bem, MAS FUNCIONA OK, é funcionál.
+
+Temos:
+scrolling=""
+			auto = se o conteúdo é maior do que sua altura e largura, vai ter rolagem, se não, não terá.
+			yes = MESMO QUE o conteúdo caiba perfeitamente, a rolagem aparecerá, ainda que não role
+			no = MESMO QUE o conteúdo seja maior, NÃO terá rolagem
+
+Você vai perceber que VÁRIOS SITES bloqueiam visualizações dentro de iframe.
+
+Ora, por qual motivo eu usaria um iframe então?
+Porquê você mesmo poderia colocar o seu próprio conteúdo em um iframe no seu site.
+
